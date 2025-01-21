@@ -1,0 +1,2124 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfHomepageMedrCode xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://tempuri.org/">
+    <HomepageMedrCode>
+        <MED_DEPT_CD>PGE</MED_DEPT_CD>
+        <DR_SID>1001667</DR_SID>
+        <DR_STF_NO>00058</DR_STF_NO>
+        <DR_NM>김혜순</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-21</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>DIMG</MED_DEPT_CD>
+        <DR_SID>1001829</DR_SID>
+        <DR_STF_NO>00127</DR_STF_NO>
+        <DR_NM>정성애</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-21</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>VCS</MED_DEPT_CD>
+        <DR_SID>1001730</DR_SID>
+        <DR_STF_NO>00145</DR_STF_NO>
+        <DR_NM>원태희</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-21</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>FM</MED_DEPT_CD>
+        <DR_SID>1002555</DR_SID>
+        <DR_STF_NO>00185</DR_STF_NO>
+        <DR_NM>심경원</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-21</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>DGS</MED_DEPT_CD>
+        <DR_SID>1001228</DR_SID>
+        <DR_STF_NO>00251</DR_STF_NO>
+        <DR_NM>김광호</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-21</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>CCGS</MED_DEPT_CD>
+        <DR_SID>1001228</DR_SID>
+        <DR_STF_NO>00251</DR_STF_NO>
+        <DR_NM>김광호</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-21</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>CCIMH</MED_DEPT_CD>
+        <DR_SID>1002748</DR_SID>
+        <DR_STF_NO>00260</DR_STF_NO>
+        <DR_NM>문영철</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-21</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>DGS</MED_DEPT_CD>
+        <DR_SID>1001850</DR_SID>
+        <DR_STF_NO>00293</DR_STF_NO>
+        <DR_NM>이현국</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-21</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>DIMG</MED_DEPT_CD>
+        <DR_SID>1001934</DR_SID>
+        <DR_STF_NO>00387</DR_STF_NO>
+        <DR_NM>김태헌</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-21</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>IMN</MED_DEPT_CD>
+        <DR_SID>1001797</DR_SID>
+        <DR_STF_NO>00430</DR_STF_NO>
+        <DR_NM>강덕희</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-21</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>CCS</MED_DEPT_CD>
+        <DR_SID>1003504</DR_SID>
+        <DR_STF_NO>00440</DR_STF_NO>
+        <DR_NM>김관창</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-21</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>LIMP</MED_DEPT_CD>
+        <DR_SID>1003991</DR_SID>
+        <DR_STF_NO>00521</DR_STF_NO>
+        <DR_NM>류연주</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-21</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>EN</MED_DEPT_CD>
+        <DR_SID>1002763</DR_SID>
+        <DR_STF_NO>00524</DR_STF_NO>
+        <DR_NM>배정호</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-21</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>CCIMH</MED_DEPT_CD>
+        <DR_SID>1002572</DR_SID>
+        <DR_STF_NO>00548</DR_STF_NO>
+        <DR_NM>남은미</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-21</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>UR</MED_DEPT_CD>
+        <DR_SID>1000998</DR_SID>
+        <DR_STF_NO>00552</DR_STF_NO>
+        <DR_NM>심봉석</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-21</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>VIMC</MED_DEPT_CD>
+        <DR_SID>1001644</DR_SID>
+        <DR_STF_NO>00561</DR_STF_NO>
+        <DR_NM>편욱범</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-21</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>JOS</MED_DEPT_CD>
+        <DR_SID>1004796</DR_SID>
+        <DR_STF_NO>00679</DR_STF_NO>
+        <DR_NM>박장원</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-21</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>LIMA</MED_DEPT_CD>
+        <DR_SID>1006559</DR_SID>
+        <DR_STF_NO>00775</DR_STF_NO>
+        <DR_NM>김민혜</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-21</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>PS</MED_DEPT_CD>
+        <DR_SID>1006028</DR_SID>
+        <DR_STF_NO>00796</DR_STF_NO>
+        <DR_NM>홍승은</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-21</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>PGE</MED_DEPT_CD>
+        <DR_SID>1004125</DR_SID>
+        <DR_STF_NO>00849</DR_STF_NO>
+        <DR_NM>이정원</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-21</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>DIMG</MED_DEPT_CD>
+        <DR_SID>1004093</DR_SID>
+        <DR_STF_NO>00896</DR_STF_NO>
+        <DR_NM>윤원재</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-21</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>OTGS</MED_DEPT_CD>
+        <DR_SID>1005597</DR_SID>
+        <DR_STF_NO>00902</DR_STF_NO>
+        <DR_NM>송승환</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-21</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>DIMG</MED_DEPT_CD>
+        <DR_SID>1007459</DR_SID>
+        <DR_STF_NO>00912</DR_STF_NO>
+        <DR_NM>최아름</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-21</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>CCGS</MED_DEPT_CD>
+        <DR_SID>1007058</DR_SID>
+        <DR_STF_NO>00920</DR_STF_NO>
+        <DR_NM>김종규</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-21</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>JOS</MED_DEPT_CD>
+        <DR_SID>1007611</DR_SID>
+        <DR_STF_NO>00925</DR_STF_NO>
+        <DR_NM>박인</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-21</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>VCS</MED_DEPT_CD>
+        <DR_SID>1000801</DR_SID>
+        <DR_STF_NO>00942</DR_STF_NO>
+        <DR_NM>서동만</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-21</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>IMD</MED_DEPT_CD>
+        <DR_SID>1008496</DR_SID>
+        <DR_STF_NO>00979</DR_STF_NO>
+        <DR_NM>배지윤A</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-21</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>VIMC</MED_DEPT_CD>
+        <DR_SID>1012317</DR_SID>
+        <DR_STF_NO>00989</DR_STF_NO>
+        <DR_NM>신상훈</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-21</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>IMN</MED_DEPT_CD>
+        <DR_SID>1004540</DR_SID>
+        <DR_STF_NO>00991</DR_STF_NO>
+        <DR_NM>류정화</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-21</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>DGS</MED_DEPT_CD>
+        <DR_SID>1012322</DR_SID>
+        <DR_STF_NO>00992</DR_STF_NO>
+        <DR_NM>이윤택</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-21</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>JNS</MED_DEPT_CD>
+        <DR_SID>1012491</DR_SID>
+        <DR_STF_NO>01006</DR_STF_NO>
+        <DR_NM>박웅배</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-21</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>DIMG</MED_DEPT_CD>
+        <DR_SID>1006190</DR_SID>
+        <DR_STF_NO>01011</DR_STF_NO>
+        <DR_NM>송은미</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-21</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>VIMC</MED_DEPT_CD>
+        <DR_SID>1012645</DR_SID>
+        <DR_STF_NO>01012</DR_STF_NO>
+        <DR_NM>김충기</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-21</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>VIMC</MED_DEPT_CD>
+        <DR_SID>1005414</DR_SID>
+        <DR_STF_NO>01013</DR_STF_NO>
+        <DR_NM>조인정</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-21</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>FM</MED_DEPT_CD>
+        <DR_SID>1012823</DR_SID>
+        <DR_STF_NO>01027</DR_STF_NO>
+        <DR_NM>유인선</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-21</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>LIMA</MED_DEPT_CD>
+        <DR_SID>1013004</DR_SID>
+        <DR_STF_NO>01049</DR_STF_NO>
+        <DR_NM>심지수</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-21</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>OMS</MED_DEPT_CD>
+        <DR_SID>1008759</DR_SID>
+        <DR_STF_NO>01055</DR_STF_NO>
+        <DR_NM>김헌영</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-21</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>UR</MED_DEPT_CD>
+        <DR_SID>1013893</DR_SID>
+        <DR_STF_NO>01081</DR_STF_NO>
+        <DR_NM>김명</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-21</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>VIMC</MED_DEPT_CD>
+        <DR_SID>1013899</DR_SID>
+        <DR_STF_NO>01082</DR_STF_NO>
+        <DR_NM>이상은</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-21</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>DIMG</MED_DEPT_CD>
+        <DR_SID>1014404</DR_SID>
+        <DR_STF_NO>01101</DR_STF_NO>
+        <DR_NM>박예현</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-21</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>IMD</MED_DEPT_CD>
+        <DR_SID>1014405</DR_SID>
+        <DR_STF_NO>01102</DR_STF_NO>
+        <DR_NM>전강일</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-21</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>VIMC</MED_DEPT_CD>
+        <DR_SID>1014501</DR_SID>
+        <DR_STF_NO>01116</DR_STF_NO>
+        <DR_NM>김동혁</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-21</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>DGS</MED_DEPT_CD>
+        <DR_SID>1014503</DR_SID>
+        <DR_STF_NO>01120</DR_STF_NO>
+        <DR_NM>한지원</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-21</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>GS</MED_DEPT_CD>
+        <DR_SID>1014503</DR_SID>
+        <DR_STF_NO>01120</DR_STF_NO>
+        <DR_NM>한지원</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-21</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>JOS</MED_DEPT_CD>
+        <DR_SID>1014504</DR_SID>
+        <DR_STF_NO>01121</DR_STF_NO>
+        <DR_NM>성사현</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-21</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>JOS</MED_DEPT_CD>
+        <DR_SID>1014544</DR_SID>
+        <DR_STF_NO>01143</DR_STF_NO>
+        <DR_NM>김지섭</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-21</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>VNR</MED_DEPT_CD>
+        <DR_SID>1015056</DR_SID>
+        <DR_STF_NO>01189</DR_STF_NO>
+        <DR_NM>박무석</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-21</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>IMN</MED_DEPT_CD>
+        <DR_SID>1003935</DR_SID>
+        <DR_STF_NO>01199</DR_STF_NO>
+        <DR_NM>유민아</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-21</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>VCS</MED_DEPT_CD>
+        <DR_SID>1015686</DR_SID>
+        <DR_STF_NO>01204</DR_STF_NO>
+        <DR_NM>류상완</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-21</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>UR</MED_DEPT_CD>
+        <DR_SID>1016197</DR_SID>
+        <DR_STF_NO>01234</DR_STF_NO>
+        <DR_NM>안현규</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-21</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>PGE</MED_DEPT_CD>
+        <DR_SID>1016228</DR_SID>
+        <DR_STF_NO>01238</DR_STF_NO>
+        <DR_NM>최한솜</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-21</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>EY</MED_DEPT_CD>
+        <DR_SID>1016231</DR_SID>
+        <DR_STF_NO>01241</DR_STF_NO>
+        <DR_NM>김지아</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-21</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>DR</MED_DEPT_CD>
+        <DR_SID>1016232</DR_SID>
+        <DR_STF_NO>01243</DR_STF_NO>
+        <DR_NM>전호용</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-21</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>OG</MED_DEPT_CD>
+        <DR_SID>1008333</DR_SID>
+        <DR_STF_NO>01245</DR_STF_NO>
+        <DR_NM>김수정</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-21</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>PGE</MED_DEPT_CD>
+        <DR_SID>1009033</DR_SID>
+        <DR_STF_NO>01247</DR_STF_NO>
+        <DR_NM>최정은</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-21</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>CCIMH</MED_DEPT_CD>
+        <DR_SID>1017215</DR_SID>
+        <DR_STF_NO>01269</DR_STF_NO>
+        <DR_NM>변성규</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-21</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>VNR</MED_DEPT_CD>
+        <DR_SID>1017342</DR_SID>
+        <DR_STF_NO>01270</DR_STF_NO>
+        <DR_NM>김동엽</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-21</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>CCIMH</MED_DEPT_CD>
+        <DR_SID>1008539</DR_SID>
+        <DR_STF_NO>01289</DR_STF_NO>
+        <DR_NM>조현지</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-21</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>DM</MED_DEPT_CD>
+        <DR_SID>1017798</DR_SID>
+        <DR_STF_NO>01295</DR_STF_NO>
+        <DR_NM>노주영</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-21</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>VNR</MED_DEPT_CD>
+        <DR_SID>1019022</DR_SID>
+        <DR_STF_NO>01363</DR_STF_NO>
+        <DR_NM>이형우</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-21</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>PGE</MED_DEPT_CD>
+        <DR_SID>1012970</DR_SID>
+        <DR_STF_NO>01390</DR_STF_NO>
+        <DR_NM>김경희</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-21</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>DIMG</MED_DEPT_CD>
+        <DR_SID>1019404</DR_SID>
+        <DR_STF_NO>01409</DR_STF_NO>
+        <DR_NM>김소정</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-21</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>PGE</MED_DEPT_CD>
+        <DR_SID>1019405</DR_SID>
+        <DR_STF_NO>01410</DR_STF_NO>
+        <DR_NM>박영아</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-21</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>JRH</MED_DEPT_CD>
+        <DR_SID>1019408</DR_SID>
+        <DR_STF_NO>01413</DR_STF_NO>
+        <DR_NM>이유경</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-21</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>MDT</MED_DEPT_CD>
+        <DR_SID>9001375</DR_SID>
+        <DR_STF_NO>CCCG1</DR_STF_NO>
+        <DR_NM>*학*</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-21</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>PGE</MED_DEPT_CD>
+        <DR_SID>1001705</DR_SID>
+        <DR_STF_NO>00214</DR_STF_NO>
+        <DR_NM>유은선</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-22</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>JNS</MED_DEPT_CD>
+        <DR_SID>1002719</DR_SID>
+        <DR_STF_NO>00558</DR_STF_NO>
+        <DR_NM>조도상</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-22</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>OTGS</MED_DEPT_CD>
+        <DR_SID>1003806</DR_SID>
+        <DR_STF_NO>00740</DR_STF_NO>
+        <DR_NM>홍근</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-22</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>PS</MED_DEPT_CD>
+        <DR_SID>1005991</DR_SID>
+        <DR_STF_NO>00768</DR_STF_NO>
+        <DR_NM>박보영</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-22</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>DIMG</MED_DEPT_CD>
+        <DR_SID>1005262</DR_SID>
+        <DR_STF_NO>00773</DR_STF_NO>
+        <DR_NM>태정현</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-22</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>IMD</MED_DEPT_CD>
+        <DR_SID>1005871</DR_SID>
+        <DR_STF_NO>00834</DR_STF_NO>
+        <DR_NM>김충종</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-22</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>CCGS</MED_DEPT_CD>
+        <DR_SID>1005803</DR_SID>
+        <DR_STF_NO>00881</DR_STF_NO>
+        <DR_NM>백세현</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-22</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>DGS</MED_DEPT_CD>
+        <DR_SID>1006772</DR_SID>
+        <DR_STF_NO>00903</DR_STF_NO>
+        <DR_NM>노경태</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-22</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>VIMC</MED_DEPT_CD>
+        <DR_SID>1012321</DR_SID>
+        <DR_STF_NO>00990</DR_STF_NO>
+        <DR_NM>장우진</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-22</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>CCNS</MED_DEPT_CD>
+        <DR_SID>1005900</DR_SID>
+        <DR_STF_NO>00996</DR_STF_NO>
+        <DR_NM>박수정</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-22</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>VNS</MED_DEPT_CD>
+        <DR_SID>1012320</DR_SID>
+        <DR_STF_NO>00997</DR_STF_NO>
+        <DR_NM>조동영</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-22</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>JOS</MED_DEPT_CD>
+        <DR_SID>1012433</DR_SID>
+        <DR_STF_NO>01005</DR_STF_NO>
+        <DR_NM>전상우</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-22</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>DR</MED_DEPT_CD>
+        <DR_SID>1012649</DR_SID>
+        <DR_STF_NO>01015</DR_STF_NO>
+        <DR_NM>조수범</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-22</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>VIMC</MED_DEPT_CD>
+        <DR_SID>1013196</DR_SID>
+        <DR_STF_NO>01068</DR_STF_NO>
+        <DR_NM>고충원</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-22</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>CCS</MED_DEPT_CD>
+        <DR_SID>1013396</DR_SID>
+        <DR_STF_NO>01072</DR_STF_NO>
+        <DR_NM>성숙환</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-22</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>CCS</MED_DEPT_CD>
+        <DR_SID>1014026</DR_SID>
+        <DR_STF_NO>01092</DR_STF_NO>
+        <DR_NM>복진산</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-22</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>DIMG</MED_DEPT_CD>
+        <DR_SID>1014403</DR_SID>
+        <DR_STF_NO>01100</DR_STF_NO>
+        <DR_NM>이민종</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-22</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>VNR</MED_DEPT_CD>
+        <DR_SID>1004098</DR_SID>
+        <DR_STF_NO>01114</DR_STF_NO>
+        <DR_NM>김지현</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-22</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>PGE</MED_DEPT_CD>
+        <DR_SID>1007464</DR_SID>
+        <DR_STF_NO>01144</DR_STF_NO>
+        <DR_NM>이지현</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-22</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>EN</MED_DEPT_CD>
+        <DR_SID>1014577</DR_SID>
+        <DR_STF_NO>01151</DR_STF_NO>
+        <DR_NM>김부영</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-22</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>EN</MED_DEPT_CD>
+        <DR_SID>1014595</DR_SID>
+        <DR_STF_NO>01178</DR_STF_NO>
+        <DR_NM>이호윤</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-22</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>DIMG</MED_DEPT_CD>
+        <DR_SID>1015747</DR_SID>
+        <DR_STF_NO>01205</DR_STF_NO>
+        <DR_NM>전호수</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-22</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>CCIMH</MED_DEPT_CD>
+        <DR_SID>1017746</DR_SID>
+        <DR_STF_NO>01288</DR_STF_NO>
+        <DR_NM>김하나</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-22</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>CCGS</MED_DEPT_CD>
+        <DR_SID>1017747</DR_SID>
+        <DR_STF_NO>01290</DR_STF_NO>
+        <DR_NM>김호승</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-22</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>VCS</MED_DEPT_CD>
+        <DR_SID>1017017</DR_SID>
+        <DR_STF_NO>01343</DR_STF_NO>
+        <DR_NM>심훈보</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-22</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>DIMG</MED_DEPT_CD>
+        <DR_SID>1011411</DR_SID>
+        <DR_STF_NO>01388</DR_STF_NO>
+        <DR_NM>전예지</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-22</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>PGE</MED_DEPT_CD>
+        <DR_SID>1019347</DR_SID>
+        <DR_STF_NO>01389</DR_STF_NO>
+        <DR_NM>문은지</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-22</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>EN</MED_DEPT_CD>
+        <DR_SID>1011381</DR_SID>
+        <DR_STF_NO>01393</DR_STF_NO>
+        <DR_NM>박솔</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-22</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>VNR</MED_DEPT_CD>
+        <DR_SID>1019406</DR_SID>
+        <DR_STF_NO>01411</DR_STF_NO>
+        <DR_NM>강민경</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-22</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>DGS</MED_DEPT_CD>
+        <DR_SID>1019407</DR_SID>
+        <DR_STF_NO>01412</DR_STF_NO>
+        <DR_NM>조영수</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-22</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>CCIMG</MED_DEPT_CD>
+        <DR_SID>1002308</DR_SID>
+        <DR_STF_NO>00289</DR_STF_NO>
+        <DR_NM>심기남</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-23</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>OG</MED_DEPT_CD>
+        <DR_SID>1003666</DR_SID>
+        <DR_STF_NO>00421</DR_STF_NO>
+        <DR_NM>주웅</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-23</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>JOS</MED_DEPT_CD>
+        <DR_SID>1001140</DR_SID>
+        <DR_STF_NO>00543</DR_STF_NO>
+        <DR_NM>김동준</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-23</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>JRH</MED_DEPT_CD>
+        <DR_SID>1012323</DR_SID>
+        <DR_STF_NO>00993</DR_STF_NO>
+        <DR_NM>양서연</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-23</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>CCIMH</MED_DEPT_CD>
+        <DR_SID>1012820</DR_SID>
+        <DR_STF_NO>01026</DR_STF_NO>
+        <DR_NM>이수진</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-23</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>OG</MED_DEPT_CD>
+        <DR_SID>1003184</DR_SID>
+        <DR_STF_NO>01079</DR_STF_NO>
+        <DR_NM>이경아A</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-23</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>CCGS</MED_DEPT_CD>
+        <DR_SID>1014503</DR_SID>
+        <DR_STF_NO>01120</DR_STF_NO>
+        <DR_NM>한지원</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-23</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>CCNS</MED_DEPT_CD>
+        <DR_SID>1014576</DR_SID>
+        <DR_STF_NO>01150</DR_STF_NO>
+        <DR_NM>김주성</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-23</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>CCGS</MED_DEPT_CD>
+        <DR_SID>1015845</DR_SID>
+        <DR_STF_NO>01207</DR_STF_NO>
+        <DR_NM>강경호</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-23</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>JAN</MED_DEPT_CD>
+        <DR_SID>1009072</DR_SID>
+        <DR_STF_NO>01252</DR_STF_NO>
+        <DR_NM>채지선</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-23</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>RH</MED_DEPT_CD>
+        <DR_SID>1007756</DR_SID>
+        <DR_STF_NO>01265</DR_STF_NO>
+        <DR_NM>서지현D</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-23</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>FM</MED_DEPT_CD>
+        <DR_SID>1011384</DR_SID>
+        <DR_STF_NO>01278</DR_STF_NO>
+        <DR_NM>손여주</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-23</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>CCGS</MED_DEPT_CD>
+        <DR_SID>1012974</DR_SID>
+        <DR_STF_NO>01304</DR_STF_NO>
+        <DR_NM>김현경</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-23</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>VIMC</MED_DEPT_CD>
+        <DR_SID>1012969</DR_SID>
+        <DR_STF_NO>01312</DR_STF_NO>
+        <DR_NM>전보경</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-23</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>EY</MED_DEPT_CD>
+        <DR_SID>1009636</DR_SID>
+        <DR_STF_NO>01392</DR_STF_NO>
+        <DR_NM>김유진</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-23</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>OG</MED_DEPT_CD>
+        <DR_SID>1019446</DR_SID>
+        <DR_STF_NO>01428</DR_STF_NO>
+        <DR_NM>박선희</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-23</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>EN</MED_DEPT_CD>
+        <DR_SID>1004472</DR_SID>
+        <DR_STF_NO>00801</DR_STF_NO>
+        <DR_NM>신승호</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-24</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>CCGS</MED_DEPT_CD>
+        <DR_SID>1006772</DR_SID>
+        <DR_STF_NO>00903</DR_STF_NO>
+        <DR_NM>노경태</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-24</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>DIMG</MED_DEPT_CD>
+        <DR_SID>1007687</DR_SID>
+        <DR_STF_NO>01128</DR_STF_NO>
+        <DR_NM>변주란</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-24</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>PGE</MED_DEPT_CD>
+        <DR_SID>1015387</DR_SID>
+        <DR_STF_NO>01200</DR_STF_NO>
+        <DR_NM>김이슬</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-24</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>VNS</MED_DEPT_CD>
+        <DR_SID>1017748</DR_SID>
+        <DR_STF_NO>01291</DR_STF_NO>
+        <DR_NM>이우성</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-24</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>DIMG</MED_DEPT_CD>
+        <DR_SID>1018311</DR_SID>
+        <DR_STF_NO>01335</DR_STF_NO>
+        <DR_NM>김서화</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-24</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>DIMG</MED_DEPT_CD>
+        <DR_SID>1014510</DR_SID>
+        <DR_STF_NO>01387</DR_STF_NO>
+        <DR_NM>양소라</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-24</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>DGS</MED_DEPT_CD>
+        <DR_SID>1002128</DR_SID>
+        <DR_STF_NO>00199</DR_STF_NO>
+        <DR_NM>민석기</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-27</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>LIMP</MED_DEPT_CD>
+        <DR_SID>1003053</DR_SID>
+        <DR_STF_NO>00264</DR_STF_NO>
+        <DR_NM>이진화</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-27</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>DR</MED_DEPT_CD>
+        <DR_SID>1004110</DR_SID>
+        <DR_STF_NO>00373</DR_STF_NO>
+        <DR_NM>황지영</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-27</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>EY</MED_DEPT_CD>
+        <DR_SID>1003479</DR_SID>
+        <DR_STF_NO>00474</DR_STF_NO>
+        <DR_NM>전루민</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-27</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>PGE</MED_DEPT_CD>
+        <DR_SID>1004210</DR_SID>
+        <DR_STF_NO>00728</DR_STF_NO>
+        <DR_NM>심소연</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-27</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>CCIMG</MED_DEPT_CD>
+        <DR_SID>1006190</DR_SID>
+        <DR_STF_NO>01011</DR_STF_NO>
+        <DR_NM>송은미</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-27</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>JOS</MED_DEPT_CD>
+        <DR_SID>1013310</DR_SID>
+        <DR_STF_NO>01069</DR_STF_NO>
+        <DR_NM>황역구</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-27</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>LIMP</MED_DEPT_CD>
+        <DR_SID>1016226</DR_SID>
+        <DR_STF_NO>01236</DR_STF_NO>
+        <DR_NM>김남은</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-27</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>VNS</MED_DEPT_CD>
+        <DR_SID>1001889</DR_SID>
+        <DR_STF_NO>00288</DR_STF_NO>
+        <DR_NM>서의교</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-28</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>DIMG</MED_DEPT_CD>
+        <DR_SID>1002308</DR_SID>
+        <DR_STF_NO>00289</DR_STF_NO>
+        <DR_NM>심기남</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-28</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>OG</MED_DEPT_CD>
+        <DR_SID>1001780</DR_SID>
+        <DR_STF_NO>00287</DR_STF_NO>
+        <DR_NM>박미혜</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-29</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>LIMP</MED_DEPT_CD>
+        <DR_SID>1017745</DR_SID>
+        <DR_STF_NO>01287</DR_STF_NO>
+        <DR_NM>이채영</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-29</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>CCGS</MED_DEPT_CD>
+        <DR_SID>1002128</DR_SID>
+        <DR_STF_NO>00199</DR_STF_NO>
+        <DR_NM>민석기</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-30</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>CCGS</MED_DEPT_CD>
+        <DR_SID>1012322</DR_SID>
+        <DR_STF_NO>00992</DR_STF_NO>
+        <DR_NM>이윤택</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-30</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>OMS</MED_DEPT_CD>
+        <DR_SID>9003381</DR_SID>
+        <DR_STF_NO>DS991</DR_STF_NO>
+        <DR_NM>구강악안면외과 일반의 1</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-30</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>OMS</MED_DEPT_CD>
+        <DR_SID>9003382</DR_SID>
+        <DR_STF_NO>DS992</DR_STF_NO>
+        <DR_NM>구강악안면외과 일반의 2</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-03-30</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>VNR</MED_DEPT_CD>
+        <DR_SID>1002667</DR_SID>
+        <DR_STF_NO>00385</DR_STF_NO>
+        <DR_NM>정지향</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-04-03</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>OG</MED_DEPT_CD>
+        <DR_SID>1006703</DR_SID>
+        <DR_STF_NO>01122</DR_STF_NO>
+        <DR_NM>박소연</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-04-03</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>OMS</MED_DEPT_CD>
+        <DR_SID>1001827</DR_SID>
+        <DR_STF_NO>00580</DR_STF_NO>
+        <DR_NM>김선종</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-04-10</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>VNR</MED_DEPT_CD>
+        <DR_SID>1014500</DR_SID>
+        <DR_STF_NO>01115</DR_STF_NO>
+        <DR_NM>김지은</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-04-10</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>VNR</MED_DEPT_CD>
+        <DR_SID>1005119</DR_SID>
+        <DR_STF_NO>00692</DR_STF_NO>
+        <DR_NM>윤지영</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-04-11</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>JIMR</MED_DEPT_CD>
+        <DR_SID>1007858</DR_SID>
+        <DR_STF_NO>00899</DR_STF_NO>
+        <DR_NM>정민경</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-04-17</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>PROST</MED_DEPT_CD>
+        <DR_SID>1017733</DR_SID>
+        <DR_STF_NO>01284</DR_STF_NO>
+        <DR_NM>임나경</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-04-18</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>IME</MED_DEPT_CD>
+        <DR_SID>1014492</DR_SID>
+        <DR_STF_NO>01108</DR_STF_NO>
+        <DR_NM>정혜인</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-04-24</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>IME</MED_DEPT_CD>
+        <DR_SID>1008176</DR_SID>
+        <DR_STF_NO>01117</DR_STF_NO>
+        <DR_NM>홍소현</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-04-25</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>OG</MED_DEPT_CD>
+        <DR_SID>1001531</DR_SID>
+        <DR_STF_NO>00110</DR_STF_NO>
+        <DR_NM>문혜성</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-04-26</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>EN</MED_DEPT_CD>
+        <DR_SID>1007513</DR_SID>
+        <DR_STF_NO>00751</DR_STF_NO>
+        <DR_NM>정수연</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-04-27</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>IME</MED_DEPT_CD>
+        <DR_SID>1007380</DR_SID>
+        <DR_STF_NO>00976</DR_STF_NO>
+        <DR_NM>송도경</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-05-02</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>DM</MED_DEPT_CD>
+        <DR_SID>1002360</DR_SID>
+        <DR_STF_NO>00379</DR_STF_NO>
+        <DR_NM>최유원</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-05-04</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>JOS</MED_DEPT_CD>
+        <DR_SID>1002384</DR_SID>
+        <DR_STF_NO>00346</DR_STF_NO>
+        <DR_NM>신상진</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-05-15</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>UR</MED_DEPT_CD>
+        <DR_SID>1002822</DR_SID>
+        <DR_STF_NO>00181</DR_STF_NO>
+        <DR_NM>윤하나</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-05-17</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>VIMC</MED_DEPT_CD>
+        <DR_SID>1011374</DR_SID>
+        <DR_STF_NO>01274</DR_STF_NO>
+        <DR_NM>김예지</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-06-01</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>CONSE</MED_DEPT_CD>
+        <DR_SID>1007484</DR_SID>
+        <DR_STF_NO>00874</DR_STF_NO>
+        <DR_NM>장영은</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-06-02</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>EY</MED_DEPT_CD>
+        <DR_SID>1012509</DR_SID>
+        <DR_STF_NO>01009</DR_STF_NO>
+        <DR_NM>조수창</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-06-02</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>EY</MED_DEPT_CD>
+        <DR_SID>1005645</DR_SID>
+        <DR_STF_NO>01024</DR_STF_NO>
+        <DR_NM>김현진</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-06-05</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>EY</MED_DEPT_CD>
+        <DR_SID>1011378</DR_SID>
+        <DR_STF_NO>01391</DR_STF_NO>
+        <DR_NM>문지영</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-06-07</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>VNR</MED_DEPT_CD>
+        <DR_SID>1004945</DR_SID>
+        <DR_STF_NO>00738</DR_STF_NO>
+        <DR_NM>송태진</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2023-07-03</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>UR</MED_DEPT_CD>
+        <DR_SID>1005308</DR_SID>
+        <DR_STF_NO>00758</DR_STF_NO>
+        <DR_NM>김광현</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2024-03-05</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>IMD</MED_DEPT_CD>
+        <DR_SID>1017756</DR_SID>
+        <DR_STF_NO>01294</DR_STF_NO>
+        <DR_NM>김정한</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2024-03-05</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>CCUR</MED_DEPT_CD>
+        <DR_SID>1005308</DR_SID>
+        <DR_STF_NO>00758</DR_STF_NO>
+        <DR_NM>김광현</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE>2024-03-07</FIRST_DATE>
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>WHC</MED_DEPT_CD>
+        <DR_SID>1001829</DR_SID>
+        <DR_STF_NO>00127</DR_STF_NO>
+        <DR_NM>정성애</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE />
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>PGE</MED_DEPT_CD>
+        <DR_SID>1001176</DR_SID>
+        <DR_STF_NO>00342</DR_STF_NO>
+        <DR_NM>유경하</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE />
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>WHC</MED_DEPT_CD>
+        <DR_SID>1002667</DR_SID>
+        <DR_STF_NO>00385</DR_STF_NO>
+        <DR_NM>정지향</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE />
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>LCS</MED_DEPT_CD>
+        <DR_SID>1003504</DR_SID>
+        <DR_STF_NO>00440</DR_STF_NO>
+        <DR_NM>김관창</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE />
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>ORTHO</MED_DEPT_CD>
+        <DR_SID>1005204</DR_SID>
+        <DR_STF_NO>00637</DR_STF_NO>
+        <DR_NM>김민지</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE />
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>CCGS</MED_DEPT_CD>
+        <DR_SID>1007070</DR_SID>
+        <DR_STF_NO>00698</DR_STF_NO>
+        <DR_NM>홍경숙</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE />
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>DGS</MED_DEPT_CD>
+        <DR_SID>1007070</DR_SID>
+        <DR_STF_NO>00698</DR_STF_NO>
+        <DR_NM>홍경숙</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE />
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>UR</MED_DEPT_CD>
+        <DR_SID>1006317</DR_SID>
+        <DR_STF_NO>00752</DR_STF_NO>
+        <DR_NM>윤현석</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE />
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>WHC</MED_DEPT_CD>
+        <DR_SID>1006028</DR_SID>
+        <DR_STF_NO>00796</DR_STF_NO>
+        <DR_NM>홍승은</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE />
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>PNB</MED_DEPT_CD>
+        <DR_SID>1004125</DR_SID>
+        <DR_STF_NO>00849</DR_STF_NO>
+        <DR_NM>이정원</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE />
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>CCGS</MED_DEPT_CD>
+        <DR_SID>1005597</DR_SID>
+        <DR_STF_NO>00902</DR_STF_NO>
+        <DR_NM>송승환</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE />
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>JAN</MED_DEPT_CD>
+        <DR_SID>1011549</DR_SID>
+        <DR_STF_NO>00983</DR_STF_NO>
+        <DR_NM>이연실</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE />
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>CRISD</MED_DEPT_CD>
+        <DR_SID>1012321</DR_SID>
+        <DR_STF_NO>00990</DR_STF_NO>
+        <DR_NM>장우진</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE />
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>WHC</MED_DEPT_CD>
+        <DR_SID>1012323</DR_SID>
+        <DR_STF_NO>00993</DR_STF_NO>
+        <DR_NM>양서연</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE />
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>QC</MED_DEPT_CD>
+        <DR_SID>1012823</DR_SID>
+        <DR_STF_NO>01027</DR_STF_NO>
+        <DR_NM>유인선</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE />
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>WHC</MED_DEPT_CD>
+        <DR_SID>1012823</DR_SID>
+        <DR_STF_NO>01027</DR_STF_NO>
+        <DR_NM>유인선</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE />
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>PS</MED_DEPT_CD>
+        <DR_SID>1005410</DR_SID>
+        <DR_STF_NO>01078</DR_STF_NO>
+        <DR_NM>김지훈</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE />
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>PID</MED_DEPT_CD>
+        <DR_SID>1007464</DR_SID>
+        <DR_STF_NO>01144</DR_STF_NO>
+        <DR_NM>이지현</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE />
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>DGS</MED_DEPT_CD>
+        <DR_SID>1014579</DR_SID>
+        <DR_STF_NO>01152</DR_STF_NO>
+        <DR_NM>김태윤C</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE />
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>VNR</MED_DEPT_CD>
+        <DR_SID>1014863</DR_SID>
+        <DR_STF_NO>01185</DR_STF_NO>
+        <DR_NM>조규호</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE />
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>IMP</MED_DEPT_CD>
+        <DR_SID>1016226</DR_SID>
+        <DR_STF_NO>01236</DR_STF_NO>
+        <DR_NM>김남은</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE />
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>AN</MED_DEPT_CD>
+        <DR_SID>9002802</DR_SID>
+        <DR_STF_NO>ANZ10</DR_STF_NO>
+        <DR_NM>일반진료</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE />
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>CS</MED_DEPT_CD>
+        <DR_SID>9003022</DR_SID>
+        <DR_STF_NO>CS990</DR_STF_NO>
+        <DR_NM>일반의</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE />
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>CDC</MED_DEPT_CD>
+        <DR_SID>9002803</DR_SID>
+        <DR_STF_NO>DC990</DR_STF_NO>
+        <DR_NM>일반진료</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE />
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>PERIO</MED_DEPT_CD>
+        <DR_SID>9002805</DR_SID>
+        <DR_STF_NO>DE990</DR_STF_NO>
+        <DR_NM>일반진료</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE />
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>DM</MED_DEPT_CD>
+        <DR_SID>9002806</DR_SID>
+        <DR_STF_NO>DM990</DR_STF_NO>
+        <DR_NM>일반진료</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE />
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>ORTHO</MED_DEPT_CD>
+        <DR_SID>9002807</DR_SID>
+        <DR_STF_NO>DO990</DR_STF_NO>
+        <DR_NM>일반진료</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE />
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>PROST</MED_DEPT_CD>
+        <DR_SID>9002808</DR_SID>
+        <DR_STF_NO>DP990</DR_STF_NO>
+        <DR_NM>일반진료</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE />
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>OMS</MED_DEPT_CD>
+        <DR_SID>9002809</DR_SID>
+        <DR_STF_NO>DS990</DR_STF_NO>
+        <DR_NM>일반의</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE />
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>EM</MED_DEPT_CD>
+        <DR_SID>9002810</DR_SID>
+        <DR_STF_NO>EM990</DR_STF_NO>
+        <DR_NM>일반의</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE />
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>EMO</MED_DEPT_CD>
+        <DR_SID>9002810</DR_SID>
+        <DR_STF_NO>EM990</DR_STF_NO>
+        <DR_NM>일반의</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE />
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>EN</MED_DEPT_CD>
+        <DR_SID>9002811</DR_SID>
+        <DR_STF_NO>EN990</DR_STF_NO>
+        <DR_NM>일반진료</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE />
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>EY</MED_DEPT_CD>
+        <DR_SID>9002812</DR_SID>
+        <DR_STF_NO>EY990</DR_STF_NO>
+        <DR_NM>일반진료</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE />
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>FM</MED_DEPT_CD>
+        <DR_SID>9002813</DR_SID>
+        <DR_STF_NO>FM990</DR_STF_NO>
+        <DR_NM>일반진료</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE />
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>GC</MED_DEPT_CD>
+        <DR_SID>9003030</DR_SID>
+        <DR_STF_NO>GFM90</DR_STF_NO>
+        <DR_NM>노인일반의</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE />
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>GS</MED_DEPT_CD>
+        <DR_SID>9002814</DR_SID>
+        <DR_STF_NO>GS990</DR_STF_NO>
+        <DR_NM>일반진료</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE />
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>OGHP</MED_DEPT_CD>
+        <DR_SID>9003012</DR_SID>
+        <DR_STF_NO>HPOG0</DR_STF_NO>
+        <DR_NM>일반의</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE />
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>HPPD</MED_DEPT_CD>
+        <DR_SID>9002969</DR_SID>
+        <DR_STF_NO>HPPD0</DR_STF_NO>
+        <DR_NM>일반의</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE />
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>IMA</MED_DEPT_CD>
+        <DR_SID>9002815</DR_SID>
+        <DR_STF_NO>MA990</DR_STF_NO>
+        <DR_NM>일반진료</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE />
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>IMC</MED_DEPT_CD>
+        <DR_SID>9003036</DR_SID>
+        <DR_STF_NO>MC990</DR_STF_NO>
+        <DR_NM>일반의</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE />
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>IMG</MED_DEPT_CD>
+        <DR_SID>9002973</DR_SID>
+        <DR_STF_NO>MG990</DR_STF_NO>
+        <DR_NM>일반의</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE />
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>IMH</MED_DEPT_CD>
+        <DR_SID>9003038</DR_SID>
+        <DR_STF_NO>MH990</DR_STF_NO>
+        <DR_NM>일반의</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE />
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>IMP</MED_DEPT_CD>
+        <DR_SID>9003040</DR_SID>
+        <DR_STF_NO>MP990</DR_STF_NO>
+        <DR_NM>일반의</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE />
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>IMR</MED_DEPT_CD>
+        <DR_SID>9002817</DR_SID>
+        <DR_STF_NO>MR990</DR_STF_NO>
+        <DR_NM>일반진료</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE />
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>NM</MED_DEPT_CD>
+        <DR_SID>9003312</DR_SID>
+        <DR_STF_NO>NM990</DR_STF_NO>
+        <DR_NM>일반의</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE />
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>NP</MED_DEPT_CD>
+        <DR_SID>9002818</DR_SID>
+        <DR_STF_NO>NP990</DR_STF_NO>
+        <DR_NM>일반진료</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE />
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>NR</MED_DEPT_CD>
+        <DR_SID>9002819</DR_SID>
+        <DR_STF_NO>NR990</DR_STF_NO>
+        <DR_NM>일반진료</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE />
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>NS</MED_DEPT_CD>
+        <DR_SID>9002986</DR_SID>
+        <DR_STF_NO>NS990</DR_STF_NO>
+        <DR_NM>일반의</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE />
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>OG</MED_DEPT_CD>
+        <DR_SID>9002820</DR_SID>
+        <DR_STF_NO>OG990</DR_STF_NO>
+        <DR_NM>일반진료</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE />
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>OS</MED_DEPT_CD>
+        <DR_SID>9002821</DR_SID>
+        <DR_STF_NO>OS990</DR_STF_NO>
+        <DR_NM>일반진료</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE />
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>PS</MED_DEPT_CD>
+        <DR_SID>9002823</DR_SID>
+        <DR_STF_NO>PS990</DR_STF_NO>
+        <DR_NM>일반의</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE />
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>QC</MED_DEPT_CD>
+        <DR_SID>9002824</DR_SID>
+        <DR_STF_NO>QC990</DR_STF_NO>
+        <DR_NM>일반진료</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE />
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>RH</MED_DEPT_CD>
+        <DR_SID>9002825</DR_SID>
+        <DR_STF_NO>RM990</DR_STF_NO>
+        <DR_NM>일반진료</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE />
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+    <HomepageMedrCode>
+        <MED_DEPT_CD>UR</MED_DEPT_CD>
+        <DR_SID>9002828</DR_SID>
+        <DR_STF_NO>UR990</DR_STF_NO>
+        <DR_NM>일반의</DR_NM>
+        <CMED_YN>비지정</CMED_YN>
+        <RSV_COMMENT />
+        <FIRST_DATE />
+        <FRVS_RMDE_TP_CD>3</FRVS_RMDE_TP_CD>
+    </HomepageMedrCode>
+</ArrayOfHomepageMedrCode>

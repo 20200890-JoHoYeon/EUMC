@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string xmlns="http://tempuri.org/literalTypes">
+<?xml version='1.0' encoding='euc-kr'?>
+<NewDataSet>
+    <Table0>
+        <HSP_TP_CD><![CDATA[02]]></HSP_TP_CD>
+        <RPY_PACT_ID><![CDATA[1001717518]]></RPY_PACT_ID>
+        <RPY_CLS_SEQ><![CDATA[1]]></RPY_CLS_SEQ>
+        <PT_NO><![CDATA[12112191]]></PT_NO>
+        <MED_DT><![CDATA[201902210000]]></MED_DT>
+        <ORD_DT><![CDATA[]]></ORD_DT>
+        <MEDR_SID><![CDATA[1001146]]></MEDR_SID>
+        <MED_DEPT_CD><![CDATA[FM]]></MED_DEPT_CD>
+        <PATSITE><![CDATA[O]]></PATSITE>
+        <ORPY_CLS_CD><![CDATA[S]]></ORPY_CLS_CD>
+        <RPY_SEQ><![CDATA[1]]></RPY_SEQ>
+        <RPY_SEQ2><![CDATA[]]></RPY_SEQ2>
+        <RPY_STF_NO><![CDATA[96663]]></RPY_STF_NO>
+        <APY_STR_DT><![CDATA[20190221]]></APY_STR_DT>
+        <APY_END_DT><![CDATA[20190221]]></APY_END_DT>
+        <CAL_APY_STR_DT><![CDATA[20190221]]></CAL_APY_STR_DT>
+        <CAL_APY_END_DT><![CDATA[20190221]]></CAL_APY_END_DT>
+        <MED_DEPT_NM><![CDATA[가정의학과]]></MED_DEPT_NM>
+    </Table0>
+    <Table0>
+        <HSP_TP_CD><![CDATA[02]]></HSP_TP_CD>
+        <RPY_PACT_ID><![CDATA[1001549339]]></RPY_PACT_ID>
+        <RPY_CLS_SEQ><![CDATA[1]]></RPY_CLS_SEQ>
+        <PT_NO><![CDATA[12112191]]></PT_NO>
+        <MED_DT><![CDATA[201902070000]]></MED_DT>
+        <ORD_DT><![CDATA[]]></ORD_DT>
+        <MEDR_SID><![CDATA[1001146]]></MEDR_SID>
+        <MED_DEPT_CD><![CDATA[FM]]></MED_DEPT_CD>
+        <PATSITE><![CDATA[O]]></PATSITE>
+        <ORPY_CLS_CD><![CDATA[S]]></ORPY_CLS_CD>
+        <RPY_SEQ><![CDATA[1]]></RPY_SEQ>
+        <RPY_SEQ2><![CDATA[]]></RPY_SEQ2>
+        <RPY_STF_NO><![CDATA[KIO99]]></RPY_STF_NO>
+        <APY_STR_DT><![CDATA[20190207]]></APY_STR_DT>
+        <APY_END_DT><![CDATA[20190207]]></APY_END_DT>
+        <CAL_APY_STR_DT><![CDATA[20190207]]></CAL_APY_STR_DT>
+        <CAL_APY_END_DT><![CDATA[20190207]]></CAL_APY_END_DT>
+        <MED_DEPT_NM><![CDATA[가정의학과]]></MED_DEPT_NM>
+    </Table0>
+    <Table0>
+        <HSP_TP_CD><![CDATA[02]]></HSP_TP_CD>
+        <RPY_PACT_ID><![CDATA[1001549173]]></RPY_PACT_ID>
+        <RPY_CLS_SEQ><![CDATA[1]]></RPY_CLS_SEQ>
+        <PT_NO><![CDATA[12112191]]></PT_NO>
+        <MED_DT><![CDATA[201902080000]]></MED_DT>
+        <ORD_DT><![CDATA[]]></ORD_DT>
+        <MEDR_SID><![CDATA[1001146]]></MEDR_SID>
+        <MED_DEPT_CD><![CDATA[FM]]></MED_DEPT_CD>
+        <PATSITE><![CDATA[O]]></PATSITE>
+        <ORPY_CLS_CD><![CDATA[S]]></ORPY_CLS_CD>
+        <RPY_SEQ><![CDATA[1]]></RPY_SEQ>
+        <RPY_SEQ2><![CDATA[]]></RPY_SEQ2>
+        <RPY_STF_NO><![CDATA[KIO02]]></RPY_STF_NO>
+        <APY_STR_DT><![CDATA[20190208]]></APY_STR_DT>
+        <APY_END_DT><![CDATA[20190208]]></APY_END_DT>
+        <CAL_APY_STR_DT><![CDATA[20190208]]></CAL_APY_STR_DT>
+        <CAL_APY_END_DT><![CDATA[20190208]]></CAL_APY_END_DT>
+        <MED_DEPT_NM><![CDATA[가정의학과]]></MED_DEPT_NM>
+    </Table0>
+</NewDataSet>
+</string>

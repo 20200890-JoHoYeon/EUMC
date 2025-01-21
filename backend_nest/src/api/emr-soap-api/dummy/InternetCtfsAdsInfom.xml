@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfInternetCtfsAdsInfom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://tempuri.org/">
+    <InternetCtfsAdsInfom>
+        <INDEPTNAME>이비인후과</INDEPTNAME>
+        <OUTDEPTNAME>이비인후과</OUTDEPTNAME>
+        <INOUTDATE>2018년 08월 01일  ~ 2018년 08월 05일 </INOUTDATE>
+        <BSC_ADDR>서울특별시 강서구 등촌로55길 54-4(등촌동, 거산빌리지)</BSC_ADDR>
+        <DTL_ADDR>301호</DTL_ADDR>
+        <INDEPTCD>EN</INDEPTCD>
+        <OUTDEPTCD>EN</OUTDEPTCD>
+    </InternetCtfsAdsInfom>
+</ArrayOfInternetCtfsAdsInfom>

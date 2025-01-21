@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36">
+    <defs>
+        <clipPath id="mhhtr4e3va">
+            <path data-name="사각형 2191" style="fill:#fff" d="M0 0h36v36H0z"/>
+        </clipPath>
+    </defs>
+    <g data-name="그룹 1767" style="clip-path:url(#mhhtr4e3va)">
+        <g data-name="사각형 2190" transform="translate(3 6)" style="stroke:#231f20;fill:#eee">
+            <rect width="30" height="26" rx="2" style="stroke:none"/>
+            <rect x=".5" y=".5" width="29" height="25" rx="1.5" style="fill:none"/>
+        </g>
+        <g data-name="사각형 2195" transform="translate(15.5 15)" style="stroke:#231f20;fill:#fff">
+            <rect width="5" height="5" rx="1" style="stroke:none"/>
+            <rect x=".5" y=".5" width="4" height="4" rx=".5" style="fill:none"/>
+        </g>
+        <g data-name="사각형 2199" transform="translate(15.5 22.5)" style="fill:#16b1a9;stroke:#231f20">
+            <rect width="5" height="5" rx="1" style="stroke:none"/>
+            <rect x=".5" y=".5" width="4" height="4" rx=".5" style="fill:none"/>
+        </g>
+        <g data-name="사각형 2197" transform="translate(7.5 15)" style="fill:#16b1a9;stroke:#231f20">
+            <rect width="5" height="5" rx="1" style="stroke:none"/>
+            <rect x=".5" y=".5" width="4" height="4" rx=".5" style="fill:none"/>
+        </g>
+        <g data-name="사각형 2198" transform="translate(7.5 22.5)" style="stroke:#231f20;fill:#fff">
+            <rect width="5" height="5" rx="1" style="stroke:none"/>
+            <rect x=".5" y=".5" width="4" height="4" rx=".5" style="fill:none"/>
+        </g>
+        <g data-name="사각형 2196" transform="translate(23.5 15)" style="fill:#16b1a9;stroke:#231f20">
+            <rect width="5" height="5" rx="1" style="stroke:none"/>
+            <rect x=".5" y=".5" width="4" height="4" rx=".5" style="fill:none"/>
+        </g>
+        <g data-name="사각형 2319" style="fill:#f1668d;stroke:#231f20">
+            <path d="M2 0h26a2 2 0 0 1 2 2v4H0V2a2 2 0 0 1 2-2z" style="stroke:none" transform="translate(3 6)"/>
+            <path d="M2 .5h26A1.5 1.5 0 0 1 29.5 2v3.5H.5V2A1.5 1.5 0 0 1 2 .5z" style="fill:none" transform="translate(3 6)"/>
+        </g>
+        <path data-name="선 134" transform="translate(8.5 5)" style="stroke-linecap:round;fill:none;stroke:#231f20" d="M0 0v4"/>
+        <path data-name="선 135" transform="translate(14.5 5)" style="stroke-linecap:round;fill:none;stroke:#231f20" d="M0 0v4"/>
+        <path data-name="선 136" transform="translate(20.5 5)" style="stroke-linecap:round;fill:none;stroke:#231f20" d="M0 0v4"/>
+        <path data-name="선 137" transform="translate(26.5 5)" style="stroke-linecap:round;fill:none;stroke:#231f20" d="M0 0v4"/>
+    </g>
+</svg>

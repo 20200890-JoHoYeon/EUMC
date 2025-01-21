@@ -1,0 +1,939 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NewDataSet>
+    <Table0>
+        <ORDDATE2><![CDATA[20200121]]></ORDDATE2>
+        <CODENAME><![CDATA[진 찰 료]]></CODENAME>
+        <MEDDEPT><![CDATA[소화기내과(소화기센터)]]></MEDDEPT>
+        <RCPSEQ><![CDATA[3]]></RCPSEQ>
+        <SORTSEQ><![CDATA[1]]></SORTSEQ>
+        <PATNAME><![CDATA[양정덕]]></PATNAME>
+        <ORDDATE><![CDATA[2020-01-21]]></ORDDATE>
+        <MEDDR><![CDATA[00127]]></MEDDR>
+        <PATTYPE><![CDATA[BB-000]]></PATTYPE>
+        <SUGACODE><![CDATA[AL020 A5020]]></SUGACODE>
+        <USEQTY><![CDATA[1.0]]></USEQTY>
+        <USEDAY><![CDATA[1]]></USEDAY>
+        <PRICE><![CDATA[150]]></PRICE>
+        <SPCTYPE><![CDATA[ ]]></SPCTYPE>
+        <INSTYPE><![CDATA[]]></INSTYPE>
+        <SUMPRICE1><![CDATA[150]]></SUMPRICE1>
+        <INSAMT><![CDATA[75]]></INSAMT>
+        <INSREQ><![CDATA[75]]></INSREQ>
+        <INSALL><![CDATA[0]]></INSALL>
+        <UNCAMT><![CDATA[0]]></UNCAMT>
+        <TOTAMT><![CDATA[150]]></TOTAMT>
+        <SPCPRICE><![CDATA[0]]></SPCPRICE>
+        <INSOWNAMT><![CDATA[75]]></INSOWNAMT>
+        <TOINSREQ><![CDATA[75]]></TOINSREQ>
+        <TOINSALL><![CDATA[0]]></TOINSALL>
+        <TOUNCAMT><![CDATA[0]]></TOUNCAMT>
+        <KORNAME><![CDATA[마약류 관리료-외래환자 (가11-2나)]]></KORNAME>
+        <EDICODE><![CDATA[AL020]]></EDICODE>
+        <LCNS_NO><![CDATA[44379]]></LCNS_NO>
+        <DR_NM><![CDATA[정성애]]></DR_NM>
+        <ACCUCD><![CDATA[01]]></ACCUCD>
+        <CODE><![CDATA[29]]></CODE>
+        <SUGANAME><![CDATA[마약류 관리료-외래환자  (가11-2나)]]></SUGANAME>
+        <TEL_NO><![CDATA[01071395187]]></TEL_NO>
+    </Table0>
+    <Table0>
+        <ORDDATE2><![CDATA[20200121]]></ORDDATE2>
+        <CODENAME><![CDATA[소 계:]]></CODENAME>
+        <MEDDEPT><![CDATA[소화기내과(소화기센터)]]></MEDDEPT>
+        <RCPSEQ><![CDATA[3]]></RCPSEQ>
+        <SORTSEQ><![CDATA[2]]></SORTSEQ>
+        <PATNAME><![CDATA[양정덕]]></PATNAME>
+        <ORDDATE><![CDATA[]]></ORDDATE>
+        <MEDDR><![CDATA[]]></MEDDR>
+        <PATTYPE><![CDATA[BB-000]]></PATTYPE>
+        <SUGACODE><![CDATA[]]></SUGACODE>
+        <USEQTY><![CDATA[]]></USEQTY>
+        <USEDAY><![CDATA[]]></USEDAY>
+        <PRICE><![CDATA[]]></PRICE>
+        <SPCTYPE><![CDATA[]]></SPCTYPE>
+        <INSTYPE><![CDATA[]]></INSTYPE>
+        <SUMPRICE1><![CDATA[150]]></SUMPRICE1>
+        <INSAMT><![CDATA[75]]></INSAMT>
+        <INSREQ><![CDATA[75]]></INSREQ>
+        <INSALL><![CDATA[0]]></INSALL>
+        <UNCAMT><![CDATA[0]]></UNCAMT>
+        <TOTAMT><![CDATA[0]]></TOTAMT>
+        <SPCPRICE><![CDATA[0]]></SPCPRICE>
+        <INSOWNAMT><![CDATA[0]]></INSOWNAMT>
+        <TOINSREQ><![CDATA[0]]></TOINSREQ>
+        <TOINSALL><![CDATA[0]]></TOINSALL>
+        <TOUNCAMT><![CDATA[0]]></TOUNCAMT>
+        <KORNAME><![CDATA[]]></KORNAME>
+        <EDICODE><![CDATA[]]></EDICODE>
+        <LCNS_NO><![CDATA[]]></LCNS_NO>
+        <DR_NM><![CDATA[]]></DR_NM>
+        <ACCUCD><![CDATA[01]]></ACCUCD>
+        <CODE><![CDATA[]]></CODE>
+        <SUGANAME><![CDATA[]]></SUGANAME>
+        <TEL_NO><![CDATA[01071395187]]></TEL_NO>
+    </Table0>
+    <Table0>
+        <ORDDATE2><![CDATA[20200121]]></ORDDATE2>
+        <CODENAME><![CDATA[행위료]]></CODENAME>
+        <MEDDEPT><![CDATA[소화기내과(소화기센터)]]></MEDDEPT>
+        <RCPSEQ><![CDATA[3]]></RCPSEQ>
+        <SORTSEQ><![CDATA[1]]></SORTSEQ>
+        <PATNAME><![CDATA[양정덕]]></PATNAME>
+        <ORDDATE><![CDATA[2020-01-21]]></ORDDATE>
+        <MEDDR><![CDATA[00127]]></MEDDR>
+        <PATTYPE><![CDATA[BB-000]]></PATTYPE>
+        <SUGACODE><![CDATA[AL200 A8932]]></SUGACODE>
+        <USEQTY><![CDATA[1.0]]></USEQTY>
+        <USEDAY><![CDATA[1]]></USEDAY>
+        <PRICE><![CDATA[50]]></PRICE>
+        <SPCTYPE><![CDATA[ ]]></SPCTYPE>
+        <INSTYPE><![CDATA[]]></INSTYPE>
+        <SUMPRICE1><![CDATA[50]]></SUMPRICE1>
+        <INSAMT><![CDATA[25]]></INSAMT>
+        <INSREQ><![CDATA[25]]></INSREQ>
+        <INSALL><![CDATA[0]]></INSALL>
+        <UNCAMT><![CDATA[0]]></UNCAMT>
+        <TOTAMT><![CDATA[50]]></TOTAMT>
+        <SPCPRICE><![CDATA[0]]></SPCPRICE>
+        <INSOWNAMT><![CDATA[25]]></INSOWNAMT>
+        <TOINSREQ><![CDATA[25]]></TOINSREQ>
+        <TOINSALL><![CDATA[0]]></TOINSALL>
+        <TOUNCAMT><![CDATA[0]]></TOUNCAMT>
+        <KORNAME><![CDATA[외래환자 의약품관리료[방문당](가11가(1))]]></KORNAME>
+        <EDICODE><![CDATA[AL200]]></EDICODE>
+        <LCNS_NO><![CDATA[44379]]></LCNS_NO>
+        <DR_NM><![CDATA[정성애]]></DR_NM>
+        <ACCUCD><![CDATA[05]]></ACCUCD>
+        <CODE><![CDATA[05]]></CODE>
+        <SUGANAME><![CDATA[외래환자 의약품관리료[방문당](가11가(1))]]></SUGANAME>
+        <TEL_NO><![CDATA[01071395187]]></TEL_NO>
+    </Table0>
+    <Table0>
+        <ORDDATE2><![CDATA[20200121]]></ORDDATE2>
+        <CODENAME><![CDATA[소 계:]]></CODENAME>
+        <MEDDEPT><![CDATA[소화기내과(소화기센터)]]></MEDDEPT>
+        <RCPSEQ><![CDATA[3]]></RCPSEQ>
+        <SORTSEQ><![CDATA[2]]></SORTSEQ>
+        <PATNAME><![CDATA[양정덕]]></PATNAME>
+        <ORDDATE><![CDATA[]]></ORDDATE>
+        <MEDDR><![CDATA[]]></MEDDR>
+        <PATTYPE><![CDATA[BB-000]]></PATTYPE>
+        <SUGACODE><![CDATA[]]></SUGACODE>
+        <USEQTY><![CDATA[]]></USEQTY>
+        <USEDAY><![CDATA[]]></USEDAY>
+        <PRICE><![CDATA[]]></PRICE>
+        <SPCTYPE><![CDATA[]]></SPCTYPE>
+        <INSTYPE><![CDATA[]]></INSTYPE>
+        <SUMPRICE1><![CDATA[50]]></SUMPRICE1>
+        <INSAMT><![CDATA[25]]></INSAMT>
+        <INSREQ><![CDATA[25]]></INSREQ>
+        <INSALL><![CDATA[0]]></INSALL>
+        <UNCAMT><![CDATA[0]]></UNCAMT>
+        <TOTAMT><![CDATA[0]]></TOTAMT>
+        <SPCPRICE><![CDATA[0]]></SPCPRICE>
+        <INSOWNAMT><![CDATA[0]]></INSOWNAMT>
+        <TOINSREQ><![CDATA[0]]></TOINSREQ>
+        <TOINSALL><![CDATA[0]]></TOINSALL>
+        <TOUNCAMT><![CDATA[0]]></TOUNCAMT>
+        <KORNAME><![CDATA[]]></KORNAME>
+        <EDICODE><![CDATA[]]></EDICODE>
+        <LCNS_NO><![CDATA[]]></LCNS_NO>
+        <DR_NM><![CDATA[]]></DR_NM>
+        <ACCUCD><![CDATA[05]]></ACCUCD>
+        <CODE><![CDATA[]]></CODE>
+        <SUGANAME><![CDATA[]]></SUGANAME>
+        <TEL_NO><![CDATA[01071395187]]></TEL_NO>
+    </Table0>
+    <Table0>
+        <ORDDATE2><![CDATA[20200121]]></ORDDATE2>
+        <CODENAME><![CDATA[약품비]]></CODENAME>
+        <MEDDEPT><![CDATA[소화기내과(소화기센터)]]></MEDDEPT>
+        <RCPSEQ><![CDATA[3]]></RCPSEQ>
+        <SORTSEQ><![CDATA[1]]></SORTSEQ>
+        <PATNAME><![CDATA[양정덕]]></PATNAME>
+        <ORDDATE><![CDATA[2020-01-21]]></ORDDATE>
+        <MEDDR><![CDATA[00127]]></MEDDR>
+        <PATTYPE><![CDATA[BB-000]]></PATTYPE>
+        <SUGACODE><![CDATA[650500481 8806505004817]]></SUGACODE>
+        <USEQTY><![CDATA[1.0]]></USEQTY>
+        <USEDAY><![CDATA[1]]></USEDAY>
+        <PRICE><![CDATA[254]]></PRICE>
+        <SPCTYPE><![CDATA[ ]]></SPCTYPE>
+        <INSTYPE><![CDATA[]]></INSTYPE>
+        <SUMPRICE1><![CDATA[254]]></SUMPRICE1>
+        <INSAMT><![CDATA[127]]></INSAMT>
+        <INSREQ><![CDATA[127]]></INSREQ>
+        <INSALL><![CDATA[0]]></INSALL>
+        <UNCAMT><![CDATA[0]]></UNCAMT>
+        <TOTAMT><![CDATA[254]]></TOTAMT>
+        <SPCPRICE><![CDATA[0]]></SPCPRICE>
+        <INSOWNAMT><![CDATA[127]]></INSOWNAMT>
+        <TOINSREQ><![CDATA[127]]></TOINSREQ>
+        <TOINSALL><![CDATA[0]]></TOINSALL>
+        <TOUNCAMT><![CDATA[0]]></TOUNCAMT>
+        <KORNAME><![CDATA[페티딘염산염 주사액 25mg/0.5ml/amp]]></KORNAME>
+        <EDICODE><![CDATA[650500481]]></EDICODE>
+        <LCNS_NO><![CDATA[44379]]></LCNS_NO>
+        <DR_NM><![CDATA[정성애]]></DR_NM>
+        <ACCUCD><![CDATA[06]]></ACCUCD>
+        <CODE><![CDATA[06]]></CODE>
+        <SUGANAME><![CDATA[페티딘염산염 주사액 25mg/0.5ml/amp]]></SUGANAME>
+        <TEL_NO><![CDATA[01071395187]]></TEL_NO>
+    </Table0>
+    <Table0>
+        <ORDDATE2><![CDATA[20200121]]></ORDDATE2>
+        <CODENAME><![CDATA[행위료]]></CODENAME>
+        <MEDDEPT><![CDATA[소화기내과(소화기센터)]]></MEDDEPT>
+        <RCPSEQ><![CDATA[3]]></RCPSEQ>
+        <SORTSEQ><![CDATA[1]]></SORTSEQ>
+        <PATNAME><![CDATA[양정덕]]></PATNAME>
+        <ORDDATE><![CDATA[2020-01-21]]></ORDDATE>
+        <MEDDR><![CDATA[00127]]></MEDDR>
+        <PATTYPE><![CDATA[BB-000]]></PATTYPE>
+        <SUGACODE><![CDATA[KK054 D0500]]></SUGACODE>
+        <USEQTY><![CDATA[1.0]]></USEQTY>
+        <USEDAY><![CDATA[1]]></USEDAY>
+        <PRICE><![CDATA[1160]]></PRICE>
+        <SPCTYPE><![CDATA[ ]]></SPCTYPE>
+        <INSTYPE><![CDATA[]]></INSTYPE>
+        <SUMPRICE1><![CDATA[1450]]></SUMPRICE1>
+        <INSAMT><![CDATA[725]]></INSAMT>
+        <INSREQ><![CDATA[725]]></INSREQ>
+        <INSALL><![CDATA[0]]></INSALL>
+        <UNCAMT><![CDATA[0]]></UNCAMT>
+        <TOTAMT><![CDATA[1450]]></TOTAMT>
+        <SPCPRICE><![CDATA[0]]></SPCPRICE>
+        <INSOWNAMT><![CDATA[725]]></INSOWNAMT>
+        <TOINSREQ><![CDATA[725]]></TOINSREQ>
+        <TOINSALL><![CDATA[0]]></TOINSALL>
+        <TOUNCAMT><![CDATA[0]]></TOUNCAMT>
+        <KORNAME><![CDATA[수액제 주입로를 통한 주사(입원2회,외래1회/1일)]]></KORNAME>
+        <EDICODE><![CDATA[KK054]]></EDICODE>
+        <LCNS_NO><![CDATA[44379]]></LCNS_NO>
+        <DR_NM><![CDATA[정성애]]></DR_NM>
+        <ACCUCD><![CDATA[06]]></ACCUCD>
+        <CODE><![CDATA[06]]></CODE>
+        <SUGANAME><![CDATA[수액제 주입로를 통한 주사(입원2회,외래1회/1일)]]></SUGANAME>
+        <TEL_NO><![CDATA[01071395187]]></TEL_NO>
+    </Table0>
+    <Table0>
+        <ORDDATE2><![CDATA[20200121]]></ORDDATE2>
+        <CODENAME><![CDATA[소 계:]]></CODENAME>
+        <MEDDEPT><![CDATA[소화기내과(소화기센터)]]></MEDDEPT>
+        <RCPSEQ><![CDATA[3]]></RCPSEQ>
+        <SORTSEQ><![CDATA[2]]></SORTSEQ>
+        <PATNAME><![CDATA[양정덕]]></PATNAME>
+        <ORDDATE><![CDATA[]]></ORDDATE>
+        <MEDDR><![CDATA[]]></MEDDR>
+        <PATTYPE><![CDATA[BB-000]]></PATTYPE>
+        <SUGACODE><![CDATA[]]></SUGACODE>
+        <USEQTY><![CDATA[]]></USEQTY>
+        <USEDAY><![CDATA[]]></USEDAY>
+        <PRICE><![CDATA[]]></PRICE>
+        <SPCTYPE><![CDATA[]]></SPCTYPE>
+        <INSTYPE><![CDATA[]]></INSTYPE>
+        <SUMPRICE1><![CDATA[1704]]></SUMPRICE1>
+        <INSAMT><![CDATA[852]]></INSAMT>
+        <INSREQ><![CDATA[852]]></INSREQ>
+        <INSALL><![CDATA[0]]></INSALL>
+        <UNCAMT><![CDATA[0]]></UNCAMT>
+        <TOTAMT><![CDATA[0]]></TOTAMT>
+        <SPCPRICE><![CDATA[0]]></SPCPRICE>
+        <INSOWNAMT><![CDATA[0]]></INSOWNAMT>
+        <TOINSREQ><![CDATA[0]]></TOINSREQ>
+        <TOINSALL><![CDATA[0]]></TOINSALL>
+        <TOUNCAMT><![CDATA[0]]></TOUNCAMT>
+        <KORNAME><![CDATA[]]></KORNAME>
+        <EDICODE><![CDATA[]]></EDICODE>
+        <LCNS_NO><![CDATA[]]></LCNS_NO>
+        <DR_NM><![CDATA[]]></DR_NM>
+        <ACCUCD><![CDATA[06]]></ACCUCD>
+        <CODE><![CDATA[]]></CODE>
+        <SUGANAME><![CDATA[]]></SUGANAME>
+        <TEL_NO><![CDATA[01071395187]]></TEL_NO>
+    </Table0>
+    <Table0>
+        <ORDDATE2><![CDATA[20200121]]></ORDDATE2>
+        <CODENAME><![CDATA[검 사 료]]></CODENAME>
+        <MEDDEPT><![CDATA[소화기내과(소화기센터)]]></MEDDEPT>
+        <RCPSEQ><![CDATA[3]]></RCPSEQ>
+        <SORTSEQ><![CDATA[1]]></SORTSEQ>
+        <PATNAME><![CDATA[양정덕]]></PATNAME>
+        <ORDDATE><![CDATA[2020-01-21]]></ORDDATE>
+        <MEDDR><![CDATA[00127]]></MEDDR>
+        <PATTYPE><![CDATA[BB-000]]></PATTYPE>
+        <SUGACODE><![CDATA[ L9402]]></SUGACODE>
+        <USEQTY><![CDATA[1.0]]></USEQTY>
+        <USEDAY><![CDATA[1]]></USEDAY>
+        <PRICE><![CDATA[0]]></PRICE>
+        <SPCTYPE><![CDATA[ ]]></SPCTYPE>
+        <INSTYPE><![CDATA[]]></INSTYPE>
+        <SUMPRICE1><![CDATA[0]]></SUMPRICE1>
+        <INSAMT><![CDATA[0]]></INSAMT>
+        <INSREQ><![CDATA[0]]></INSREQ>
+        <INSALL><![CDATA[0]]></INSALL>
+        <UNCAMT><![CDATA[0]]></UNCAMT>
+        <TOTAMT><![CDATA[0]]></TOTAMT>
+        <SPCPRICE><![CDATA[0]]></SPCPRICE>
+        <INSOWNAMT><![CDATA[0]]></INSOWNAMT>
+        <TOINSREQ><![CDATA[0]]></TOINSREQ>
+        <TOINSALL><![CDATA[0]]></TOINSALL>
+        <TOUNCAMT><![CDATA[0]]></TOUNCAMT>
+        <KORNAME><![CDATA[상부소화관내시경검사(EGD) (내시경 세척·소독료 포 ]]></KORNAME>
+        <EDICODE><![CDATA[]]></EDICODE>
+        <LCNS_NO><![CDATA[44379]]></LCNS_NO>
+        <DR_NM><![CDATA[정성애]]></DR_NM>
+        <ACCUCD><![CDATA[15]]></ACCUCD>
+        <CODE><![CDATA[17]]></CODE>
+        <SUGANAME><![CDATA[상부소화관내시경검사(EGD) (내시경 세척·소독료 포함)]]></SUGANAME>
+        <TEL_NO><![CDATA[01071395187]]></TEL_NO>
+    </Table0>
+    <Table0>
+        <ORDDATE2><![CDATA[20200121]]></ORDDATE2>
+        <CODENAME><![CDATA[검 사 료]]></CODENAME>
+        <MEDDEPT><![CDATA[소화기내과(소화기센터)]]></MEDDEPT>
+        <RCPSEQ><![CDATA[3]]></RCPSEQ>
+        <SORTSEQ><![CDATA[1]]></SORTSEQ>
+        <PATNAME><![CDATA[양정덕]]></PATNAME>
+        <ORDDATE><![CDATA[2020-01-21]]></ORDDATE>
+        <MEDDR><![CDATA[00127]]></MEDDR>
+        <PATTYPE><![CDATA[BB-000]]></PATTYPE>
+        <SUGACODE><![CDATA[ L9406]]></SUGACODE>
+        <USEQTY><![CDATA[1.0]]></USEQTY>
+        <USEDAY><![CDATA[1]]></USEDAY>
+        <PRICE><![CDATA[0]]></PRICE>
+        <SPCTYPE><![CDATA[ ]]></SPCTYPE>
+        <INSTYPE><![CDATA[]]></INSTYPE>
+        <SUMPRICE1><![CDATA[0]]></SUMPRICE1>
+        <INSAMT><![CDATA[0]]></INSAMT>
+        <INSREQ><![CDATA[0]]></INSREQ>
+        <INSALL><![CDATA[0]]></INSALL>
+        <UNCAMT><![CDATA[0]]></UNCAMT>
+        <TOTAMT><![CDATA[0]]></TOTAMT>
+        <SPCPRICE><![CDATA[0]]></SPCPRICE>
+        <INSOWNAMT><![CDATA[0]]></INSOWNAMT>
+        <TOINSREQ><![CDATA[0]]></TOINSREQ>
+        <TOINSALL><![CDATA[0]]></TOINSALL>
+        <TOUNCAMT><![CDATA[0]]></TOUNCAMT>
+        <KORNAME><![CDATA[대장경검사 (내시경 세척·소독료 포함)]]></KORNAME>
+        <EDICODE><![CDATA[]]></EDICODE>
+        <LCNS_NO><![CDATA[44379]]></LCNS_NO>
+        <DR_NM><![CDATA[정성애]]></DR_NM>
+        <ACCUCD><![CDATA[15]]></ACCUCD>
+        <CODE><![CDATA[17]]></CODE>
+        <SUGANAME><![CDATA[대장경검사 (내시경 세척·소독료 포함)]]></SUGANAME>
+        <TEL_NO><![CDATA[01071395187]]></TEL_NO>
+    </Table0>
+    <Table0>
+        <ORDDATE2><![CDATA[20200121]]></ORDDATE2>
+        <CODENAME><![CDATA[검 사 료]]></CODENAME>
+        <MEDDEPT><![CDATA[소화기내과(소화기센터)]]></MEDDEPT>
+        <RCPSEQ><![CDATA[3]]></RCPSEQ>
+        <SORTSEQ><![CDATA[1]]></SORTSEQ>
+        <PATNAME><![CDATA[양정덕]]></PATNAME>
+        <ORDDATE><![CDATA[2020-01-21]]></ORDDATE>
+        <MEDDR><![CDATA[00127]]></MEDDR>
+        <PATTYPE><![CDATA[BB-000]]></PATTYPE>
+        <SUGACODE><![CDATA[642203791 8806422037912]]></SUGACODE>
+        <USEQTY><![CDATA[1.0]]></USEQTY>
+        <USEDAY><![CDATA[1]]></USEDAY>
+        <PRICE><![CDATA[450]]></PRICE>
+        <SPCTYPE><![CDATA[ ]]></SPCTYPE>
+        <INSTYPE><![CDATA[]]></INSTYPE>
+        <SUMPRICE1><![CDATA[450]]></SUMPRICE1>
+        <INSAMT><![CDATA[225]]></INSAMT>
+        <INSREQ><![CDATA[225]]></INSREQ>
+        <INSALL><![CDATA[0]]></INSALL>
+        <UNCAMT><![CDATA[0]]></UNCAMT>
+        <TOTAMT><![CDATA[450]]></TOTAMT>
+        <SPCPRICE><![CDATA[0]]></SPCPRICE>
+        <INSOWNAMT><![CDATA[225]]></INSOWNAMT>
+        <TOINSREQ><![CDATA[225]]></TOINSREQ>
+        <TOINSALL><![CDATA[0]]></TOINSALL>
+        <TOUNCAMT><![CDATA[0]]></TOUNCAMT>
+        <KORNAME><![CDATA[브로퓸 주 5mg/mL/amp]]></KORNAME>
+        <EDICODE><![CDATA[642203791]]></EDICODE>
+        <LCNS_NO><![CDATA[44379]]></LCNS_NO>
+        <DR_NM><![CDATA[정성애]]></DR_NM>
+        <ACCUCD><![CDATA[15]]></ACCUCD>
+        <CODE><![CDATA[17]]></CODE>
+        <SUGANAME><![CDATA[브로퓸 주 5mg/mL/amp]]></SUGANAME>
+        <TEL_NO><![CDATA[01071395187]]></TEL_NO>
+    </Table0>
+    <Table0>
+        <ORDDATE2><![CDATA[20200121]]></ORDDATE2>
+        <CODENAME><![CDATA[검 사 료]]></CODENAME>
+        <MEDDEPT><![CDATA[소화기내과(소화기센터)]]></MEDDEPT>
+        <RCPSEQ><![CDATA[3]]></RCPSEQ>
+        <SORTSEQ><![CDATA[1]]></SORTSEQ>
+        <PATNAME><![CDATA[양정덕]]></PATNAME>
+        <ORDDATE><![CDATA[2020-01-21]]></ORDDATE>
+        <MEDDR><![CDATA[00127]]></MEDDR>
+        <PATTYPE><![CDATA[BB-000]]></PATTYPE>
+        <SUGACODE><![CDATA[645602241 8806456022410]]></SUGACODE>
+        <USEQTY><![CDATA[20.0]]></USEQTY>
+        <USEDAY><![CDATA[1]]></USEDAY>
+        <PRICE><![CDATA[18]]></PRICE>
+        <SPCTYPE><![CDATA[ ]]></SPCTYPE>
+        <INSTYPE><![CDATA[전액본인]]></INSTYPE>
+        <SUMPRICE1><![CDATA[360]]></SUMPRICE1>
+        <INSAMT><![CDATA[0]]></INSAMT>
+        <INSREQ><![CDATA[0]]></INSREQ>
+        <INSALL><![CDATA[360]]></INSALL>
+        <UNCAMT><![CDATA[0]]></UNCAMT>
+        <TOTAMT><![CDATA[360]]></TOTAMT>
+        <SPCPRICE><![CDATA[0]]></SPCPRICE>
+        <INSOWNAMT><![CDATA[0]]></INSOWNAMT>
+        <TOINSREQ><![CDATA[0]]></TOINSREQ>
+        <TOINSALL><![CDATA[360]]></TOINSALL>
+        <TOUNCAMT><![CDATA[0]]></TOUNCAMT>
+        <KORNAME><![CDATA[후로스판액 8mg/mL(500)]]></KORNAME>
+        <EDICODE><![CDATA[645602241]]></EDICODE>
+        <LCNS_NO><![CDATA[44379]]></LCNS_NO>
+        <DR_NM><![CDATA[정성애]]></DR_NM>
+        <ACCUCD><![CDATA[15]]></ACCUCD>
+        <CODE><![CDATA[17]]></CODE>
+        <SUGANAME><![CDATA[후로스판액 8mg/mL(500)]]></SUGANAME>
+        <TEL_NO><![CDATA[01071395187]]></TEL_NO>
+    </Table0>
+    <Table0>
+        <ORDDATE2><![CDATA[20200121]]></ORDDATE2>
+        <CODENAME><![CDATA[검 사 료]]></CODENAME>
+        <MEDDEPT><![CDATA[소화기내과(소화기센터)]]></MEDDEPT>
+        <RCPSEQ><![CDATA[3]]></RCPSEQ>
+        <SORTSEQ><![CDATA[1]]></SORTSEQ>
+        <PATNAME><![CDATA[양정덕]]></PATNAME>
+        <ORDDATE><![CDATA[2020-01-21]]></ORDDATE>
+        <MEDDR><![CDATA[00127]]></MEDDR>
+        <PATTYPE><![CDATA[BB-000]]></PATTYPE>
+        <SUGACODE><![CDATA[650100021 8806501000219]]></SUGACODE>
+        <USEQTY><![CDATA[1.0]]></USEQTY>
+        <USEDAY><![CDATA[1]]></USEDAY>
+        <PRICE><![CDATA[230]]></PRICE>
+        <SPCTYPE><![CDATA[ ]]></SPCTYPE>
+        <INSTYPE><![CDATA[]]></INSTYPE>
+        <SUMPRICE1><![CDATA[230]]></SUMPRICE1>
+        <INSAMT><![CDATA[115]]></INSAMT>
+        <INSREQ><![CDATA[115]]></INSREQ>
+        <INSALL><![CDATA[0]]></INSALL>
+        <UNCAMT><![CDATA[0]]></UNCAMT>
+        <TOTAMT><![CDATA[230]]></TOTAMT>
+        <SPCPRICE><![CDATA[0]]></SPCPRICE>
+        <INSOWNAMT><![CDATA[115]]></INSOWNAMT>
+        <TOINSREQ><![CDATA[115]]></TOINSREQ>
+        <TOINSALL><![CDATA[0]]></TOINSALL>
+        <TOUNCAMT><![CDATA[0]]></TOUNCAMT>
+        <KORNAME><![CDATA[가소콜액(시메티콘)_10ml/Pkg]]></KORNAME>
+        <EDICODE><![CDATA[650100021]]></EDICODE>
+        <LCNS_NO><![CDATA[44379]]></LCNS_NO>
+        <DR_NM><![CDATA[정성애]]></DR_NM>
+        <ACCUCD><![CDATA[15]]></ACCUCD>
+        <CODE><![CDATA[17]]></CODE>
+        <SUGANAME><![CDATA[가소콜액(시메티콘)_10ml/Pkg]]></SUGANAME>
+        <TEL_NO><![CDATA[01071395187]]></TEL_NO>
+    </Table0>
+    <Table0>
+        <ORDDATE2><![CDATA[20200121]]></ORDDATE2>
+        <CODENAME><![CDATA[검 사 료]]></CODENAME>
+        <MEDDEPT><![CDATA[소화기내과(소화기센터)]]></MEDDEPT>
+        <RCPSEQ><![CDATA[3]]></RCPSEQ>
+        <SORTSEQ><![CDATA[1]]></SORTSEQ>
+        <PATNAME><![CDATA[양정덕]]></PATNAME>
+        <ORDDATE><![CDATA[2020-01-21]]></ORDDATE>
+        <MEDDR><![CDATA[00127]]></MEDDR>
+        <PATTYPE><![CDATA[BB-000]]></PATTYPE>
+        <SUGACODE><![CDATA[C5602 L6416]]></SUGACODE>
+        <USEQTY><![CDATA[1.0]]></USEQTY>
+        <USEDAY><![CDATA[1]]></USEDAY>
+        <PRICE><![CDATA[28100]]></PRICE>
+        <SPCTYPE><![CDATA[ ]]></SPCTYPE>
+        <INSTYPE><![CDATA[]]></INSTYPE>
+        <SUMPRICE1><![CDATA[36525]]></SUMPRICE1>
+        <INSAMT><![CDATA[18263]]></INSAMT>
+        <INSREQ><![CDATA[18262]]></INSREQ>
+        <INSALL><![CDATA[0]]></INSALL>
+        <UNCAMT><![CDATA[0]]></UNCAMT>
+        <TOTAMT><![CDATA[36525]]></TOTAMT>
+        <SPCPRICE><![CDATA[0]]></SPCPRICE>
+        <INSOWNAMT><![CDATA[18263]]></INSOWNAMT>
+        <TOINSREQ><![CDATA[18262]]></TOINSREQ>
+        <TOINSALL><![CDATA[0]]></TOINSALL>
+        <TOUNCAMT><![CDATA[0]]></TOUNCAMT>
+        <KORNAME><![CDATA[위생검 조직병리검사(폴립절제술,EMR/ESD제외]]></KORNAME>
+        <EDICODE><![CDATA[C5602008]]></EDICODE>
+        <LCNS_NO><![CDATA[44379]]></LCNS_NO>
+        <DR_NM><![CDATA[정성애]]></DR_NM>
+        <ACCUCD><![CDATA[15]]></ACCUCD>
+        <CODE><![CDATA[15]]></CODE>
+        <SUGANAME><![CDATA[위생검 조직병리검사(폴립절제술,EMR/ESD제외]]></SUGANAME>
+        <TEL_NO><![CDATA[01071395187]]></TEL_NO>
+    </Table0>
+    <Table0>
+        <ORDDATE2><![CDATA[20200121]]></ORDDATE2>
+        <CODENAME><![CDATA[검 사 료]]></CODENAME>
+        <MEDDEPT><![CDATA[소화기내과(소화기센터)]]></MEDDEPT>
+        <RCPSEQ><![CDATA[3]]></RCPSEQ>
+        <SORTSEQ><![CDATA[1]]></SORTSEQ>
+        <PATNAME><![CDATA[양정덕]]></PATNAME>
+        <ORDDATE><![CDATA[2020-01-21]]></ORDDATE>
+        <MEDDR><![CDATA[00127]]></MEDDR>
+        <PATTYPE><![CDATA[BB-000]]></PATTYPE>
+        <SUGACODE><![CDATA[C5602 L6418]]></SUGACODE>
+        <USEQTY><![CDATA[1.0]]></USEQTY>
+        <USEDAY><![CDATA[1]]></USEDAY>
+        <PRICE><![CDATA[28100]]></PRICE>
+        <SPCTYPE><![CDATA[ ]]></SPCTYPE>
+        <INSTYPE><![CDATA[]]></INSTYPE>
+        <SUMPRICE1><![CDATA[36525]]></SUMPRICE1>
+        <INSAMT><![CDATA[18263]]></INSAMT>
+        <INSREQ><![CDATA[18262]]></INSREQ>
+        <INSALL><![CDATA[0]]></INSALL>
+        <UNCAMT><![CDATA[0]]></UNCAMT>
+        <TOTAMT><![CDATA[36525]]></TOTAMT>
+        <SPCPRICE><![CDATA[0]]></SPCPRICE>
+        <INSOWNAMT><![CDATA[18263]]></INSOWNAMT>
+        <TOINSREQ><![CDATA[18262]]></TOINSREQ>
+        <TOINSALL><![CDATA[0]]></TOINSALL>
+        <TOUNCAMT><![CDATA[0]]></TOUNCAMT>
+        <KORNAME><![CDATA[대장직장생검 조직병리검사]]></KORNAME>
+        <EDICODE><![CDATA[C5602008]]></EDICODE>
+        <LCNS_NO><![CDATA[44379]]></LCNS_NO>
+        <DR_NM><![CDATA[정성애]]></DR_NM>
+        <ACCUCD><![CDATA[15]]></ACCUCD>
+        <CODE><![CDATA[15]]></CODE>
+        <SUGANAME><![CDATA[대장직장생검 조직병리검사]]></SUGANAME>
+        <TEL_NO><![CDATA[01071395187]]></TEL_NO>
+    </Table0>
+    <Table0>
+        <ORDDATE2><![CDATA[20200121]]></ORDDATE2>
+        <CODENAME><![CDATA[검 사 료]]></CODENAME>
+        <MEDDEPT><![CDATA[소화기내과(소화기센터)]]></MEDDEPT>
+        <RCPSEQ><![CDATA[3]]></RCPSEQ>
+        <SORTSEQ><![CDATA[1]]></SORTSEQ>
+        <PATNAME><![CDATA[양정덕]]></PATNAME>
+        <ORDDATE><![CDATA[2020-01-21]]></ORDDATE>
+        <MEDDR><![CDATA[00127]]></MEDDR>
+        <PATTYPE><![CDATA[BB-000]]></PATTYPE>
+        <SUGACODE><![CDATA[C5630 L6727]]></SUGACODE>
+        <USEQTY><![CDATA[1.0]]></USEQTY>
+        <USEDAY><![CDATA[1]]></USEDAY>
+        <PRICE><![CDATA[14390]]></PRICE>
+        <SPCTYPE><![CDATA[ ]]></SPCTYPE>
+        <INSTYPE><![CDATA[]]></INSTYPE>
+        <SUMPRICE1><![CDATA[18713]]></SUMPRICE1>
+        <INSAMT><![CDATA[9357]]></INSAMT>
+        <INSREQ><![CDATA[9356]]></INSREQ>
+        <INSALL><![CDATA[0]]></INSALL>
+        <UNCAMT><![CDATA[0]]></UNCAMT>
+        <TOTAMT><![CDATA[18713]]></TOTAMT>
+        <SPCPRICE><![CDATA[0]]></SPCPRICE>
+        <INSOWNAMT><![CDATA[9357]]></INSOWNAMT>
+        <TOINSREQ><![CDATA[9356]]></TOINSREQ>
+        <TOINSALL><![CDATA[0]]></TOINSALL>
+        <TOUNCAMT><![CDATA[0]]></TOUNCAMT>
+        <KORNAME><![CDATA[Giemsa 특수염색]]></KORNAME>
+        <EDICODE><![CDATA[C5630008]]></EDICODE>
+        <LCNS_NO><![CDATA[44379]]></LCNS_NO>
+        <DR_NM><![CDATA[정성애]]></DR_NM>
+        <ACCUCD><![CDATA[15]]></ACCUCD>
+        <CODE><![CDATA[15]]></CODE>
+        <SUGANAME><![CDATA[Giemsa 특수염색]]></SUGANAME>
+        <TEL_NO><![CDATA[01071395187]]></TEL_NO>
+    </Table0>
+    <Table0>
+        <ORDDATE2><![CDATA[20200121]]></ORDDATE2>
+        <CODENAME><![CDATA[검 사 료]]></CODENAME>
+        <MEDDEPT><![CDATA[소화기내과(소화기센터)]]></MEDDEPT>
+        <RCPSEQ><![CDATA[3]]></RCPSEQ>
+        <SORTSEQ><![CDATA[1]]></SORTSEQ>
+        <PATNAME><![CDATA[양정덕]]></PATNAME>
+        <ORDDATE><![CDATA[2020-01-21]]></ORDDATE>
+        <MEDDR><![CDATA[00127]]></MEDDR>
+        <PATTYPE><![CDATA[BB-000]]></PATTYPE>
+        <SUGACODE><![CDATA[E7611 L9402S]]></SUGACODE>
+        <USEQTY><![CDATA[1.0]]></USEQTY>
+        <USEDAY><![CDATA[1]]></USEDAY>
+        <PRICE><![CDATA[49320]]></PRICE>
+        <SPCTYPE><![CDATA[ ]]></SPCTYPE>
+        <INSTYPE><![CDATA[]]></INSTYPE>
+        <SUMPRICE1><![CDATA[61650]]></SUMPRICE1>
+        <INSAMT><![CDATA[30825]]></INSAMT>
+        <INSREQ><![CDATA[30825]]></INSREQ>
+        <INSALL><![CDATA[0]]></INSALL>
+        <UNCAMT><![CDATA[0]]></UNCAMT>
+        <TOTAMT><![CDATA[61650]]></TOTAMT>
+        <SPCPRICE><![CDATA[0]]></SPCPRICE>
+        <INSOWNAMT><![CDATA[30825]]></INSOWNAMT>
+        <TOINSREQ><![CDATA[30825]]></TOINSREQ>
+        <TOINSALL><![CDATA[0]]></TOINSALL>
+        <TOUNCAMT><![CDATA[0]]></TOUNCAMT>
+        <KORNAME><![CDATA[상부소화관내시경검사(EGD)(나761) Ⅱ]]></KORNAME>
+        <EDICODE><![CDATA[E7611]]></EDICODE>
+        <LCNS_NO><![CDATA[44379]]></LCNS_NO>
+        <DR_NM><![CDATA[정성애]]></DR_NM>
+        <ACCUCD><![CDATA[15]]></ACCUCD>
+        <CODE><![CDATA[17]]></CODE>
+        <SUGANAME><![CDATA[상부소화관내시경검사(EGD)(나761) Ⅱ]]></SUGANAME>
+        <TEL_NO><![CDATA[01071395187]]></TEL_NO>
+    </Table0>
+    <Table0>
+        <ORDDATE2><![CDATA[20200121]]></ORDDATE2>
+        <CODENAME><![CDATA[검 사 료]]></CODENAME>
+        <MEDDEPT><![CDATA[소화기내과(소화기센터)]]></MEDDEPT>
+        <RCPSEQ><![CDATA[3]]></RCPSEQ>
+        <SORTSEQ><![CDATA[1]]></SORTSEQ>
+        <PATNAME><![CDATA[양정덕]]></PATNAME>
+        <ORDDATE><![CDATA[2020-01-21]]></ORDDATE>
+        <MEDDR><![CDATA[00127]]></MEDDR>
+        <PATTYPE><![CDATA[BB-000]]></PATTYPE>
+        <SUGACODE><![CDATA[E7611010 L9430S]]></SUGACODE>
+        <USEQTY><![CDATA[1.0]]></USEQTY>
+        <USEDAY><![CDATA[1]]></USEDAY>
+        <PRICE><![CDATA[9860]]></PRICE>
+        <SPCTYPE><![CDATA[ ]]></SPCTYPE>
+        <INSTYPE><![CDATA[]]></INSTYPE>
+        <SUMPRICE1><![CDATA[12325]]></SUMPRICE1>
+        <INSAMT><![CDATA[6163]]></INSAMT>
+        <INSREQ><![CDATA[6162]]></INSREQ>
+        <INSALL><![CDATA[0]]></INSALL>
+        <UNCAMT><![CDATA[0]]></UNCAMT>
+        <TOTAMT><![CDATA[12325]]></TOTAMT>
+        <SPCPRICE><![CDATA[0]]></SPCPRICE>
+        <INSOWNAMT><![CDATA[6163]]></INSOWNAMT>
+        <TOINSREQ><![CDATA[6162]]></TOINSREQ>
+        <TOINSALL><![CDATA[0]]></TOINSALL>
+        <TOUNCAMT><![CDATA[0]]></TOUNCAMT>
+        <KORNAME><![CDATA[[선별90]상부소화관내시하생검(나761주3)]]></KORNAME>
+        <EDICODE><![CDATA[E7611010]]></EDICODE>
+        <LCNS_NO><![CDATA[44379]]></LCNS_NO>
+        <DR_NM><![CDATA[정성애]]></DR_NM>
+        <ACCUCD><![CDATA[15]]></ACCUCD>
+        <CODE><![CDATA[17]]></CODE>
+        <SUGANAME><![CDATA[[선별90]상부소화관내시하생검(나761주3)]]></SUGANAME>
+        <TEL_NO><![CDATA[01071395187]]></TEL_NO>
+    </Table0>
+    <Table0>
+        <ORDDATE2><![CDATA[20200121]]></ORDDATE2>
+        <CODENAME><![CDATA[검 사 료]]></CODENAME>
+        <MEDDEPT><![CDATA[소화기내과(소화기센터)]]></MEDDEPT>
+        <RCPSEQ><![CDATA[3]]></RCPSEQ>
+        <SORTSEQ><![CDATA[1]]></SORTSEQ>
+        <PATNAME><![CDATA[양정덕]]></PATNAME>
+        <ORDDATE><![CDATA[2020-01-21]]></ORDDATE>
+        <MEDDR><![CDATA[00127]]></MEDDR>
+        <PATTYPE><![CDATA[BB-000]]></PATTYPE>
+        <SUGACODE><![CDATA[E7660 L9406S]]></SUGACODE>
+        <USEQTY><![CDATA[1.0]]></USEQTY>
+        <USEDAY><![CDATA[1]]></USEDAY>
+        <PRICE><![CDATA[74720]]></PRICE>
+        <SPCTYPE><![CDATA[ ]]></SPCTYPE>
+        <INSTYPE><![CDATA[]]></INSTYPE>
+        <SUMPRICE1><![CDATA[93400]]></SUMPRICE1>
+        <INSAMT><![CDATA[46700]]></INSAMT>
+        <INSREQ><![CDATA[46700]]></INSREQ>
+        <INSALL><![CDATA[0]]></INSALL>
+        <UNCAMT><![CDATA[0]]></UNCAMT>
+        <TOTAMT><![CDATA[93400]]></TOTAMT>
+        <SPCPRICE><![CDATA[0]]></SPCPRICE>
+        <INSOWNAMT><![CDATA[46700]]></INSOWNAMT>
+        <TOINSREQ><![CDATA[46700]]></TOINSREQ>
+        <TOINSALL><![CDATA[0]]></TOINSALL>
+        <TOUNCAMT><![CDATA[0]]></TOUNCAMT>
+        <KORNAME><![CDATA[대장경검사(나766) Ⅲ]]></KORNAME>
+        <EDICODE><![CDATA[E7660]]></EDICODE>
+        <LCNS_NO><![CDATA[44379]]></LCNS_NO>
+        <DR_NM><![CDATA[정성애]]></DR_NM>
+        <ACCUCD><![CDATA[15]]></ACCUCD>
+        <CODE><![CDATA[17]]></CODE>
+        <SUGANAME><![CDATA[대장경검사(나766) Ⅲ]]></SUGANAME>
+        <TEL_NO><![CDATA[01071395187]]></TEL_NO>
+    </Table0>
+    <Table0>
+        <ORDDATE2><![CDATA[20200121]]></ORDDATE2>
+        <CODENAME><![CDATA[검 사 료]]></CODENAME>
+        <MEDDEPT><![CDATA[소화기내과(소화기센터)]]></MEDDEPT>
+        <RCPSEQ><![CDATA[3]]></RCPSEQ>
+        <SORTSEQ><![CDATA[1]]></SORTSEQ>
+        <PATNAME><![CDATA[양정덕]]></PATNAME>
+        <ORDDATE><![CDATA[2020-01-21]]></ORDDATE>
+        <MEDDR><![CDATA[00127]]></MEDDR>
+        <PATTYPE><![CDATA[BB-000]]></PATTYPE>
+        <SUGACODE><![CDATA[E7660010 L9432S]]></SUGACODE>
+        <USEQTY><![CDATA[1.0]]></USEQTY>
+        <USEDAY><![CDATA[1]]></USEDAY>
+        <PRICE><![CDATA[14940]]></PRICE>
+        <SPCTYPE><![CDATA[ ]]></SPCTYPE>
+        <INSTYPE><![CDATA[]]></INSTYPE>
+        <SUMPRICE1><![CDATA[18675]]></SUMPRICE1>
+        <INSAMT><![CDATA[9338]]></INSAMT>
+        <INSREQ><![CDATA[9337]]></INSREQ>
+        <INSALL><![CDATA[0]]></INSALL>
+        <UNCAMT><![CDATA[0]]></UNCAMT>
+        <TOTAMT><![CDATA[18675]]></TOTAMT>
+        <SPCPRICE><![CDATA[0]]></SPCPRICE>
+        <INSOWNAMT><![CDATA[9338]]></INSOWNAMT>
+        <TOINSREQ><![CDATA[9337]]></TOINSREQ>
+        <TOINSALL><![CDATA[0]]></TOINSALL>
+        <TOUNCAMT><![CDATA[0]]></TOUNCAMT>
+        <KORNAME><![CDATA[결장경하생검(나766주3)]]></KORNAME>
+        <EDICODE><![CDATA[E7660010]]></EDICODE>
+        <LCNS_NO><![CDATA[44379]]></LCNS_NO>
+        <DR_NM><![CDATA[정성애]]></DR_NM>
+        <ACCUCD><![CDATA[15]]></ACCUCD>
+        <CODE><![CDATA[17]]></CODE>
+        <SUGANAME><![CDATA[결장경하생검(나766주3)]]></SUGANAME>
+        <TEL_NO><![CDATA[01071395187]]></TEL_NO>
+    </Table0>
+    <Table0>
+        <ORDDATE2><![CDATA[20200121]]></ORDDATE2>
+        <CODENAME><![CDATA[검 사 료]]></CODENAME>
+        <MEDDEPT><![CDATA[소화기내과(소화기센터)]]></MEDDEPT>
+        <RCPSEQ><![CDATA[3]]></RCPSEQ>
+        <SORTSEQ><![CDATA[1]]></SORTSEQ>
+        <PATNAME><![CDATA[양정덕]]></PATNAME>
+        <ORDDATE><![CDATA[2020-01-21]]></ORDDATE>
+        <MEDDR><![CDATA[00127]]></MEDDR>
+        <PATTYPE><![CDATA[BB-000]]></PATTYPE>
+        <SUGACODE><![CDATA[EA010 L010175]]></SUGACODE>
+        <USEQTY><![CDATA[1.0]]></USEQTY>
+        <USEDAY><![CDATA[1]]></USEDAY>
+        <PRICE><![CDATA[10920]]></PRICE>
+        <SPCTYPE><![CDATA[ ]]></SPCTYPE>
+        <INSTYPE><![CDATA[]]></INSTYPE>
+        <SUMPRICE1><![CDATA[13650]]></SUMPRICE1>
+        <INSAMT><![CDATA[6825]]></INSAMT>
+        <INSREQ><![CDATA[6825]]></INSREQ>
+        <INSALL><![CDATA[0]]></INSALL>
+        <UNCAMT><![CDATA[0]]></UNCAMT>
+        <TOTAMT><![CDATA[13650]]></TOTAMT>
+        <SPCPRICE><![CDATA[0]]></SPCPRICE>
+        <INSOWNAMT><![CDATA[6825]]></INSOWNAMT>
+        <TOINSREQ><![CDATA[6825]]></TOINSREQ>
+        <TOINSALL><![CDATA[0]]></TOINSALL>
+        <TOUNCAMT><![CDATA[0]]></TOUNCAMT>
+        <KORNAME><![CDATA[내시경 세척·소독료(나799-1)]]></KORNAME>
+        <EDICODE><![CDATA[EA010]]></EDICODE>
+        <LCNS_NO><![CDATA[44379]]></LCNS_NO>
+        <DR_NM><![CDATA[정성애]]></DR_NM>
+        <ACCUCD><![CDATA[15]]></ACCUCD>
+        <CODE><![CDATA[17]]></CODE>
+        <SUGANAME><![CDATA[내시경 세척·소독료(나799-1)]]></SUGANAME>
+        <TEL_NO><![CDATA[01071395187]]></TEL_NO>
+    </Table0>
+    <Table0>
+        <ORDDATE2><![CDATA[20200121]]></ORDDATE2>
+        <CODENAME><![CDATA[검 사 료]]></CODENAME>
+        <MEDDEPT><![CDATA[소화기내과(소화기센터)]]></MEDDEPT>
+        <RCPSEQ><![CDATA[3]]></RCPSEQ>
+        <SORTSEQ><![CDATA[1]]></SORTSEQ>
+        <PATNAME><![CDATA[양정덕]]></PATNAME>
+        <ORDDATE><![CDATA[2020-01-21]]></ORDDATE>
+        <MEDDR><![CDATA[00127]]></MEDDR>
+        <PATTYPE><![CDATA[BB-000]]></PATTYPE>
+        <SUGACODE><![CDATA[EA010 L010175]]></SUGACODE>
+        <USEQTY><![CDATA[1.0]]></USEQTY>
+        <USEDAY><![CDATA[1]]></USEDAY>
+        <PRICE><![CDATA[10920]]></PRICE>
+        <SPCTYPE><![CDATA[ ]]></SPCTYPE>
+        <INSTYPE><![CDATA[]]></INSTYPE>
+        <SUMPRICE1><![CDATA[13650]]></SUMPRICE1>
+        <INSAMT><![CDATA[6825]]></INSAMT>
+        <INSREQ><![CDATA[6825]]></INSREQ>
+        <INSALL><![CDATA[0]]></INSALL>
+        <UNCAMT><![CDATA[0]]></UNCAMT>
+        <TOTAMT><![CDATA[13650]]></TOTAMT>
+        <SPCPRICE><![CDATA[0]]></SPCPRICE>
+        <INSOWNAMT><![CDATA[6825]]></INSOWNAMT>
+        <TOINSREQ><![CDATA[6825]]></TOINSREQ>
+        <TOINSALL><![CDATA[0]]></TOINSALL>
+        <TOUNCAMT><![CDATA[0]]></TOUNCAMT>
+        <KORNAME><![CDATA[내시경 세척·소독료(나799-1)]]></KORNAME>
+        <EDICODE><![CDATA[EA010]]></EDICODE>
+        <LCNS_NO><![CDATA[44379]]></LCNS_NO>
+        <DR_NM><![CDATA[정성애]]></DR_NM>
+        <ACCUCD><![CDATA[15]]></ACCUCD>
+        <CODE><![CDATA[17]]></CODE>
+        <SUGANAME><![CDATA[내시경 세척·소독료(나799-1)]]></SUGANAME>
+        <TEL_NO><![CDATA[01071395187]]></TEL_NO>
+    </Table0>
+    <Table0>
+        <ORDDATE2><![CDATA[20200121]]></ORDDATE2>
+        <CODENAME><![CDATA[검 사 료]]></CODENAME>
+        <MEDDEPT><![CDATA[소화기내과(소화기센터)]]></MEDDEPT>
+        <RCPSEQ><![CDATA[3]]></RCPSEQ>
+        <SORTSEQ><![CDATA[1]]></SORTSEQ>
+        <PATNAME><![CDATA[양정덕]]></PATNAME>
+        <ORDDATE><![CDATA[2020-01-21]]></ORDDATE>
+        <MEDDR><![CDATA[00127]]></MEDDR>
+        <PATTYPE><![CDATA[BB-000]]></PATTYPE>
+        <SUGACODE><![CDATA[KK010 D0100]]></SUGACODE>
+        <USEQTY><![CDATA[1.0]]></USEQTY>
+        <USEDAY><![CDATA[1]]></USEDAY>
+        <PRICE><![CDATA[1190]]></PRICE>
+        <SPCTYPE><![CDATA[ ]]></SPCTYPE>
+        <INSTYPE><![CDATA[]]></INSTYPE>
+        <SUMPRICE1><![CDATA[1488]]></SUMPRICE1>
+        <INSAMT><![CDATA[744]]></INSAMT>
+        <INSREQ><![CDATA[744]]></INSREQ>
+        <INSALL><![CDATA[0]]></INSALL>
+        <UNCAMT><![CDATA[0]]></UNCAMT>
+        <TOTAMT><![CDATA[1488]]></TOTAMT>
+        <SPCPRICE><![CDATA[0]]></SPCPRICE>
+        <INSOWNAMT><![CDATA[744]]></INSOWNAMT>
+        <TOINSREQ><![CDATA[744]]></TOINSREQ>
+        <TOINSALL><![CDATA[0]]></TOINSALL>
+        <TOUNCAMT><![CDATA[0]]></TOUNCAMT>
+        <KORNAME><![CDATA[피하 또는 근육내주사(마1)]]></KORNAME>
+        <EDICODE><![CDATA[KK010]]></EDICODE>
+        <LCNS_NO><![CDATA[44379]]></LCNS_NO>
+        <DR_NM><![CDATA[정성애]]></DR_NM>
+        <ACCUCD><![CDATA[15]]></ACCUCD>
+        <CODE><![CDATA[17]]></CODE>
+        <SUGANAME><![CDATA[피하 또는 근육내주사(마1)]]></SUGANAME>
+        <TEL_NO><![CDATA[01071395187]]></TEL_NO>
+    </Table0>
+    <Table0>
+        <ORDDATE2><![CDATA[20200121]]></ORDDATE2>
+        <CODENAME><![CDATA[소 계:]]></CODENAME>
+        <MEDDEPT><![CDATA[소화기내과(소화기센터)]]></MEDDEPT>
+        <RCPSEQ><![CDATA[3]]></RCPSEQ>
+        <SORTSEQ><![CDATA[2]]></SORTSEQ>
+        <PATNAME><![CDATA[양정덕]]></PATNAME>
+        <ORDDATE><![CDATA[]]></ORDDATE>
+        <MEDDR><![CDATA[]]></MEDDR>
+        <PATTYPE><![CDATA[BB-000]]></PATTYPE>
+        <SUGACODE><![CDATA[]]></SUGACODE>
+        <USEQTY><![CDATA[]]></USEQTY>
+        <USEDAY><![CDATA[]]></USEDAY>
+        <PRICE><![CDATA[]]></PRICE>
+        <SPCTYPE><![CDATA[]]></SPCTYPE>
+        <INSTYPE><![CDATA[]]></INSTYPE>
+        <SUMPRICE1><![CDATA[307641]]></SUMPRICE1>
+        <INSAMT><![CDATA[153643]]></INSAMT>
+        <INSREQ><![CDATA[153638]]></INSREQ>
+        <INSALL><![CDATA[360]]></INSALL>
+        <UNCAMT><![CDATA[0]]></UNCAMT>
+        <TOTAMT><![CDATA[0]]></TOTAMT>
+        <SPCPRICE><![CDATA[0]]></SPCPRICE>
+        <INSOWNAMT><![CDATA[0]]></INSOWNAMT>
+        <TOINSREQ><![CDATA[0]]></TOINSREQ>
+        <TOINSALL><![CDATA[0]]></TOINSALL>
+        <TOUNCAMT><![CDATA[0]]></TOUNCAMT>
+        <KORNAME><![CDATA[]]></KORNAME>
+        <EDICODE><![CDATA[]]></EDICODE>
+        <LCNS_NO><![CDATA[]]></LCNS_NO>
+        <DR_NM><![CDATA[]]></DR_NM>
+        <ACCUCD><![CDATA[15]]></ACCUCD>
+        <CODE><![CDATA[]]></CODE>
+        <SUGANAME><![CDATA[]]></SUGANAME>
+        <TEL_NO><![CDATA[01071395187]]></TEL_NO>
+    </Table0>
+    <Table0>
+        <ORDDATE2><![CDATA[20200121]]></ORDDATE2>
+        <CODENAME><![CDATA[치료재료]]></CODENAME>
+        <MEDDEPT><![CDATA[소화기내과(소화기센터)]]></MEDDEPT>
+        <RCPSEQ><![CDATA[3]]></RCPSEQ>
+        <SORTSEQ><![CDATA[1]]></SORTSEQ>
+        <PATNAME><![CDATA[양정덕]]></PATNAME>
+        <ORDDATE><![CDATA[2020-01-21]]></ORDDATE>
+        <MEDDR><![CDATA[00127]]></MEDDR>
+        <PATTYPE><![CDATA[BB-000]]></PATTYPE>
+        <SUGACODE><![CDATA[N0041005 2005449500010]]></SUGACODE>
+        <USEQTY><![CDATA[1.0]]></USEQTY>
+        <USEDAY><![CDATA[1]]></USEDAY>
+        <PRICE><![CDATA[22000]]></PRICE>
+        <SPCTYPE><![CDATA[ ]]></SPCTYPE>
+        <INSTYPE><![CDATA[]]></INSTYPE>
+        <SUMPRICE1><![CDATA[22000]]></SUMPRICE1>
+        <INSAMT><![CDATA[11000]]></INSAMT>
+        <INSREQ><![CDATA[11000]]></INSREQ>
+        <INSALL><![CDATA[0]]></INSALL>
+        <UNCAMT><![CDATA[0]]></UNCAMT>
+        <TOTAMT><![CDATA[22000]]></TOTAMT>
+        <SPCPRICE><![CDATA[0]]></SPCPRICE>
+        <INSOWNAMT><![CDATA[11000]]></INSOWNAMT>
+        <TOINSREQ><![CDATA[11000]]></TOINSREQ>
+        <TOINSALL><![CDATA[0]]></TOINSALL>
+        <TOUNCAMT><![CDATA[0]]></TOUNCAMT>
+        <KORNAME><![CDATA[[선별90] Biopsy Forcep(AGS) FM-BF0003(Coated) 2.3/]]></KORNAME>
+        <EDICODE><![CDATA[N0041005]]></EDICODE>
+        <LCNS_NO><![CDATA[44379]]></LCNS_NO>
+        <DR_NM><![CDATA[정성애]]></DR_NM>
+        <ACCUCD><![CDATA[27]]></ACCUCD>
+        <CODE><![CDATA[27]]></CODE>
+        <SUGANAME><![CDATA[[선별90] Biopsy Forcep(AGS) FM-BF0003(Coated) 2.3/1600 (상부)]]></SUGANAME>
+        <TEL_NO><![CDATA[01071395187]]></TEL_NO>
+    </Table0>
+    <Table0>
+        <ORDDATE2><![CDATA[20200121]]></ORDDATE2>
+        <CODENAME><![CDATA[치료재료]]></CODENAME>
+        <MEDDEPT><![CDATA[소화기내과(소화기센터)]]></MEDDEPT>
+        <RCPSEQ><![CDATA[3]]></RCPSEQ>
+        <SORTSEQ><![CDATA[1]]></SORTSEQ>
+        <PATNAME><![CDATA[양정덕]]></PATNAME>
+        <ORDDATE><![CDATA[2020-01-21]]></ORDDATE>
+        <MEDDR><![CDATA[00127]]></MEDDR>
+        <PATTYPE><![CDATA[BB-000]]></PATTYPE>
+        <SUGACODE><![CDATA[N0041005 2005449600017]]></SUGACODE>
+        <USEQTY><![CDATA[1.0]]></USEQTY>
+        <USEDAY><![CDATA[1]]></USEDAY>
+        <PRICE><![CDATA[22000]]></PRICE>
+        <SPCTYPE><![CDATA[ ]]></SPCTYPE>
+        <INSTYPE><![CDATA[]]></INSTYPE>
+        <SUMPRICE1><![CDATA[22000]]></SUMPRICE1>
+        <INSAMT><![CDATA[11000]]></INSAMT>
+        <INSREQ><![CDATA[11000]]></INSREQ>
+        <INSALL><![CDATA[0]]></INSALL>
+        <UNCAMT><![CDATA[0]]></UNCAMT>
+        <TOTAMT><![CDATA[22000]]></TOTAMT>
+        <SPCPRICE><![CDATA[0]]></SPCPRICE>
+        <INSOWNAMT><![CDATA[11000]]></INSOWNAMT>
+        <TOINSREQ><![CDATA[11000]]></TOINSREQ>
+        <TOINSALL><![CDATA[0]]></TOINSALL>
+        <TOUNCAMT><![CDATA[0]]></TOUNCAMT>
+        <KORNAME><![CDATA[[선별90] Biopsy Forcep(AGS) FM-BF0004(Coated) 2.3/]]></KORNAME>
+        <EDICODE><![CDATA[N0041005]]></EDICODE>
+        <LCNS_NO><![CDATA[44379]]></LCNS_NO>
+        <DR_NM><![CDATA[정성애]]></DR_NM>
+        <ACCUCD><![CDATA[27]]></ACCUCD>
+        <CODE><![CDATA[27]]></CODE>
+        <SUGANAME><![CDATA[[선별90] Biopsy Forcep(AGS) FM-BF0004(Coated) 2.3/2300 (하부)]]></SUGANAME>
+        <TEL_NO><![CDATA[01071395187]]></TEL_NO>
+    </Table0>
+    <Table0>
+        <ORDDATE2><![CDATA[20200121]]></ORDDATE2>
+        <CODENAME><![CDATA[소 계:]]></CODENAME>
+        <MEDDEPT><![CDATA[소화기내과(소화기센터)]]></MEDDEPT>
+        <RCPSEQ><![CDATA[3]]></RCPSEQ>
+        <SORTSEQ><![CDATA[2]]></SORTSEQ>
+        <PATNAME><![CDATA[양정덕]]></PATNAME>
+        <ORDDATE><![CDATA[]]></ORDDATE>
+        <MEDDR><![CDATA[]]></MEDDR>
+        <PATTYPE><![CDATA[BB-000]]></PATTYPE>
+        <SUGACODE><![CDATA[]]></SUGACODE>
+        <USEQTY><![CDATA[]]></USEQTY>
+        <USEDAY><![CDATA[]]></USEDAY>
+        <PRICE><![CDATA[]]></PRICE>
+        <SPCTYPE><![CDATA[]]></SPCTYPE>
+        <INSTYPE><![CDATA[]]></INSTYPE>
+        <SUMPRICE1><![CDATA[44000]]></SUMPRICE1>
+        <INSAMT><![CDATA[22000]]></INSAMT>
+        <INSREQ><![CDATA[22000]]></INSREQ>
+        <INSALL><![CDATA[0]]></INSALL>
+        <UNCAMT><![CDATA[0]]></UNCAMT>
+        <TOTAMT><![CDATA[0]]></TOTAMT>
+        <SPCPRICE><![CDATA[0]]></SPCPRICE>
+        <INSOWNAMT><![CDATA[0]]></INSOWNAMT>
+        <TOINSREQ><![CDATA[0]]></TOINSREQ>
+        <TOINSALL><![CDATA[0]]></TOINSALL>
+        <TOUNCAMT><![CDATA[0]]></TOUNCAMT>
+        <KORNAME><![CDATA[]]></KORNAME>
+        <EDICODE><![CDATA[]]></EDICODE>
+        <LCNS_NO><![CDATA[]]></LCNS_NO>
+        <DR_NM><![CDATA[]]></DR_NM>
+        <ACCUCD><![CDATA[27]]></ACCUCD>
+        <CODE><![CDATA[]]></CODE>
+        <SUGANAME><![CDATA[]]></SUGANAME>
+        <TEL_NO><![CDATA[01071395187]]></TEL_NO>
+    </Table0>
+</NewDataSet>

@@ -1,0 +1,918 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate"/>
+    <meta http-equiv="Expires" content="0"/>
+    <meta http-equiv="Pragma" content="no-cache"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <title>이대{{hospitalName}}병원 진료비계산서영수증</title>
+    <style>
+        body {
+            width: 1100px;
+            height: 778px;
+            margin: 0;
+            padding: 0;
+            font-family: 'Noto Sans KR', sans-serif;
+        }
+
+        .contents {
+            position: absolute;
+            width: 1116px;
+            height: 711px;
+            background: url('https://cdn.eumc.ac.kr/images/mer_bg_new.gif') no-repeat;
+            background-size: contain;
+            z-index: 9;
+        }
+    </style>
+    <!--<style>-->
+    <!--@font-face {-->
+    <!--font-family:'굴림체';-->
+    <!--}-->
+    <!--@font-face {-->
+    <!--font-family:'바탕체';-->
+    <!--}-->
+    <!--body {-->
+    <!--width:1100px;-->
+    <!--height:695px;-->
+    <!--/*background-image: url("../images/mer_bg.gif");*/-->
+    <!--background:url('https://cdn.eumc.ac.kr/images/mer_bg_new.gif')no-repeat;-->
+    <!--background-size:contain;-->
+    <!--margin-left:auto;-->
+    <!--margin-right:auto;-->
+    <!--font-family:'굴림체', sans-serif;-->
+    <!--}-->
+    <!--</style>-->
+</head>
+<body>
+<!-- 문서확인번호 -->
+<div style="width:1100px; height:20px; margin-left:20px; margin-top:10px; font-size:12px;">문서확인번호 ▣ {{fileCode}} ▣</div>
+<div class="contents">
+    <div style="position:absolute; left:84px; top:7px; width:105px; height:20px; font-size:16px; font-weight:bold;">
+        {{hospitalNameTop}}
+    </div>
+
+    <!-- [ ]외래 [ ]입원 ([ ]퇴원 [ ]중간) -->
+    {{RCP_TYPE}}
+
+    <!-- 재발행 구분 -->
+    <div style="position:absolute; left:678px; top:11px; width:64px; height:20px; font-size:16px; font-weight:bold;">
+        (재발행)
+    </div>
+
+    <!-- 환자등록번호 -->
+    <div style="position:absolute; left:41px; top:51px; width:64px; height:20px; font-size:16px; font-weight:bold;">
+        {{pat_no}}
+    </div>
+    <!-- 환자성명 -->
+    <div style="position:absolute; left:206px; top:51px; width:150px; height:20px; font-size:16px; font-weight:bold;">
+        {{pat_nm}}
+    </div>
+    <!-- 진료기간 -->
+    <div style="position:absolute; left:395px; top:54px; width:115px; height:20px; font-size:11px;">{{OUT_MEDDATE}}
+    </div>
+    <!-- [ ]야간 [ ]공휴일 -->
+    <div style="position:absolute; left:575px; top:51px; width:20px; height:20px; font-size:13px;"></div>
+    <div style="position:absolute; left:624px; top:51px; width:20px; height:20px; font-size:13px;"></div>
+
+    <!-- 진료과목/진료의사 -->
+    <div style="position:absolute; left:15px; top:86px; width:132px; height:20px; font-size:11px; text-align:center;">
+        {{OUT_DEPTNAME}}
+    </div>
+    <!-- 질병군번호 -->
+    <div style="position:absolute; left:150px; top:86px; width:91px; height:20px; font-size:11px; text-align:center;"></div>
+    <!-- 병실 -->
+    <div style="position:absolute; left:244px; top:86px; width:84px; height:20px; font-size:11px; text-align:center;">
+        {{OUT_WARDNO}}
+    </div>
+    <!-- 급여종별 -->
+    <div style="position:absolute; left:331px; top:86px; width:135px; height:20px; font-size:11px; text-align:center;">
+        {{OUT_PME_CLS_CD}}
+    </div>
+    <!-- 환자구분 -->
+    <div style="position:absolute; left:469px; top:86px; width:93px; height:20px; font-size:11px; text-align:center;">
+        {{OUT_PSE_CLS_CD}}
+    </div>
+    <!-- 영수증번호 -->
+    <div style="position:absolute; left:565px; top:86px; width:107px; height:20px; font-size:11px; text-align:center;">
+        {{OUT_CITIZEN}}
+    </div>
+
+    <!-- 기본항목 > 진찰료 > 본인부담금 -->
+    <div style="position:absolute; left:115px; top:152px; width:72px; height:20px; font-size:11px; text-align:right;">
+        {{INSOWN_1}}
+    </div>
+    <!-- 기본항목 > 진찰료 > 공단부담금 -->
+    <div style="position:absolute; left:189px; top:152px; width:72px; height:20px; font-size:11px; text-align:right;">
+        {{INSREQ_1}}
+    </div>
+    <!-- 기본항목 > 진찰료 > 전액본인부담 -->
+    <div style="position:absolute; left:264px; top:152px; width:64px; height:20px; font-size:11px; text-align:right;">
+        {{INSALL_1}}
+    </div>
+    <!-- 기본항목 > 진찰료 > 선택진료료 -->
+    <div style="position:absolute; left:332px; top:152px; width:64px; height:20px; font-size:11px; text-align:right;">
+        {{SPC_1}}
+    </div>
+    <!-- 기본항목 > 진찰료 > 선택진료료이외 -->
+    <div style="position:absolute; left:401px; top:152px; width:64px; height:20px; font-size:11px; text-align:right;">
+        {{UIN_1}}
+    </div>
+
+    <!-- 기본항목 > 입원료 > 1인실 > 본인부담금 -->
+    <div style="position:absolute; left:115px; top:167px; width:72px; height:20px; font-size:11px; text-align:right;">
+        {{INSOWN_2}}
+    </div>
+    <!-- 기본항목 > 입원료 > 1인실 > 공단부담금 -->
+    <div style="position:absolute; left:189px; top:167px; width:72px; height:20px; font-size:11px; text-align:right;">
+        {{INSREQ_2}}
+    </div>
+    <!-- 기본항목 > 입원료 > 1인실 > 전액본인부담 -->
+    <div style="position:absolute; left:264px; top:167px; width:64px; height:20px; font-size:11px; text-align:right;">
+        {{INSALL_2}}
+    </div>
+    <!-- 기본항목 > 입원료 > 1인실 > 선택진료료 -->
+    <div style="position:absolute; left:332px; top:167px; width:64px; height:20px; font-size:11px; text-align:right;">
+        {{SPC_2}}
+    </div>
+    <!-- 기본항목 > 입원료 > 1인실 > 선택진료료이외 -->
+    <div style="position:absolute; left:401px; top:167px; width:64px; height:20px; font-size:11px; text-align:right;">
+        {{UIN_2}}
+    </div>
+
+    <!-- 기본항목 > 입원료 > 2·3인실 > 본인부담금 -->
+    <div style="position:absolute; left:115px; top:182px; width:72px; height:20px; font-size:11px; text-align:right;">
+        {{INSOWN_3}}
+    </div>
+    <!-- 기본항목 > 입원료 > 2·3인실 > 공단부담금 -->
+    <div style="position:absolute; left:189px; top:182px; width:72px; height:20px; font-size:11px; text-align:right;">
+        {{INSREQ_3}}
+    </div>
+    <!-- 기본항목 > 입원료 > 2·3인실 > 전액본인부담 -->
+    <div style="position:absolute; left:264px; top:182px; width:64px; height:20px; font-size:11px; text-align:right;">
+        {{INSALL_3}}
+    </div>
+    <!-- 기본항목 > 입원료 > 2·3인실 > 선택진료료 -->
+    <div style="position:absolute; left:332px; top:182px; width:64px; height:20px; font-size:11px; text-align:right;">
+        {{SPC_3}}
+    </div>
+    <!-- 기본항목 > 입원료 > 2·3인실 > 선택진료료이외 -->
+    <div style="position:absolute; left:401px; top:182px; width:64px; height:20px; font-size:11px; text-align:right;">
+        {{UIN_3}}
+    </div>
+
+    <!-- 기본항목 > 입원료 > 4인실이상 > 본인부담금 -->
+    <div style="position:absolute; left:115px; top:198px; width:72px; height:20px; font-size:11px; text-align:right;">
+        {{INSOWN_4}}
+    </div>
+    <!-- 기본항목 > 입원료 > 4인실이상 > 공단부담금 -->
+    <div style="position:absolute; left:189px; top:198px; width:72px; height:20px; font-size:11px; text-align:right;">
+        {{INSREQ_4}}
+    </div>
+    <!-- 기본항목 > 입원료 > 4인실이상 > 전액본인부담 -->
+    <div style="position:absolute; left:264px; top:198px; width:64px; height:20px; font-size:11px; text-align:right;">
+        {{INSALL_4}}
+    </div>
+    <!-- 기본항목 > 입원료 > 4인실이상 > 선택진료료 -->
+    <div style="position:absolute; left:332px; top:198px; width:64px; height:20px; font-size:11px; text-align:right;">
+        {{SPC_4}}
+    </div>
+    <!-- 기본항목 > 입원료 > 4인실이상 > 선택진료료이외 -->
+    <div style="position:absolute; left:401px; top:198px; width:64px; height:20px; font-size:11px; text-align:right;">
+        {{UIN_4}}
+    </div>
+
+    <!-- 기본항목 > 식대 > 본인부담금 -->
+    <div style="position:absolute; left:115px; top:214px; width:72px; height:20px; font-size:11px; text-align:right;">
+        {{INSOWN_5}}
+    </div>
+    <!-- 기본항목 > 식대 > 공단부담금 -->
+    <div style="position:absolute; left:189px; top:214px; width:72px; height:20px; font-size:11px; text-align:right;">
+        {{INSREQ_5}}
+    </div>
+    <!-- 기본항목 > 식대 > 전액본인부담 -->
+    <div style="position:absolute; left:264px; top:214px; width:64px; height:20px; font-size:11px; text-align:right;">
+        {{INSALL_5}}
+    </div>
+    <!-- 기본항목 > 식대 > 선택진료료 -->
+    <div style="position:absolute; left:332px; top:214px; width:64px; height:20px; font-size:11px; text-align:right;">
+        {{SPC_5}}
+    </div>
+    <!-- 기본항목 > 식대 > 선택진료료이외 -->
+    <div style="position:absolute; left:401px; top:214px; width:64px; height:20px; font-size:11px; text-align:right;">
+        {{UIN_5}}
+    </div>
+
+    <!-- 기본항목 > 투약 및 조제료 > 행위료 > 본인부담금 -->
+    <div style="position:absolute; left:115px; top:230px; width:72px; height:20px; font-size:11px; text-align:right;">
+        {{INSOWN_6}}
+    </div>
+    <!-- 기본항목 > 투약 및 조제료 > 행위료 > 공단부담금 -->
+    <div style="position:absolute; left:189px; top:230px; width:72px; height:20px; font-size:11px; text-align:right;">
+        {{INSREQ_6}}
+    </div>
+    <!-- 기본항목 > 투약 및 조제료 > 행위료 > 전액본인부담 -->
+    <div style="position:absolute; left:264px; top:230px; width:64px; height:20px; font-size:11px; text-align:right;">
+        {{INSALL_6}}
+    </div>
+    <!-- 기본항목 > 투약 및 조제료 > 행위료 > 선택진료료 -->
+    <div style="position:absolute; left:332px; top:230px; width:64px; height:20px; font-size:11px; text-align:right;">
+        {{SPC_6}}
+    </div>
+    <!-- 기본항목 > 투약 및 조제료 > 행위료 > 선택진료료이외 -->
+    <div style="position:absolute; left:401px; top:230px; width:64px; height:20px; font-size:11px; text-align:right;">
+        {{UIN_6}}
+    </div>
+
+    <!-- 기본항목 > 투약 및 조제료 > 약품비 > 본인부담금 -->
+    <div style="position:absolute; left:115px; top:246px; width:72px; height:20px; font-size:11px; text-align:right;">
+        {{INSOWN_7}}
+    </div>
+    <!-- 기본항목 > 투약 및 조제료 > 약품비 > 공단부담금 -->
+    <div style="position:absolute; left:189px; top:246px; width:72px; height:20px; font-size:11px; text-align:right;">
+        {{INSREQ_7}}
+    </div>
+    <!-- 기본항목 > 투약 및 조제료 > 약품비 > 전액본인부담 -->
+    <div style="position:absolute; left:264px; top:246px; width:64px; height:20px; font-size:11px; text-align:right;">
+        {{INSALL_7}}
+    </div>
+    <!-- 기본항목 > 투약 및 조제료 > 약품비 > 선택진료료 -->
+    <div style="position:absolute; left:332px; top:246px; width:64px; height:20px; font-size:11px; text-align:right;">
+        {{SPC_7}}
+    </div>
+    <!-- 기본항목 > 투약 및 조제료 > 약품비 > 선택진료료이외 -->
+    <div style="position:absolute; left:401px; top:246px; width:64px; height:20px; font-size:11px; text-align:right;">
+        {{UIN_7}}
+    </div>
+
+    <!-- 기본항목 > 주사료 > 행위료 > 본인부담금 -->
+    <div style="position:absolute; left:115px; top:262px; width:72px; height:20px; font-size:11px; text-align:right;">
+        {{INSOWN_8}}
+    </div>
+    <!-- 기본항목 > 주사료 > 행위료 > 공단부담금 -->
+    <div style="position:absolute; left:189px; top:262px; width:72px; height:20px; font-size:11px; text-align:right;">
+        {{INSREQ_8}}
+    </div>
+    <!-- 기본항목 > 주사료 > 행위료 > 전액본인부담 -->
+    <div style="position:absolute; left:264px; top:262px; width:64px; height:20px; font-size:11px; text-align:right;">
+        {{INSALL_8}}
+    </div>
+    <!-- 기본항목 > 주사료 > 행위료 > 선택진료료 -->
+    <div style="position:absolute; left:332px; top:262px; width:64px; height:20px; font-size:11px; text-align:right;">
+        {{SPC_8}}
+    </div>
+    <!-- 기본항목 > 주사료 > 행위료 > 선택진료료이외 -->
+    <div style="position:absolute; left:401px; top:262px; width:64px; height:20px; font-size:11px; text-align:right;">
+        {{UIN_8}}
+    </div>
+
+    <!-- 기본항목 > 주사료 > 약품비 > 본인부담금 -->
+    <div style="position:absolute; left:115px; top:278px; width:72px; height:20px; font-size:11px; text-align:right;">
+        {{INSOWN_9}}
+    </div>
+    <!-- 기본항목 > 주사료 > 약품비 > 공단부담금 -->
+    <div style="position:absolute; left:189px; top:278px; width:72px; height:20px; font-size:11px; text-align:right;">
+        {{INSREQ_9}}
+    </div>
+    <!-- 기본항목 > 주사료 > 약품비 > 전액본인부담 -->
+    <div style="position:absolute; left:264px; top:278px; width:64px; height:20px; font-size:11px; text-align:right;">
+        {{INSALL_9}}
+    </div>
+    <!-- 기본항목 > 주사료 > 약품비 > 선택진료료 -->
+    <div style="position:absolute; left:332px; top:278px; width:64px; height:20px; font-size:11px; text-align:right;">
+        {{SPC_9}}
+    </div>
+    <!-- 기본항목 > 주사료 > 약품비 > 선택진료료이외 -->
+    <div style="position:absolute; left:401px; top:278px; width:64px; height:20px; font-size:11px; text-align:right;">
+        {{UIN_9}}
+    </div>
+
+    <!-- 기본항목 > 마취료 > 본인부담금 -->
+    <div style="position:absolute; left:115px; top:294px; width:72px; height:20px; font-size:11px; text-align:right;">
+        {{INSOWN_10}}
+    </div>
+    <!-- 기본항목 > 마취료 > 공단부담금 -->
+    <div style="position:absolute; left:189px; top:294px; width:72px; height:20px; font-size:11px; text-align:right;">
+        {{INSREQ_10}}
+    </div>
+    <!-- 기본항목 > 마취료 > 전액본인부담 -->
+    <div style="position:absolute; left:264px; top:294px; width:64px; height:20px; font-size:11px; text-align:right;">
+        {{INSALL_10}}
+    </div>
+    <!-- 기본항목 > 마취료 > 선택진료료 -->
+    <div style="position:absolute; left:332px; top:294px; width:64px; height:20px; font-size:11px; text-align:right;">
+        {{SPC_10}}
+    </div>
+    <!-- 기본항목 > 마취료 > 선택진료료이외 -->
+    <div style="position:absolute; left:401px; top:294px; width:64px; height:20px; font-size:11px; text-align:right;">
+        {{UIN_10}}
+    </div>
+
+    <!-- 기본항목 > 처치 및 수술료 > 본인부담금 -->
+    <div style="position:absolute; left:115px; top:310px; width:72px; height:20px; font-size:11px; text-align:right;">
+        {{INSOWN_11}}
+    </div>
+    <!-- 기본항목 > 처치 및 수술료 > 공단부담금 -->
+    <div style="position:absolute; left:189px; top:310px; width:72px; height:20px; font-size:11px; text-align:right;">
+        {{INSREQ_11}}
+    </div>
+    <!-- 기본항목 > 처치 및 수술료 > 전액본인부담 -->
+    <div style="position:absolute; left:264px; top:310px; width:64px; height:20px; font-size:11px; text-align:right;">
+        {{INSALL_11}}
+    </div>
+    <!-- 기본항목 > 처치 및 수술료 > 선택진료료 -->
+    <div style="position:absolute; left:332px; top:310px; width:64px; height:20px; font-size:11px; text-align:right;">
+        {{SPC_11}}
+    </div>
+    <!-- 기본항목 > 처치 및 수술료 > 선택진료료이외 -->
+    <div style="position:absolute; left:401px; top:310px; width:64px; height:20px; font-size:11px; text-align:right;">
+        {{UIN_11}}
+    </div>
+
+    <!-- 기본항목 > 검사료 > 본인부담금 -->
+    <div style="position:absolute; left:115px; top:326px; width:72px; height:20px; font-size:11px; text-align:right;">
+        {{INSOWN_12}}
+    </div>
+    <!-- 기본항목 > 검사료 > 공단부담금 -->
+    <div style="position:absolute; left:189px; top:326px; width:72px; height:20px; font-size:11px; text-align:right;">
+        {{INSREQ_12}}
+    </div>
+    <!-- 기본항목 > 검사료 > 전액본인부담 -->
+    <div style="position:absolute; left:264px; top:326px; width:64px; height:20px; font-size:11px; text-align:right;">
+        {{INSALL_12}}
+    </div>
+    <!-- 기본항목 > 검사료 > 선택진료료 -->
+    <div style="position:absolute; left:332px; top:326px; width:64px; height:20px; font-size:11px; text-align:right;">
+        {{SPC_12}}
+    </div>
+    <!-- 기본항목 > 검사료 > 선택진료료이외 -->
+    <div style="position:absolute; left:401px; top:326px; width:64px; height:20px; font-size:11px; text-align:right;">
+        {{UIN_12}}
+    </div>
+
+    <!-- 기본항목 > 영상진단료 > 본인부담금 -->
+    <div style="position:absolute; left:115px; top:342px; width:72px; height:20px; font-size:11px; text-align:right;">
+        {{INSOWN_13}}
+    </div>
+    <!-- 기본항목 > 영상진단료 > 공단부담금 -->
+    <div style="position:absolute; left:189px; top:342px; width:72px; height:20px; font-size:11px; text-align:right;">
+        {{INSREQ_13}}
+    </div>
+    <!-- 기본항목 > 영상진단료 > 전액본인부담 -->
+    <div style="position:absolute; left:264px; top:342px; width:64px; height:20px; font-size:11px; text-align:right;">
+        {{INSALL_13}}
+    </div>
+    <!-- 기본항목 > 영상진단료 > 선택진료료 -->
+    <div style="position:absolute; left:332px; top:342px; width:64px; height:20px; font-size:11px; text-align:right;">
+        {{SPC_13}}
+    </div>
+    <!-- 기본항목 > 영상진단료 > 선택진료료이외 -->
+    <div style="position:absolute; left:401px; top:342px; width:64px; height:20px; font-size:11px; text-align:right;">
+        {{UIN_13}}
+    </div>
+
+    <!-- 기본항목 > 방사선치료료 > 본인부담금 -->
+    <div style="position:absolute; left:115px; top:358px; width:72px; height:20px; font-size:11px; text-align:right;">
+        {{INSOWN_14}}
+    </div>
+    <!-- 기본항목 > 방사선치료료 > 공단부담금 -->
+    <div style="position:absolute; left:189px; top:358px; width:72px; height:20px; font-size:11px; text-align:right;">
+        {{INSREQ_14}}
+    </div>
+    <!-- 기본항목 > 방사선치료료 > 전액본인부담 -->
+    <div style="position:absolute; left:264px; top:358px; width:64px; height:20px; font-size:11px; text-align:right;">
+        {{INSALL_14}}
+    </div>
+    <!-- 기본항목 > 방사선치료료 > 선택진료료 -->
+    <div style="position:absolute; left:332px; top:358px; width:64px; height:20px; font-size:11px; text-align:right;">
+        {{SPC_14}}
+    </div>
+    <!-- 기본항목 > 방사선치료료 > 선택진료료이외 -->
+    <div style="position:absolute; left:401px; top:358px; width:64px; height:20px; font-size:11px; text-align:right;">
+        {{UIN_14}}
+    </div>
+
+    <!-- 기본항목 > 치료재료대 > 본인부담금 -->
+    <div style="position:absolute; left:115px; top:375px; width:72px; height:20px; font-size:11px; text-align:right;">
+        {{INSOWN_15}}
+    </div>
+    <!-- 기본항목 > 치료재료대 > 공단부담금 -->
+    <div style="position:absolute; left:189px; top:375px; width:72px; height:20px; font-size:11px; text-align:right;">
+        {{INSREQ_15}}
+    </div>
+    <!-- 기본항목 > 치료재료대 > 전액본인부담 -->
+    <div style="position:absolute; left:264px; top:375px; width:64px; height:20px; font-size:11px; text-align:right;">
+        {{INSALL_15}}
+    </div>
+    <!-- 기본항목 > 치료재료대 > 선택진료료 -->
+    <div style="position:absolute; left:332px; top:375px; width:64px; height:20px; font-size:11px; text-align:right;">
+        {{SPC_15}}
+    </div>
+    <!-- 기본항목 > 치료재료대 > 선택진료료이외 -->
+    <div style="position:absolute; left:401px; top:375px; width:64px; height:20px; font-size:11px; text-align:right;">
+        {{UIN_15}}
+    </div>
+
+    <!-- 기본항목 > 재활 및 물리치료 > 본인부담금 -->
+    <div style="position:absolute; left:115px; top:391px; width:72px; height:20px; font-size:11px; text-align:right;">
+        {{INSOWN_16}}
+    </div>
+    <!-- 기본항목 > 재활 및 물리치료 > 공단부담금 -->
+    <div style="position:absolute; left:189px; top:391px; width:72px; height:20px; font-size:11px; text-align:right;">
+        {{INSREQ_16}}
+    </div>
+    <!-- 기본항목 > 재활 및 물리치료 > 전액본인부담 -->
+    <div style="position:absolute; left:264px; top:391px; width:64px; height:20px; font-size:11px; text-align:right;">
+        {{INSALL_16}}
+    </div>
+    <!-- 기본항목 > 재활 및 물리치료 > 선택진료료 -->
+    <div style="position:absolute; left:332px; top:391px; width:64px; height:20px; font-size:11px; text-align:right;">
+        {{SPC_16}}
+    </div>
+    <!-- 기본항목 > 재활 및 물리치료 > 선택진료료이외 -->
+    <div style="position:absolute; left:401px; top:391px; width:64px; height:20px; font-size:11px; text-align:right;">
+        {{UIN_16}}
+    </div>
+
+    <!-- 기본항목 > 정신요법료 > 본인부담금 -->
+    <div style="position:absolute; left:115px; top:407px; width:72px; height:20px; font-size:11px; text-align:right;">
+        {{INSOWN_17}}
+    </div>
+    <!-- 기본항목 > 정신요법료 > 공단부담금 -->
+    <div style="position:absolute; left:189px; top:407px; width:72px; height:20px; font-size:11px; text-align:right;">
+        {{INSREQ_17}}
+    </div>
+    <!-- 기본항목 > 정신요법료 > 전액본인부담 -->
+    <div style="position:absolute; left:264px; top:407px; width:64px; height:20px; font-size:11px; text-align:right;">
+        {{INSALL_17}}
+    </div>
+    <!-- 기본항목 > 정신요법료 > 선택진료료 -->
+    <div style="position:absolute; left:332px; top:407px; width:64px; height:20px; font-size:11px; text-align:right;">
+        {{SPC_17}}
+    </div>
+    <!-- 기본항목 > 정신요법료 > 선택진료료이외 -->
+    <div style="position:absolute; left:401px; top:407px; width:64px; height:20px; font-size:11px; text-align:right;">
+        {{UIN_17}}
+    </div>
+
+    <!-- 기본항목 > 전혈 및 혈액성분제재료 > 본인부담금 -->
+    <div style="position:absolute; left:115px; top:423px; width:72px; height:20px; font-size:11px; text-align:right;">
+        {{INSOWN_18}}
+    </div>
+    <!-- 기본항목 > 전혈 및 혈액성분제재료 > 공단부담금 -->
+    <div style="position:absolute; left:189px; top:423px; width:72px; height:20px; font-size:11px; text-align:right;">
+        {{INSREQ_18}}
+    </div>
+    <!-- 기본항목 > 전혈 및 혈액성분제재료 > 전액본인부담 -->
+    <div style="position:absolute; left:264px; top:423px; width:64px; height:20px; font-size:11px; text-align:right;">
+        {{INSALL_18}}
+    </div>
+    <!-- 기본항목 > 전혈 및 혈액성분제재료 > 선택진료료 -->
+    <div style="position:absolute; left:332px; top:423px; width:64px; height:20px; font-size:11px; text-align:right;">
+        {{SPC_18}}
+    </div>
+    <!-- 기본항목 > 전혈 및 혈액성분제재료 > 선택진료료이외 -->
+    <div style="position:absolute; left:401px; top:423px; width:64px; height:20px; font-size:11px; text-align:right;">
+        {{UIN_18}}
+    </div>
+
+    <!-- 선택항목 > CT 진단료 > 본인부담금 -->
+    <div style="position:absolute; left:115px; top:441px; width:72px; height:20px; font-size:11px; text-align:right;">
+        {{INSOWN_19}}
+    </div>
+    <!-- 선택항목 > CT 진단료 > 공단부담금 -->
+    <div style="position:absolute; left:189px; top:441px; width:72px; height:20px; font-size:11px; text-align:right;">
+        {{INSREQ_19}}
+    </div>
+    <!-- 선택항목 > CT 진단료 > 전액본인부담 -->
+    <div style="position:absolute; left:264px; top:441px; width:64px; height:20px; font-size:11px; text-align:right;">
+        {{INSALL_19}}
+    </div>
+    <!-- 선택항목 > CT 진단료 > 선택진료료 -->
+    <div style="position:absolute; left:332px; top:441px; width:64px; height:20px; font-size:11px; text-align:right;">
+        {{SPC_19}}
+    </div>
+    <!-- 선택항목 > CT 진단료 > 선택진료료이외 -->
+    <div style="position:absolute; left:401px; top:441px; width:64px; height:20px; font-size:11px; text-align:right;">
+        {{UIN_19}}
+    </div>
+
+    <!-- 선택항목 > MRI 진단료 > 본인부담금 -->
+    <div style="position:absolute; left:115px; top:455px; width:72px; height:20px; font-size:11px; text-align:right;">
+        {{INSOWN_20}}
+    </div>
+    <!-- 선택항목 > MRI 진단료 > 공단부담금 -->
+    <div style="position:absolute; left:189px; top:455px; width:72px; height:20px; font-size:11px; text-align:right;">
+        {{INSREQ_20}}
+    </div>
+    <!-- 선택항목 > MRI 진단료 > 전액본인부담 -->
+    <div style="position:absolute; left:264px; top:455px; width:64px; height:20px; font-size:11px; text-align:right;">
+        {{INSALL_20}}
+    </div>
+    <!-- 선택항목 > MRI 진단료 > 선택진료료 -->
+    <div style="position:absolute; left:332px; top:455px; width:64px; height:20px; font-size:11px; text-align:right;">
+        {{SPC_20}}
+    </div>
+    <!-- 선택항목 > MRI 진단료 > 선택진료료이외 -->
+    <div style="position:absolute; left:401px; top:455px; width:64px; height:20px; font-size:11px; text-align:right;">
+        {{UIN_20}}
+    </div>
+
+    <!-- 선택항목 > PET 진단료 > 본인부담금 -->
+    <div style="position:absolute; left:115px; top:470px; width:72px; height:20px; font-size:11px; text-align:right;">
+        {{INSOWN_21}}
+    </div>
+    <!-- 선택항목 > PET 진단료 > 공단부담금 -->
+    <div style="position:absolute; left:189px; top:470px; width:72px; height:20px; font-size:11px; text-align:right;">
+        {{INSREQ_21}}
+    </div>
+    <!-- 선택항목 > PET 진단료 > 전액본인부담 -->
+    <div style="position:absolute; left:264px; top:470px; width:64px; height:20px; font-size:11px; text-align:right;">
+        {{INSALL_21}}
+    </div>
+    <!-- 선택항목 > PET 진단료 > 선택진료료 -->
+    <div style="position:absolute; left:332px; top:470px; width:64px; height:20px; font-size:11px; text-align:right;">
+        {{SPC_21}}
+    </div>
+    <!-- 선택항목 > PET 진단료 > 선택진료료이외 -->
+    <div style="position:absolute; left:401px; top:470px; width:64px; height:20px; font-size:11px; text-align:right;">
+        {{UIN_21}}
+    </div>
+
+    <!-- 선택항목 > 초음파 진단료 > 본인부담금 -->
+    <div style="position:absolute; left:115px; top:487px; width:72px; height:20px; font-size:11px; text-align:right;">
+        {{INSOWN_22}}
+    </div>
+    <!-- 선택항목 > 초음파 진단료 > 공단부담금 -->
+    <div style="position:absolute; left:189px; top:487px; width:72px; height:20px; font-size:11px; text-align:right;">
+        {{INSREQ_22}}
+    </div>
+    <!-- 선택항목 > 초음파 진단료 > 전액본인부담 -->
+    <div style="position:absolute; left:264px; top:487px; width:64px; height:20px; font-size:11px; text-align:right;">
+        {{INSALL_22}}
+    </div>
+    <!-- 선택항목 > 초음파 진단료 > 선택진료료 -->
+    <div style="position:absolute; left:332px; top:487px; width:64px; height:20px; font-size:11px; text-align:right;">
+        {{SPC_22}}
+    </div>
+    <!-- 선택항목 > 초음파 진단료 > 선택진료료이외 -->
+    <div style="position:absolute; left:401px; top:487px; width:64px; height:20px; font-size:11px; text-align:right;">
+        {{UIN_22}}
+    </div>
+
+    <!-- 선택항목 > 보철·교정료 > 본인부담금 -->
+    <div style="position:absolute; left:115px; top:502px; width:72px; height:20px; font-size:11px; text-align:right;">
+        {{INSOWN_23}}
+    </div>
+    <!-- 선택항목 > 보철·교정료 > 공단부담금 -->
+    <div style="position:absolute; left:189px; top:502px; width:72px; height:20px; font-size:11px; text-align:right;">
+        {{INSREQ_23}}
+    </div>
+    <!-- 선택항목 > 보철·교정료 > 전액본인부담 -->
+    <div style="position:absolute; left:264px; top:502px; width:64px; height:20px; font-size:11px; text-align:right;">
+        {{INSALL_23}}
+    </div>
+    <!-- 선택항목 > 보철·교정료 > 선택진료료 -->
+    <div style="position:absolute; left:332px; top:502px; width:64px; height:20px; font-size:11px; text-align:right;">
+        {{SPC_23}}
+    </div>
+    <!-- 선택항목 > 보철·교정료 > 선택진료료이외 -->
+    <div style="position:absolute; left:401px; top:502px; width:64px; height:20px; font-size:11px; text-align:right;">
+        {{UIN_23}}
+    </div>
+
+    <!-- 선택항목 > 제증명료 > 본인부담금 -->
+    <div style="position:absolute; left:115px; top:518px; width:72px; height:20px; font-size:11px; text-align:right;">
+        {{INSOWN_24}}
+    </div>
+    <!-- 선택항목 > 제증명료 > 공단부담금 -->
+    <div style="position:absolute; left:189px; top:518px; width:72px; height:20px; font-size:11px; text-align:right;">
+        {{INSREQ_24}}
+    </div>
+    <!-- 선택항목 > 제증명료 > 전액본인부담 -->
+    <div style="position:absolute; left:264px; top:518px; width:64px; height:20px; font-size:11px; text-align:right;">
+        {{INSALL_24}}
+    </div>
+    <!-- 선택항목 > 제증명료 > 선택진료료 -->
+    <div style="position:absolute; left:332px; top:518px; width:64px; height:20px; font-size:11px; text-align:right;">
+        {{SPC_24}}
+    </div>
+    <!-- 선택항목 > 제증명료 > 선택진료료이외 -->
+    <div style="position:absolute; left:401px; top:518px; width:64px; height:20px; font-size:11px; text-align:right;">
+        {{UIN_24}}
+    </div>
+
+    <!-- 65세 이상 등 정액 > 본인부담금 -->
+    <div style="position:absolute; left:115px; top:535px; width:72px; height:20px; font-size:11px; text-align:right;">
+        {{INSOWN_25}}
+    </div>
+    <!-- 65세 이상 등 정액 > 공단부담금 -->
+    <div style="position:absolute; left:189px; top:535px; width:72px; height:20px; font-size:11px; text-align:right;">
+        {{INSREQ_25}}
+    </div>
+    <!-- 65세 이상 등 정액 > 전액본인부담 -->
+    <div style="position:absolute; left:264px; top:535px; width:64px; height:20px; font-size:11px; text-align:right;">
+        {{INSALL_25}}
+    </div>
+    <!-- 65세 이상 등 정액 > 선택진료료 -->
+    <div style="position:absolute; left:332px; top:535px; width:64px; height:20px; font-size:11px; text-align:right;">
+        {{SPC_25}}
+    </div>
+    <!-- 65세 이상 등 정액 > 선택진료료이외 -->
+    <div style="position:absolute; left:401px; top:535px; width:64px; height:20px; font-size:11px; text-align:right;">
+        {{UIN_25}}
+    </div>
+
+    <!-- 정액수가(요양병원) > 본인부담금 -->
+    <div style="position:absolute; left:115px; top:551px; width:72px; height:20px; font-size:11px; text-align:right;"></div>
+    <!-- 정액수가(요양병원) > 공단부담금 -->
+    <div style="position:absolute; left:189px; top:551px; width:72px; height:20px; font-size:11px; text-align:right;"></div>
+    <!-- 정액수가(요양병원) > 전액본인부담 -->
+    <div style="position:absolute; left:264px; top:551px; width:64px; height:20px; font-size:11px; text-align:right;"></div>
+    <!-- 정액수가(요양병원) > 선택진료료 -->
+    <div style="position:absolute; left:332px; top:551px; width:64px; height:20px; font-size:11px; text-align:right;"></div>
+    <!-- 정액수가(요양병원) > 선택진료료이외 -->
+    <div style="position:absolute; left:401px; top:551px; width:64px; height:20px; font-size:11px; text-align:right;"></div>
+
+    <!-- 질병군 포괄수가 > 본인부담금 -->
+    <div style="position:absolute; left:115px; top:567px; width:72px; height:20px; font-size:11px; text-align:right;">
+        {{INSOWN_26}}
+    </div>
+    <!-- 질병군 포괄수가 > 공단부담금 -->
+    <div style="position:absolute; left:189px; top:567px; width:72px; height:20px; font-size:11px; text-align:right;">
+        {{INSREQ_26}}
+    </div>
+    <!-- 질병군 포괄수가 > 전액본인부담 -->
+    <div style="position:absolute; left:264px; top:567px; width:64px; height:20px; font-size:11px; text-align:right;">
+        {{INSALL_26}}
+    </div>
+    <!-- 질병군 포괄수가 > 선택진료료 -->
+    <div style="position:absolute; left:332px; top:567px; width:64px; height:20px; font-size:11px; text-align:right;">
+        {{SPC_26}}
+    </div>
+    <!-- 질병군 포괄수가 > 선택진료료이외 -->
+    <div style="position:absolute; left:401px; top:567px; width:64px; height:20px; font-size:11px; text-align:right;">
+        {{UIN_26}}
+    </div>
+
+    <!-- 「국민건강보험법」 제41조의4에 따른 요양급여 > 본인부담금 -->
+    <div style="position:absolute; left:115px; top:583px; width:72px; height:20px; font-size:11px; text-align:right;">
+        {{INSOWN_27}}
+    </div>
+    <!-- 「국민건강보험법」 제41조의4에 따른 요양급여 > 공단부담금 -->
+    <div style="position:absolute; left:189px; top:583px; width:72px; height:20px; font-size:11px; text-align:right;">
+        {{INSREQ_27}}
+    </div>
+    <!-- 「국민건강보험법」 제41조의4에 따른 요양급여 > 전액본인부담 -->
+    <div style="position:absolute; left:264px; top:583px; width:64px; height:20px; font-size:11px; text-align:right;">
+        {{INSALL_27}}
+    </div>
+    <!-- 「국민건강보험법」 제41조의4에 따른 요양급여 > 선택진료료 -->
+    <div style="position:absolute; left:332px; top:583px; width:64px; height:20px; font-size:11px; text-align:right;">
+        {{SPC_27}}
+    </div>
+    <!-- 「국민건강보험법」 제41조의4에 따른 요양급여 > 선택진료료이외 -->
+    <div style="position:absolute; left:401px; top:583px; width:64px; height:20px; font-size:11px; text-align:right;">
+        {{UIN_27}}
+    </div>
+
+    <!-- 기타 > 본인부담금 -->
+    <div style="position:absolute; left:115px; top:598px; width:72px; height:20px; font-size:11px; text-align:right;">
+        {{INSOWN_28}}
+    </div>
+    <!-- 기타 > 공단부담금 -->
+    <div style="position:absolute; left:189px; top:598px; width:72px; height:20px; font-size:11px; text-align:right;">
+        {{INSREQ_28}}
+    </div>
+    <!-- 기타 > 전액본인부담 -->
+    <div style="position:absolute; left:264px; top:598px; width:64px; height:20px; font-size:11px; text-align:right;">
+        {{INSALL_28}}
+    </div>
+    <!-- 기타 > 선택진료료 -->
+    <div style="position:absolute; left:332px; top:598px; width:64px; height:20px; font-size:11px; text-align:right;">
+        {{SPC_28}}
+    </div>
+    <!-- 기타 > 선택진료료이외 -->
+    <div style="position:absolute; left:401px; top:598px; width:64px; height:20px; font-size:11px; text-align:right;">
+        {{UIN_28}}
+    </div>
+
+    <!-- 합계 > 본인부담금 -->
+    <div style="position:absolute; left:115px; top:614px; width:72px; height:20px; font-size:11px; text-align:right;">
+        {{INSOWN_29}}
+    </div>
+    <!-- 합계 > 공단부담금 -->
+    <div style="position:absolute; left:189px; top:614px; width:72px; height:20px; font-size:11px; text-align:right;">
+        {{INSREQ_29}}
+    </div>
+    <!-- 합계 > 전액본인부담 -->
+    <div style="position:absolute; left:264px; top:614px; width:64px; height:20px; font-size:11px; text-align:right;">
+        {{INSALL_29}}
+    </div>
+    <!-- 합계 > 선택진료료 -->
+    <div style="position:absolute; left:332px; top:614px; width:64px; height:20px; font-size:11px; text-align:right;">
+        {{SPC_29}}
+    </div>
+    <!-- 합계 > 선택진료료이외 -->
+    <div style="position:absolute; left:401px; top:614px; width:64px; height:20px; font-size:11px; text-align:right;">
+        {{UIN_29}}
+    </div>
+
+    <!-- 상환액 초과금 -->
+    <div style="position:absolute; left:115px; top:630px; width:72px; height:20px; font-size:11px; text-align:right;"></div>
+
+    <!-- 사업자등록번호 -->
+    <div style="position:absolute; left:115px; top:647px; width:72px; height:20px; font-size:11px; text-align:center;">
+        {{businessNumber}}
+    </div>
+    <!-- 요양기관번호 -->
+    <div style="position:absolute; left:263px; top:647px; width:66px; height:20px; font-size:11px; text-align:center;">
+        {{yoyangNumber}}
+    </div>
+    <!-- 상호 -->
+    <div style="position:absolute; left:367px; top:647px; width:196px; height:20px; font-size:11px; text-align:center;">
+        {{hosName}}
+    </div>
+    <!-- 전화번호 -->
+    <div style="position:absolute; left:602px; top:647px; width:80px; height:20px; font-size:11px; text-align:center;">
+        {{callNumber}}
+    </div>
+
+    <!-- 사업장 소재지 -->
+    <div style="position:absolute; left:115px; top:663px; width:213px; height:20px; font-size:11px; text-align:center;">
+        {{address}}
+    </div>
+    <!-- 대표자 -->
+    <div style="position:absolute; left:375px; top:663px; width:124px; height:20px; font-size:11px; text-align:center;">
+        유경하
+    </div>
+    <!-- 직인 -->
+    <div style="position:absolute; left:445px; top:663px; width:124px; height:20px; font-size:11px; text-align:center;">
+        <img src="https://cdn.eumc.ac.kr/images/seal_new.png" style="width:20px;"></div>
+    <!-- 요양기관 종류 -->
+    <div style="position:absolute; left:602px; top:663px; width:70px; height:20px; font-size:11px; text-align:center;">
+        {{hospitalType}}
+    </div>
+    <!-- 년 월 일 시 분 -->
+    <div style="position:absolute; left:96px; top:682px; width:50px; height:20px; font-size:11px; text-align:center;">
+        {{currentYear}}
+    </div>
+    <div style="position:absolute; left:140px; top:682px; width:50px; height:20px; font-size:11px; text-align:center;">
+        {{currentMonth}}
+    </div>
+    <div style="position:absolute; left:180px; top:682px; width:50px; height:20px; font-size:11px; text-align:center;">
+        {{currentDay}}
+    </div>
+    <div style="position:absolute; left:217px; top:682px; width:50px; height:20px; font-size:11px; text-align:center;"></div>
+    <div style="position:absolute; left:256px; top:682px; width:50px; height:20px; font-size:11px; text-align:center;"></div>
+    <!-- 가상계좌번호 -->
+    <div style="position:absolute; left:433px; top:682px; width:240px; height:20px; font-size:11px; text-align:center;"></div>
+
+    <!-- 금액산정내용 > 진료비총액 -->
+    <div style="position:absolute; left:565px; top:124px; width:103px; height:20px; font-size:14px; font-weight:bold; text-align:right;">
+        {{OUT_MTCS_AMT}}
+    </div>
+
+    <!-- 금액산정내용 > 환자부담총액 -->
+    <div style="position:absolute; left:565px; top:158px; width:103px; height:20px; font-size:14px; font-weight:bold; text-align:right;">
+        {{OUT_PBDN_AMT}}
+    </div>
+
+    <!-- 금액산정내용 > 외래 정산액 -->
+    <div style="position:absolute; left:565px; top:181px; width:103px; height:20px; font-size:14px; font-weight:bold; text-align:right;">
+        {{OUT_SPCPBDN_AMT}}
+    </div>
+
+    <!-- 감면금액 캡션 -->
+    <div style="position:absolute; left:469px; top:214px; width:93px; height:20px; font-size:11px; text-align:center;">
+        {{OUT_RDTN_AMT_CAPTION}}
+    </div>
+
+    <!-- 감면금액 -->
+    <div style="position:absolute; left:565px; top:214px; width:103px; height:20px; font-size:11px; text-align:right;">
+        {{OUT_RDTN_AMT}}
+    </div>
+
+    <!-- 금액산정내용 > 결제 내역 -->
+    <div style="position:absolute; left:471px; top:263px; width:200px; height:20px; font-size:11px; text-align:right;">
+        {{OUT_CARD}}
+    </div>
+    <!--<div style="position:absolute; left:471px; top:263px; width:200px; height:20px; font-size:11px; text-align:right;"></div>-->
+
+    <!-- 금액산정내용 > 이미 납부한 금액 -->
+    <div style="position:absolute; left:565px; top:317px; width:103px; height:20px; font-size:14px; font-weight:bold; text-align:right;">
+        {{OUT_PV_RPY_AMT}}
+    </div>
+
+    <!-- 금액산정내용 > 납부할 금액 -->
+    <div style="position:absolute; left:565px; top:350px; width:103px; height:20px; font-size:14px; font-weight:bold; text-align:right;">
+        {{OUT_RPY_AMT}}
+    </div>
+
+    <!-- 금액산정내용 > 납부한 금액 > 카드 -->
+    <div style="position:absolute; left:565px; top:375px; width:103px; height:20px; font-size:11px; text-align:right;">
+        {{OUT_CARD_RPY_AMT}}
+    </div>
+
+    <!-- 금액산정내용 > 납부한 금액 > 현금영수증 -->
+    <div style="position:absolute; left:565px; top:392px; width:103px; height:20px; font-size:11px; text-align:right;">
+        0
+    </div>
+
+    <!-- 금액산정내용 > 납부한 금액 > 현금 -->
+    <div style="position:absolute; left:565px; top:407px; width:103px; height:20px; font-size:11px; text-align:right;">
+        0
+    </div>
+
+    <!-- 금액산정내용 > 납부한 금액 > 합계 -->
+    <div style="position:absolute; left:565px; top:423px; width:103px; height:20px; font-size:11px; text-align:right;">
+        {{OUT_CARD_RPY_AMT}}
+    </div>
+
+    <!-- 금액산정내용 > 납부하지 않은 금액 -->
+    <div style="position:absolute; left:565px; top:447px; width:103px; height:20px; font-size:14px; font-weight:bold; text-align:right;">
+        {{OUT_UNCL_AMT}}
+    </div>
+
+    <!-- 금액산정내용 > 현금영수증 -->
+    <div style="position:absolute; left:518px; top:471px; width:103px; height:20px; font-size:11px; text-align:right;"></div>
+
+    <!-- 금액산정내용 > 신분확인번호 -->
+    <div style="position:absolute; left:567px; top:487px; width:103px; height:20px; font-size:11px; text-align:right;"></div>
+
+    <!-- 금액산정내용 > 현금승인번호 -->
+    <div style="position:absolute; left:567px; top:503px; width:103px; height:20px; font-size:11px; text-align:right;"></div>
+
+    <!-- 금액산정내용 > 원내약접수번호 -->
+    <div style="position:absolute; left:565px; top:534px; width:103px; height:20px; font-size:14px; font-weight:bold; text-align:right;"></div>
+
+    <!-- 금액산정내용 > 원외처방전 -->
+    <div style="position:absolute; left:565px; top:583px; width:103px; height:20px; font-size:14px; font-weight:bold; text-align:right;"></div>
+
+    <!-- 금액산정내용 > 선택진료 신청 [ ]유 [ ]무 -->
+    {{OUT_SPCYN}}
+    <!--<div style="position:absolute; left:579px; top:613px; height:20px; font-size:11px;">√</div>-->
+    <!--<div style="position:absolute; left:629px; top:613px; height:20px; font-size:11px;">√</div>-->
+
+    <!-- 금액산정내용 > 수납자 -->
+    <div style="position:absolute; left:567px; top:630px; width:103px; height:20px; font-size:11px; text-align:center;">
+        KIO099(모바일)
+    </div>
+
+    <!-- 환자등록번호 -->
+    <div style="position:absolute; left:759px; top:40px; width:91px; height:20px; font-size:14px; font-weight:bold; text-align:center;">{{pat_no}}</div>
+
+    <!-- 환자성명 -->
+    <div style="position:absolute; left:902px; top:40px; width:83px; height:20px; font-size:14px; font-weight:bold; text-align:center;">{{pat_nm}}</div>
+
+    <!-- 다음진료 1 -->
+    <div style="position:absolute; left:718px; top:96px; width:266px; height:20px; font-size:12px; font-weight:bold; text-align:left;">
+        {{MED_RSV_1}}
+    </div>
+    <!-- 다음진료 2 -->
+    <div style="position:absolute; left:718px; top:119px; width:266px; height:20px; font-size:12px; font-weight:bold; text-align:left;">
+        {{MED_RSV_2}}
+    </div>
+    <!-- 다음진료 3 -->
+    <div style="position:absolute; left:718px; top:142px; width:266px; height:20px; font-size:12px; font-weight:bold; text-align:left;">
+        {{MED_RSV_3}}
+    </div>
+    <!-- 다음진료 4 -->
+    <div style="position:absolute; left:718px; top:166px; width:266px; height:20px; font-size:12px; font-weight:bold; text-align:left;">
+        {{MED_RSV_4}}
+    </div>
+    <!-- 다음진료 5 -->
+    <div style="position:absolute; left:718px; top:189px; width:266px; height:20px; font-size:12px; font-weight:bold; text-align:left;">
+        {{MED_RSV_5}}
+    </div>
+
+    <!-- 가셔야할곳 1 -->
+    <div style="position:absolute; left:718px; top:238px; width:266px; height:20px; font-size:12px; font-weight:bold; text-align:left;"></div>
+    <!-- 가셔야할곳 2 -->
+    <div style="position:absolute; left:718px; top:262px; width:266px; height:20px; font-size:12px; font-weight:bold; text-align:left;"></div>
+    <!-- 가셔야할곳 3 -->
+    <div style="position:absolute; left:718px; top:285px; width:266px; height:20px; font-size:12px; font-weight:bold; text-align:left;"></div>
+    <!-- 가셔야할곳 4 -->
+    <div style="position:absolute; left:718px; top:309px; width:266px; height:20px; font-size:12px; font-weight:bold; text-align:left;"></div>
+    <!-- 가셔야할곳 5 -->
+    <div style="position:absolute; left:718px; top:332px; width:266px; height:20px; font-size:12px; font-weight:bold; text-align:left;"></div>
+
+    <!-- 계약처 -->
+    <div style="position:absolute; left:718px; top:355px; width:266px; height:20px; font-size:12px; font-weight:bold; text-align:left;">{{OUT_CON_INF}}</div>
+</div>
+
+<!-- 하단 정보 -->
+<!-- <div style="float:left; width:674px; height:40px; margin-left:20px; margin-top:711px; font-size:11px;">* 환자정보(주소, 전화번호)
+    변경시 콜센터 또는 수납창구에서 변경하시기 바랍니다.<br/>본 증명서는 인터넷으로 발급되었으며, https://cert.curelink.co.kr에서 원본확인이 가능합니다.<br/>단, 원본확인은 발급일로
+    부터 90일 까지 가능합니다.
+</div> -->
+
+<!-- 하단 QR -->
+<!-- <div style="position:absolute; width:300px; height:40px; left:677px; top:733px; text-align:right; z-index:99;"><img
+        src="https://cdn.eumc.ac.kr/qrcode/{{qrName}}.png" style="height:100%;"></div> -->
+</body>
+</html>

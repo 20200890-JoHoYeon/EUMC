@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfHomepagePtSear xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://tempuri.org/">
+    <HomepagePtSear>
+        <OUT_PT_NO>12112191</OUT_PT_NO>
+        <OUT_HMPG_CUST_NO>kjh10204@naver.com</OUT_HMPG_CUST_NO>
+        <OUT_CTRC_ORG_CD/>
+        <OUT_DSPP_YN>N</OUT_DSPP_YN>
+        <OUT_REL_TP_CD/>
+        <OUT_TEL_NO/>
+        <OUT_CTAD_TP_SEQ/>
+        <OUT_POST_NO>05715</OUT_POST_NO>
+        <OUT_BSC_ADDR>서울특별시 송파구 송이로17길 21-1 (가락동, 일정빌)</OUT_BSC_ADDR>
+        <OUT_DTL_ADDR>201호</OUT_DTL_ADDR>
+        <OUT_EMAL_ADDR>a@a.com</OUT_EMAL_ADDR>
+        <OUT_PT_REL_TP_CD/>
+        <OUT_PT_TEL_NO/>
+        <OUT_PT_POST_NO/>
+        <OUT_PT_BSC_ADDR/>
+        <OUT_PT_DTL_ADDR/>
+        <OUT_PT_EMAL_ADDR/>
+    </HomepagePtSear>
+</ArrayOfHomepagePtSear>

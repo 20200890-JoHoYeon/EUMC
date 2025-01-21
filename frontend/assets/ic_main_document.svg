@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36">
+    <defs>
+        <clipPath id="xrq1op57ma">
+            <path data-name="사각형 2129" style="stroke:#707070;fill:#fff" d="M0 0h36v36H0z"/>
+        </clipPath>
+    </defs>
+    <g style="clip-path:url(#xrq1op57ma)">
+        <g data-name="사각형 2333" transform="translate(11 4)" style="stroke-linejoin:round;stroke:#231f20;stroke-linecap:round;fill:#e3e4e5">
+            <rect width="19" height="27" rx="2" style="stroke:none"/>
+            <rect x=".5" y=".5" width="18" height="26" rx="1.5" style="fill:none"/>
+        </g>
+        <g data-name="사각형 1868" transform="translate(7 7)" style="stroke-linejoin:round;stroke:#231f20;stroke-linecap:round;fill:#fff">
+            <rect width="19" height="21" rx="2" style="stroke:none"/>
+            <rect x=".5" y=".5" width="18" height="20" rx="1.5" style="fill:none"/>
+        </g>
+        <path data-name="합치기 19" d="M658-592a2 2 0 0 1-2-2v-13h10.778l1.933 3H680a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2z" transform="translate(-651 626)" style="fill:#f7941e;stroke-linejoin:round;stroke:#231f20;stroke-linecap:round"/>
+        <path data-name="선 161" transform="translate(11 12.5)" style="fill:none;stroke:#231f20;stroke-linecap:round" d="M0 0h10"/>
+        <path data-name="선 162" transform="translate(11 15.5)" style="fill:none;stroke:#231f20;stroke-linecap:round" d="M0 0h6"/>
+    </g>
+</svg>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string xmlns="http://tempuri.org/literalTypes"><?xml version='1.0' encoding='euc-kr'?>
+    <NewDataSet>
+
+            <OUT_RCPSEQ2><![CDATA[2]]></OUT_RCPSEQ2>
+
+
+            <OUT_ROW><![CDATA[1]]></OUT_ROW>
+
+
+            <OUT_PT_NO><![CDATA[10725874]]></OUT_PT_NO>
+
+
+            <OUT_PATNAME><![CDATA[이준상]]></OUT_PATNAME>
+
+
+            <OUT_MEDDEPT1><![CDATA[IMN]]></OUT_MEDDEPT1>
+
+
+            <OUT_DEPTNAME1><![CDATA[신장내과]]></OUT_DEPTNAME1>
+
+
+            <OUT_MEDDR1><![CDATA[00898]]></OUT_MEDDR1>
+
+
+            <OUT_DRNAME1><![CDATA[이신아]]></OUT_DRNAME1>
+
+
+            <OUT_SPCDRYN1><![CDATA[N]]></OUT_SPCDRYN1>
+
+
+            <OUT_MEDYN1><![CDATA[Y]]></OUT_MEDYN1>
+
+
+            <OUT_MEDTYPE1><![CDATA[2]]></OUT_MEDTYPE1>
+
+
+            <OUT_PATTYPE1><![CDATA[BB]]></OUT_PATTYPE1>
+
+
+            <OUT_TYPECD1><![CDATA[193]]></OUT_TYPECD1>
+
+
+            <OUT_CUSTCD1><![CDATA[]]></OUT_CUSTCD1>
+
+
+            <OUT_CUSTNAME1><![CDATA[]]></OUT_CUSTNAME1>
+
+
+            <OUT_INORDCD1><![CDATA[]]></OUT_INORDCD1>
+
+
+            <OUT_CUSTINF1><![CDATA[]]></OUT_CUSTINF1>
+
+
+            <OUT_RATEINF1>
+                <![CDATA[1         30        5         5         5         5         5         50        B         5         50        5         ]]></OUT_RATEINF1>
+
+
+            <OUT_INSURT1>
+                <![CDATA[2020-07-01                    99999      81006321562    이준상              480527-1029328      본인                20200701  099999               ]]></OUT_INSURT1>
+
+
+            <OUT_RCPAMT1><![CDATA[1100]]></OUT_RCPAMT1>
+
+
+            <OUT_CALTYN1><![CDATA[N]]></OUT_CALTYN1>
+
+
+            <OUT_INORD_YN1><![CDATA[N]]></OUT_INORD_YN1>
+
+
+            <OUT_MEDDATE><![CDATA[20230329]]></OUT_MEDDATE>
+
+
+            <OUT_RPY_PACT_ID><![CDATA[1011845814]]></OUT_RPY_PACT_ID>
+
+
+            <OUT_RPY_CLS_SEQ><![CDATA[1]]></OUT_RPY_CLS_SEQ>
+
+
+            <OUT_MEDR_SID><![CDATA[1006984]]></OUT_MEDR_SID>
+
+
+            <OUT_HIPASS_YN><![CDATA[N]]></OUT_HIPASS_YN>
+
+
+            <IO_ERRYN><![CDATA[]]></IO_ERRYN>
+
+
+            <IO_ERRMSG><![CDATA[]]></IO_ERRMSG>
+
+    </NewDataSet>
+</string>

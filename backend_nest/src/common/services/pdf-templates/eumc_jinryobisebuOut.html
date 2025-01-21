@@ -1,0 +1,951 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate"/>
+    <meta http-equiv="Expires" content="0"/>
+    <meta http-equiv="Pragma" content="no-cache"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <!-- layout css -->
+    <style>
+        body {
+            width: 1100px;
+            height: 695px;
+            /* A4 to centre page on screen */
+            margin-left: auto;
+            margin-right: auto;
+            font-family: 'Noto Sans KR';
+        }
+
+        /* wrap */
+        #wrap {
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            width: 1100px;
+            height: 695px;
+            background: url('https://cdn.eumc.ac.kr/images/BgLogo.png') no-repeat;
+            background-position: center;
+            background-size: 30%;
+        }
+
+        /* header */
+        #header {
+            position: fixed;
+            width: 1100px;
+            z-index: 9;
+        }
+
+        .doc_tit {
+            position: relative;
+            float: left;
+            width: 25%;
+            height: 60px;
+            margin-left: 40%;
+            line-height: 80px;
+            text-align: center;
+            font-family: 'Noto Sans KR';
+            font-size: 20px;
+            font-weight: bold;
+            border-bottom: 1px solid #000000;
+        }
+
+        .doc_info {
+            position: relative;
+            float: right;
+            width: 15%;
+            height: 60px;
+            line-height: 20px;
+            font-size: 11px;
+        }
+
+        .doc_info .dit_l {
+            width: 50%;
+            float: left;
+            text-align: right;
+        }
+
+        .doc_info .dit_r {
+            width: 50%;
+            float: right;
+            text-align: left;
+        }
+
+        .h_table {
+            position: relative;
+            float: left;
+            width: 100%;
+            height: auto;
+            margin-top: 12px;
+            text-align: center;
+            font-family: 'Noto Sans KR';
+            font-size: 12px;
+            box-sizing: border-box;
+            border-left: 1px solid #000000;
+            border-right: 1px solid #000000;
+            border-bottom: 1px solid #000000;
+        }
+
+        .h_table .h10 {
+            float: left;
+            width: 100%;
+            height: 10px;
+        }
+
+        .h_table .ht3 {
+            float: left;
+            width: 3%;
+            height: 22px;
+            line-height: 22px;
+            box-sizing: border-box;
+            border-top: 1px solid #000000;
+            border-right: 1px solid #000000;
+        }
+
+        .h_table .ht6 {
+            float: left;
+            width: 6%;
+            height: 22px;
+            line-height: 22px;
+            box-sizing: border-box;
+            border-top: 1px solid #000000;
+            border-right: 1px solid #000000;
+        }
+
+        .h_table .ht7e {
+            float: left;
+            width: 7%;
+            height: 22px;
+            line-height: 22px;
+            box-sizing: border-box;
+            border-top: 1px solid #000000;
+        }
+
+        .h_table .ht8 {
+            float: left;
+            width: 8%;
+            height: 22px;
+            line-height: 22px;
+            box-sizing: border-box;
+            border-top: 1px solid #000000;
+            border-right: 1px solid #000000;
+        }
+
+        .h_table .ht10 {
+            float: left;
+            width: 10%;
+            height: 22px;
+            line-height: 22px;
+            box-sizing: border-box;
+            border-top: 1px solid #000000;
+            border-right: 1px solid #000000;
+        }
+
+        .h_table .ht10e {
+            float: left;
+            width: 10%;
+            height: 22px;
+            line-height: 22px;
+            box-sizing: border-box;
+            border-top: 1px solid #000000;
+        }
+
+        .h_table .ht15 {
+            float: left;
+            width: 15%;
+            height: 22px;
+            line-height: 22px;
+            box-sizing: border-box;
+            border-top: 1px solid #000000;
+            border-right: 1px solid #000000;
+        }
+
+        .h_table .ht20 {
+            float: left;
+            width: 20%;
+            height: 22px;
+            line-height: 22px;
+            box-sizing: border-box;
+            border-top: 1px solid #000000;
+            border-right: 1px solid #000000;
+        }
+
+        .h_table .ht24 {
+            float: left;
+            width: 24%;
+            height: 22px;
+            line-height: 22px;
+            box-sizing: border-box;
+            border-top: 1px solid #000000;
+            border-right: 1px solid #000000;
+        }
+
+        .h_table .ht20e {
+            float: left;
+            width: 20%;
+            height: 22px;
+            line-height: 22px;
+            box-sizing: border-box;
+            border-top: 1px solid #000000;
+        }
+
+        .h_table .ht25 {
+            float: left;
+            width: 25%;
+            height: 22px;
+            line-height: 22px;
+            box-sizing: border-box;
+            border-top: 1px solid #000000;
+            border-right: 1px solid #000000;
+        }
+
+        .doc_num {
+            position: relative;
+            width: 100%;
+            height: 13px;
+            text-align: left;
+            font-family: 'Noto Sans KR';
+            font-size: 10px;
+        }
+
+        .doc_hos {
+            position: relative;
+            float: left;
+            width: 183px;
+            height: 13px;
+            margin-left: 20px;
+            margin-top: 12px;
+            text-align: left;
+            font-family: 'Noto Sans KR';
+            font-size: 10px;
+        }
+
+        .doc_value {
+            position: relative;
+            float: left;
+            width: 130px;
+            height: 13px;
+            margin-left: 12px;
+            margin-top: 7px;
+            text-align: left;
+            font-family: 'Noto Sans KR';
+            font-size: 12px;
+            font-weight: bold;
+        }
+
+        .doc_value2 {
+            position: relative;
+            float: left;
+            width: 110px;
+            height: 13px;
+            margin-top: 6px;
+            text-align: left;
+            font-family: 'Noto Sans KR';
+            font-size: 10px;
+        }
+
+        .doc_value span img,
+        .doc_value2 span img {
+            height: 100%;
+        }
+
+        .doc_name {
+            position: relative;
+            float: left;
+            width: 183px;
+            height: 13px;
+            margin-top: 9px;
+            text-align: left;
+            font-family: 'Noto Sans KR';
+            font-size: 12px;
+            font-weight: bold;
+        }
+
+
+        /* container */
+        #container {
+            flex: 1 0 auto;
+            width: 100%;
+            margin-top: 40px;
+        }
+
+        .table_l {
+            display: table;
+            float: left;
+            width: 790px;
+            height: auto;
+            font-family: 'Noto Sans KR';
+            font-size: 11px;
+            background: transparent;
+            box-sizing: border-box;
+            border: 1px solid #000000;
+            text-align: center;
+        }
+
+        .table_l .tl3 {
+            float: left;
+            width: 3%;
+            height: 14px;
+            line-height: 14px;
+            box-sizing: border-box;
+            border-top: 1px solid #000000;
+            border-right: 1px solid #000000;
+        }
+
+        .table_l .tl3 img {
+            height: 80%;
+        }
+
+        .table_l .tl3e {
+            float: left;
+            width: 3%;
+            height: 14px;
+            line-height: 14px;
+            box-sizing: border-box;
+            border-top: 1px solid #000000;
+        }
+
+        .table_l .tl5 {
+            float: left;
+            width: 5%;
+            height: 14px;
+            line-height: 14px;
+            box-sizing: border-box;
+            border-top: 1px solid #000000;
+            border-right: 1px solid #000000;
+        }
+
+        .table_l .tl6 {
+            float: left;
+            width: 6%;
+            height: 14px;
+            line-height: 14px;
+            box-sizing: border-box;
+            border-top: 1px solid #000000;
+            border-right: 1px solid #000000;
+        }
+
+        .table_l .tl8 {
+            float: left;
+            width: 8%;
+            height: 14px;
+            line-height: 14px;
+            box-sizing: border-box;
+            border-top: 1px solid #000000;
+            border-right: 1px solid #000000;
+        }
+
+        .table_l .tl9 {
+            float: left;
+            width: 9%;
+            height: 14px;
+            line-height: 14px;
+            box-sizing: border-box;
+            border-top: 1px solid #000000;
+            border-right: 1px solid #000000;
+        }
+
+        .table_l .tl10 {
+            float: left;
+            width: 10%;
+            height: 14px;
+            line-height: 14px;
+            box-sizing: border-box;
+            border-top: 1px solid #000000;
+            border-right: 1px solid #000000;
+        }
+
+        .table_l .tl10e {
+            float: left;
+            width: 10%;
+            height: 14px;
+            line-height: 14px;
+            box-sizing: border-box;
+            border-top: 1px solid #000000;
+        }
+
+        .table_l .tl11 {
+            float: left;
+            width: 11%;
+            height: 14px;
+            line-height: 14px;
+            box-sizing: border-box;
+            border-top: 1px solid #000000;
+            border-right: 1px solid #000000;
+        }
+
+        .table_l .tl12 {
+            float: left;
+            width: 12%;
+            height: 14px;
+            line-height: 14px;
+            box-sizing: border-box;
+            border-top: 1px solid #000000;
+            border-right: 1px solid #000000;
+        }
+
+        .table_l .tl12e {
+            float: left;
+            width: 12%;
+            height: 28px;
+            line-height: 28px;
+            box-sizing: border-box;
+            border-top: 1px solid #000000;
+        }
+
+        .table_l .tl14e {
+            float: left;
+            width: 14%;
+            height: 28px;
+            line-height: 28px;
+            box-sizing: border-box;
+            border-top: 1px solid #000000;
+        }
+
+        .table_l .tl18 {
+            float: left;
+            width: 18%;
+            height: 14px;
+            line-height: 14px;
+            box-sizing: border-box;
+            border-top: 1px solid #000000;
+            border-right: 1px solid #000000;
+        }
+
+        .table_l .tl16 {
+            float: left;
+            width: 16%;
+            height: 14px;
+            line-height: 14px;
+            box-sizing: border-box;
+            border-top: 1px solid #000000;
+            border-right: 1px solid #000000;
+        }
+
+        .table_l .tl18e {
+            float: left;
+            width: 18%;
+            height: 14px;
+            line-height: 14px;
+            box-sizing: border-box;
+            border-top: 1px solid #000000;
+        }
+
+        .table_l .tl20 {
+            float: left;
+            width: 20%;
+            height: 14px;
+            line-height: 14px;
+            box-sizing: border-box;
+            border-top: 1px solid #000000;
+            border-right: 1px solid #000000;
+        }
+
+        .table_l .tl20e {
+            float: left;
+            width: 20%;
+            height: 14px;
+            line-height: 14px;
+            box-sizing: border-box;
+            border-top: 1px solid #000000;
+        }
+
+        .table_l .tl24 {
+            float: left;
+            width: 24%;
+            height: 14px;
+            line-height: 14px;
+        }
+
+        .table_l .tl26 {
+            float: left;
+            width: 26%;
+            height: 14px;
+            line-height: 14px;
+            box-sizing: border-box;
+            border-top: 1px solid #000000;
+            border-right: 1px solid #000000;
+        }
+
+        .table_l .tl30 {
+            float: left;
+            width: 30%;
+            height: 14px;
+            line-height: 14px;
+            box-sizing: border-box;
+            border-top: 1px solid #000000;
+            border-right: 1px solid #000000;
+        }
+
+        .table_l .tl30e {
+            float: left;
+            width: 30%;
+            height: 14px;
+            line-height: 14px;
+            box-sizing: border-box;
+            border-top: 1px solid #000000;
+        }
+
+        .table_l .tl32 {
+            float: left;
+            width: 32%;
+            height: 14px;
+            line-height: 14px;
+            box-sizing: border-box;
+            border-top: 1px solid #000000;
+            border-right: 1px solid #000000;
+        }
+
+        .table_l .tl36 {
+            float: left;
+            width: 36%;
+            height: 14px;
+            line-height: 14px;
+            box-sizing: border-box;
+            border-top: 1px solid #000000;
+            border-right: 1px solid #000000;
+        }
+
+        .table_l .tl44 {
+            float: left;
+            width: 44%;
+            height: 14px;
+            line-height: 14px;
+            box-sizing: border-box;
+            border-top: 1px solid #000000;
+            border-right: 1px solid #000000;
+        }
+
+        .table_l .tl50 {
+            float: left;
+            width: 50%;
+            height: 14px;
+            line-height: 14px;
+            box-sizing: border-box;
+            border-top: 1px solid #000000;
+            border-right: 1px solid #000000;
+        }
+
+        .table_l .tlh3 {
+            float: left;
+            width: 3%;
+            height: 252px;
+            box-sizing: border-box;
+            border-top: 1px solid #000000;
+            border-right: 1px solid #000000;
+        }
+
+        .table_l .tlh6 {
+            float: left;
+            width: 6%;
+            height: 28px;
+            box-sizing: border-box;
+            border-top: 1px solid #000000;
+            border-right: 1px solid #000000;
+        }
+
+        .table_l .tlh10 {
+            float: left;
+            width: 10%;
+            height: 28px;
+            box-sizing: border-box;
+            border-top: 1px solid #000000;
+            border-right: 1px solid #000000;
+        }
+
+        .table_l .tlh12 {
+            float: left;
+            width: 12%;
+            height: 28px;
+            box-sizing: border-box;
+            border-top: 1px solid #000000;
+            border-right: 1px solid #000000;
+        }
+
+        .table_l .tlh14 {
+            float: left;
+            width: 14%;
+            height: 42px;
+            line-height: 42px;
+            box-sizing: border-box;
+            border-top: 1px solid #000000;
+            border-right: 1px solid #000000;
+        }
+
+        .table_r {
+            display: table;
+            float: right;
+            width: 300px;
+            height: auto;
+            font-family: 'Noto Sans KR';
+            font-size: 11px;
+            background: transparent;
+            box-sizing: border-box;
+            border: 1px solid #000000;
+        }
+
+        .table_r .tr15 {
+            float: left;
+            width: 15%;
+            height: 14px;
+            line-height: 14px;
+            text-align: center;
+            box-sizing: border-box;
+            border-top: 1px solid #000000;
+            border-right: 1px solid #000000;
+        }
+
+        .table_r .tr85 {
+            float: left;
+            width: 85%;
+            height: 14px;
+            line-height: 14px;
+            text-align: center;
+            box-sizing: border-box;
+            border-top: 1px solid #000000;
+        }
+
+        .table_r .tr100 {
+            float: left;
+            width: 100%;
+            height: 14px;
+            line-height: 14px;
+            text-align: center;
+        }
+
+        .table_r .tr100t {
+            float: left;
+            width: 100%;
+            height: 272px;
+            text-align: left;
+            line-height: 9px;
+            font-size: 7px;
+            letter-spacing: -2px;
+            box-sizing: border-box;
+            border-top: 1px solid #000000;
+        }
+
+        .table_r .tr100t2 {
+            float: left;
+            width: 100%;
+            height: 108px;
+            text-align: left;
+            line-height: 9px;
+            font-size: 7px;
+            letter-spacing: -2px;
+            box-sizing: border-box;
+            border-top: 1px solid #000000;
+        }
+
+        .table_r .tr100b {
+            float: left;
+            width: 100%;
+            height: auto;
+            text-align: center;
+            line-height: 18px;
+            font-size: 11px;
+            font-weight: bold;
+            box-sizing: border-box;
+            border-top: 1px solid #000000;
+        }
+
+        .c_table {
+            display: table;
+            float: left;
+            width: 100%;
+            height: auto;
+            margin-bottom: 49px;
+            font-family: 'Noto Sans KR';
+            font-size: 12px;
+        }
+
+        .c_table .ct3 {
+            float: left;
+            width: 3%;
+            height: 18px;
+            line-height: 18px;
+            text-align: center;
+        }
+
+        .c_table .ct6 {
+            float: left;
+            width: 6%;
+            height: 18px;
+            line-height: 18px;
+            text-align: center;
+        }
+
+        .c_table .ct7 {
+            float: left;
+            width: 7%;
+            height: 18px;
+            line-height: 18px;
+            text-align: right;
+        }
+
+        .c_table .ct8 {
+            float: left;
+            width: 8%;
+            height: 18px;
+            line-height: 18px;
+            text-align: right;
+        }
+
+        .c_table .ct10 {
+            float: left;
+            width: 10%;
+            height: 18px;
+            line-height: 18px;
+            text-align: center;
+        }
+
+        .c_table .ct25 {
+            float: left;
+            width: 25%;
+            height: 18px;
+            line-height: 18px;
+            text-align: left;
+        }
+
+        .c_table .ct53 {
+            float: left;
+            width: 53%;
+            height: 18px;
+            line-height: 18px;
+            text-align: left;
+        }
+
+        .c_table .ct80 {
+            float: left;
+            width: 80%;
+            height: 18px;
+            line-height: 18px;
+            text-align: left;
+        }
+
+        .noti {
+            float: left;
+            width: 100%;
+            height: auto;
+            margin-top: 2px;
+            font-family: 'Noto Sans KR';
+            font-size: 10px;
+        }
+
+        span.stamp {
+            display: block;
+            position: absolute;
+            width: 40px;
+            height: 40px;
+            top: 593px;
+            left: 563px;
+            background: url('https://cdn.eumc.ac.kr/images/BgLogo.png') no-repeat;
+            background-size: 90%;
+        }
+
+        /* footer */
+        .info {
+            display: flex;
+            flex: 0 0 50px;
+            flex-direction: row;
+            margin-top: auto;
+            width: 100%;
+            height: 50px;
+            text-align: left;
+        }
+
+        .info .txt {
+            float: left;
+            width: 96%;
+            height: 50px;
+            font-family: '바탕체';
+            font-size: 10px;
+        }
+
+        .info .qr {
+            float: right;
+            width: 50px;
+            height: 50px;
+            margin-top: -20px
+        }
+
+        .info .qr img {
+            width: 100%;
+            border: 0;
+        }
+
+        #footer {
+            display: flex;
+            flex: 0 0 163px;
+            flex-direction: column;
+            margin-top: auto;
+            width: 100%;
+            height: 163px;
+        }
+
+        .f_info {
+            float: left;
+            width: 100%;
+            height: auto;
+            line-height: 20px;
+            font-family: 'Noto Sans KR';
+            font-size: 12px;
+            text-align: center;
+        }
+
+        .f_infob {
+            float: left;
+            width: 100%;
+            height: auto;
+            font-family: 'Noto Sans KR';
+            font-size: 12px;
+            text-align: center;
+            box-sizing: border-box;
+            border: 1px solid #000000;
+        }
+
+        .f_infob .fi12 {
+            float: left;
+            width: 12%;
+            height: 18px;
+            line-height: 18px;
+            text-align: center;
+            box-sizing: border-box;
+            border-left: 1px solid #000000;
+        }
+
+        .f_infob .fi20 {
+            float: left;
+            width: 20%;
+            height: 18px;
+            line-height: 18px;
+            text-align: center;
+        }
+
+        .f_infob .fi8 {
+            float: left;
+            width: 8%;
+            height: 18px;
+            line-height: 18px;
+            text-align: right;
+            font-size: 13px;
+            box-sizing: border-box;
+            border-left: 1px solid #000000;
+        }
+
+        .f_infob .fi40 {
+            float: left;
+            width: 40%;
+            height: 18px;
+            line-height: 18px;
+            text-align: center;
+            font-weight: bold;
+            box-sizing: border-box;
+            border-left: 1px solid #000000;
+        }
+
+        .f_infob .fi100 {
+            float: left;
+            width: 100%;
+            height: auto;
+            line-height: 18px;
+            text-align: left;
+            box-sizing: border-box;
+            border-top: 1px solid #000000;
+        }
+
+        span.stamp {
+            display: block;
+            position: absolute;
+            width: 60px;
+            height: 60px;
+            margin-top: -15px;
+            margin-left: 20px;
+            background: url("https://cdn.eumc.ac.kr/images/seal.png") no-repeat;
+            background-size: 90%;
+        }
+
+        span.stamp_seoul {
+            display: block;
+            position: absolute;
+            width: 60px;
+            height: 60px;
+            margin-top: -15px;
+            margin-left: 20px;
+            background: url("https://cdn.eumc.ac.kr/images/seal_seoul.png") no-repeat;
+            background-size: 90%;
+        }
+    </style>
+    <script>
+        window.JSREPORT_CHROME_PDF_OPTIONS = {
+            isLandscape: true,
+            printBackground: true,
+            format: 'A4'
+        }
+    </script>
+    <title>이대목동병원 진료비세부내역서(외래)</title>
+</head>
+<body>
+<!-- wrap start -->
+<div id="wrap" style="background:#ffffff;">
+    <!-- header start -->
+    <header id="header">
+        <div class="doc_num" style="font-size:11px; ">
+            <div></div>
+            <div></div>
+            <div>문서확인번호 ▣ {{fileCode}} ▣</div>
+            <div></div>
+        </div>
+        <div class="doc_tit">진료비 세부산정내역(외래)</div>
+        <div class="doc_info">
+            <div class="dit_l">출력일자 :&nbsp;</div>
+            <div class="dit_r">{{currentYear}}-{{currentMonth}}-{{currentDay}}</div>
+            <div class="dit_l">출력자 :&nbsp;</div>
+            <div class="dit_r">{{pat_nm}}</div>
+            <div class="dit_l"></div>
+            <div class="dit_r"></div>
+        </div>
+        <div class="h_table">
+            <div class="ht15">환자등록번호</div>
+            <div class="ht15">환자성명</div>
+            <div class="ht15">진료기간</div>
+            <div class="ht15">병실</div>
+            <div class="ht20">환자구분</div>
+            <div class="ht20e">비고</div>
+            <div class="ht15" style="box-sizing:border-box; border-bottom:1px solid #000000;">{{pat_no}}</div>
+            <div class="ht15" style="box-sizing:border-box; border-bottom:1px solid #000000;">{{pat_nm}}</div>
+            <div class="ht15" style="box-sizing:border-box; border-bottom:1px solid #000000;">{{fromdate}} ~
+                {{todate}}
+            </div>
+            <div class="ht15" style="box-sizing:border-box; border-bottom:1px solid #000000;"></div>
+            <div class="ht20" style="box-sizing:border-box; border-bottom:1px solid #000000;">외래</div>
+            <div class="ht20e" style="box-sizing:border-box; border-bottom:1px solid #000000;"></div>
+            <div class="h10"></div>
+            <div class="ht10" style="height:66px; line-height:66px;">항목</div>
+            <div class="ht10" style="height:66px; line-height:66px;">일자</div>
+            <div class="ht6" style="height:66px; line-height:66px;">코드</div>
+            <div class="ht25" style="height:66px; line-height:66px;">명칭</div>
+            <div class="ht6" style="height:66px; line-height:66px;">금액</div>
+            <div class="ht3" style="height:66px; line-height:66px;">횟수</div>
+            <div class="ht3" style="height:66px; line-height:66px;">일수</div>
+            <div class="ht6" style="height:66px; line-height:66px;">총액</div>
+            <div class="ht24" style="height:66px;">
+                <span style="display:block; width:100%; height:22px; box-sizing:border-box; border-bottom:1px solid #000000;">급여</span>
+                <span style="display:block; float:left; width:70%; height:22px; box-sizing:border-box; border-bottom:1px solid #000000;">일부본인부담</span>
+                <span style="display:block; float:left; width:30%; height:44px; line-height:44px; letter-spacing:-1px; box-sizing:border-box; border-left:1px solid #000000; border-bottom:1px solid #000000;">전액본임부담</span>
+                <span style="display:block; float:left; width:35%; height:22px; margin-top:-22px; box-sizing:border-box; border-bottom:1px solid #000000;">본인부담금</span>
+                <span style="display:block; float:left; width:35%; height:22px; margin-left:35%; margin-top:-22px; box-sizing:border-box; border-left:1px solid #000000; border-bottom:1px solid #000000;">공단부담금</span>
+            </div>
+            <div class="ht7e" style="height:66px; line-height:66px;">비급여</div>
+        </div>
+    </header>
+    <!-- header end -->
+    <!-- container start -->
+    <section id="container" style="margin-top:217px;">
+        <div class="c_table">
+            {{item}}
+

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36">
+    <defs>
+        <clipPath id="vnxirxk2za">
+            <path data-name="사각형 2131" style="stroke:#707070;fill:#fff" d="M0 0h36v36H0z"/>
+        </clipPath>
+    </defs>
+    <g data-name="그룹 4060" style="clip-path:url(#vnxirxk2za)">
+        <g data-name="사각형 2331" transform="translate(7 2)" style="stroke-linejoin:round;stroke:#231f20;stroke-linecap:round;fill:#bbc0e2">
+            <rect width="22" height="32" rx="2" style="stroke:none"/>
+            <rect x=".5" y=".5" width="21" height="31" rx="1.5" style="fill:none"/>
+        </g>
+        <g data-name="사각형 2330" style="fill:#7670b3;stroke-linejoin:round;stroke:#231f20;stroke-linecap:round">
+            <path d="M2 0h3v32H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2z" style="stroke:none" transform="translate(7 2)"/>
+            <path d="M2 .5h2.5v31h0H2A1.5 1.5 0 0 1 .5 30V2A1.5 1.5 0 0 1 2 .5z" style="fill:none" transform="translate(7 2)"/>
+        </g>
+        <g data-name="사각형 2332" style="stroke-linejoin:round;stroke:#231f20;stroke-linecap:round;fill:#fff">
+            <path d="M2 0h20v4H2a2 2 0 0 1-2-2 2 2 0 0 1 2-2z" style="stroke:none" transform="translate(7 2)"/>
+            <path d="M2 .5h19.5v3h0H2A1.5 1.5 0 0 1 .5 2v0A1.5 1.5 0 0 1 2 .5z" style="fill:none" transform="translate(7 2)"/>
+        </g>
+        <path data-name="패스 37153" d="m0 3.843 4.313-.009L5.981.363l2.794 7.762 2.451-6.173 1.23 1.89h3.549" transform="translate(12 14.895)" style="stroke:#7670b3;stroke-width:1.5px;fill:none;stroke-linejoin:round"/>
+    </g>
+</svg>

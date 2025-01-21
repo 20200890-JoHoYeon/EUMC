@@ -1,0 +1,1257 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate"/>
+    <meta http-equiv="Expires" content="0"/>
+    <meta http-equiv="Pragma" content="no-cache"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!-- layout css -->
+    <link rel="stylesheet" type="text/css" href="css/land_style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <title>이대{{hospitalName}}병원 진료비계산서영수증</title>
+    <style>
+        /* body */
+        body {
+            width: 1100px;
+            height: 695px;
+            /* A4 to centre page on screen */
+            margin-left: auto;
+            margin-right: auto;
+	    font-family: 'Noto Sans KR', sans-serif;
+        }
+
+        /* wrap */
+        #wrap {
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            width: 1100px;
+            height: 695px;
+            background: url('https://cdn.eumc.ac.kr/images/BgLogo.png') no-repeat;
+            background-position: center;
+            background-size: 30%;
+        }
+
+        /* header */
+        #header {
+            position: fixed;
+            width: 1100px;
+            z-index: 9;
+        }
+
+        .doc_tit {
+            position: relative;
+            float: left;
+            width: 25%;
+            height: 60px;
+            margin-left: 40%;
+            line-height: 80px;
+            text-align: center;
+            font-family: 'Noto Sans KR';
+            font-size: 20px;
+            font-weight: bold;
+            border-bottom: 1px solid #000000;
+        }
+
+        .doc_info {
+            position: relative;
+            float: right;
+            width: 15%;
+            height: 60px;
+            line-height: 20px;
+            font-size: 11px;
+        }
+
+        .doc_info .dit_l {
+            width: 50%;
+            float: left;
+            text-align: right;
+        }
+
+        .doc_info .dit_r {
+            width: 50%;
+            float: right;
+            text-align: left;
+        }
+
+        .h_table {
+            position: relative;
+            float: left;
+            width: 100%;
+            height: auto;
+            margin-top: 12px;
+            text-align: center;
+            font-family: 'Noto Sans KR';
+            font-size: 12px;
+            box-sizing: border-box;
+            border-left: 1px solid #000000;
+            border-right: 1px solid #000000;
+            border-bottom: 1px solid #000000;
+        }
+
+        .h_table .h10 {
+            float: left;
+            width: 100%;
+            height: 10px;
+        }
+
+        .h_table .ht3 {
+            float: left;
+            width: 3%;
+            height: 22px;
+            line-height: 22px;
+            box-sizing: border-box;
+            border-top: 1px solid #000000;
+            border-right: 1px solid #000000;
+        }
+
+        .h_table .ht6 {
+            float: left;
+            width: 6%;
+            height: 22px;
+            line-height: 22px;
+            box-sizing: border-box;
+            border-top: 1px solid #000000;
+            border-right: 1px solid #000000;
+        }
+
+        .h_table .ht7e {
+            float: left;
+            width: 7%;
+            height: 22px;
+            line-height: 22px;
+            box-sizing: border-box;
+            border-top: 1px solid #000000;
+        }
+
+        .h_table .ht8 {
+            float: left;
+            width: 8%;
+            height: 22px;
+            line-height: 22px;
+            box-sizing: border-box;
+            border-top: 1px solid #000000;
+            border-right: 1px solid #000000;
+        }
+
+        .h_table .ht10 {
+            float: left;
+            width: 10%;
+            height: 22px;
+            line-height: 22px;
+            box-sizing: border-box;
+            border-top: 1px solid #000000;
+            border-right: 1px solid #000000;
+        }
+
+        .h_table .ht10e {
+            float: left;
+            width: 10%;
+            height: 22px;
+            line-height: 22px;
+            box-sizing: border-box;
+            border-top: 1px solid #000000;
+        }
+
+        .h_table .ht15 {
+            float: left;
+            width: 15%;
+            height: 22px;
+            line-height: 22px;
+            box-sizing: border-box;
+            border-top: 1px solid #000000;
+            border-right: 1px solid #000000;
+        }
+
+        .h_table .ht20 {
+            float: left;
+            width: 20%;
+            height: 22px;
+            line-height: 22px;
+            box-sizing: border-box;
+            border-top: 1px solid #000000;
+            border-right: 1px solid #000000;
+        }
+
+        .h_table .ht24 {
+            float: left;
+            width: 24%;
+            height: 22px;
+            line-height: 22px;
+            box-sizing: border-box;
+            border-top: 1px solid #000000;
+            border-right: 1px solid #000000;
+        }
+
+        .h_table .ht20e {
+            float: left;
+            width: 20%;
+            height: 22px;
+            line-height: 22px;
+            box-sizing: border-box;
+            border-top: 1px solid #000000;
+        }
+
+        .h_table .ht25 {
+            float: left;
+            width: 25%;
+            height: 22px;
+            line-height: 22px;
+            box-sizing: border-box;
+            border-top: 1px solid #000000;
+            border-right: 1px solid #000000;
+        }
+
+        .doc_num {
+            position: relative;
+            width: 100%;
+            height: 13px;
+            text-align: left;
+            font-family: 'Noto Sans KR';
+            font-size: 10px;
+        }
+
+        .doc_hos {
+            position: relative;
+            float: left;
+            width: 183px;
+            height: 13px;
+            margin-left: 20px;
+            margin-top: 12px;
+            text-align: left;
+            font-family: 'Noto Sans KR';
+            font-size: 10px;
+        }
+
+        .doc_value {
+            position: relative;
+            float: left;
+            width: 130px;
+            height: 13px;
+            margin-left: 12px;
+            margin-top: 7px;
+            text-align: left;
+            font-family: 'Noto Sans KR';
+            font-size: 12px;
+            font-weight: bold;
+        }
+
+        .doc_value2 {
+            position: relative;
+            float: left;
+            width: 110px;
+            height: 13px;
+            margin-top: 6px;
+            text-align: left;
+            font-family: 'Noto Sans KR';
+            font-size: 10px;
+        }
+
+        .doc_value span img,
+        .doc_value2 span img {
+            height: 100%;
+        }
+
+        .doc_name {
+            position: relative;
+            float: left;
+            width: 183px;
+            height: 13px;
+            margin-top: 9px;
+            text-align: left;
+            font-family: 'Noto Sans KR';
+            font-size: 12px;
+            font-weight: bold;
+        }
+
+
+        /* container */
+        #container {
+            flex: 1 0 auto;
+            width: 100%;
+            margin-top: 40px;
+        }
+
+        .table_l {
+            display: table;
+            float: left;
+            width: 790px;
+            height: auto;
+            font-family: 'Noto Sans KR';
+            font-size: 11px;
+            background: transparent;
+            box-sizing: border-box;
+            border: 1px solid #000000;
+            text-align: center;
+        }
+
+        .table_l .tl3 {
+            float: left;
+            width: 3%;
+            height: 14px;
+            line-height: 14px;
+            box-sizing: border-box;
+            border-top: 1px solid #000000;
+            border-right: 1px solid #000000;
+        }
+
+        .table_l .tl3 img {
+            height: 80%;
+        }
+
+        .table_l .tl3e {
+            float: left;
+            width: 3%;
+            height: 14px;
+            line-height: 14px;
+            box-sizing: border-box;
+            border-top: 1px solid #000000;
+        }
+
+        .table_l .tl5 {
+            float: left;
+            width: 5%;
+            height: 14px;
+            line-height: 14px;
+            box-sizing: border-box;
+            border-top: 1px solid #000000;
+            border-right: 1px solid #000000;
+        }
+
+        .table_l .tl6 {
+            float: left;
+            width: 6%;
+            height: 14px;
+            line-height: 14px;
+            box-sizing: border-box;
+            border-top: 1px solid #000000;
+            border-right: 1px solid #000000;
+        }
+
+        .table_l .tl8 {
+            float: left;
+            width: 8%;
+            height: 14px;
+            line-height: 14px;
+            box-sizing: border-box;
+            border-top: 1px solid #000000;
+            border-right: 1px solid #000000;
+        }
+
+        .table_l .tl9 {
+            float: left;
+            width: 9%;
+            height: 14px;
+            line-height: 14px;
+            box-sizing: border-box;
+            border-top: 1px solid #000000;
+            border-right: 1px solid #000000;
+        }
+
+        .table_l .tl10 {
+            float: left;
+            width: 10%;
+            height: 14px;
+            line-height: 14px;
+            box-sizing: border-box;
+            border-top: 1px solid #000000;
+            border-right: 1px solid #000000;
+        }
+
+        .table_l .tl10e {
+            float: left;
+            width: 10%;
+            height: 14px;
+            line-height: 14px;
+            box-sizing: border-box;
+            border-top: 1px solid #000000;
+        }
+
+        .table_l .tl11 {
+            float: left;
+            width: 11%;
+            height: 14px;
+            line-height: 14px;
+            box-sizing: border-box;
+            border-top: 1px solid #000000;
+            border-right: 1px solid #000000;
+        }
+
+        .table_l .tl12 {
+            float: left;
+            width: 12%;
+            height: 14px;
+            line-height: 14px;
+            box-sizing: border-box;
+            border-top: 1px solid #000000;
+            border-right: 1px solid #000000;
+        }
+
+        .table_l .tl12e {
+            float: left;
+            width: 12%;
+            height: 28px;
+            line-height: 28px;
+            box-sizing: border-box;
+            border-top: 1px solid #000000;
+        }
+
+        .table_l .tl14e {
+            float: left;
+            width: 14%;
+            height: 28px;
+            line-height: 28px;
+            box-sizing: border-box;
+            border-top: 1px solid #000000;
+        }
+
+        .table_l .tl18 {
+            float: left;
+            width: 18%;
+            height: 14px;
+            line-height: 14px;
+            box-sizing: border-box;
+            border-top: 1px solid #000000;
+            border-right: 1px solid #000000;
+        }
+
+        .table_l .tl16 {
+            float: left;
+            width: 16%;
+            height: 14px;
+            line-height: 14px;
+            box-sizing: border-box;
+            border-top: 1px solid #000000;
+            border-right: 1px solid #000000;
+        }
+
+        .table_l .tl18e {
+            float: left;
+            width: 18%;
+            height: 14px;
+            line-height: 14px;
+            box-sizing: border-box;
+            border-top: 1px solid #000000;
+        }
+
+        .table_l .tl20 {
+            float: left;
+            width: 20%;
+            height: 14px;
+            line-height: 14px;
+            box-sizing: border-box;
+            border-top: 1px solid #000000;
+            border-right: 1px solid #000000;
+        }
+
+        .table_l .tl20e {
+            float: left;
+            width: 20%;
+            height: 14px;
+            line-height: 14px;
+            box-sizing: border-box;
+            border-top: 1px solid #000000;
+        }
+
+        .table_l .tl24 {
+            float: left;
+            width: 24%;
+            height: 14px;
+            line-height: 14px;
+        }
+
+        .table_l .tl26 {
+            float: left;
+            width: 26%;
+            height: 14px;
+            line-height: 14px;
+            box-sizing: border-box;
+            border-top: 1px solid #000000;
+            border-right: 1px solid #000000;
+        }
+
+        .table_l .tl30 {
+            float: left;
+            width: 30%;
+            height: 14px;
+            line-height: 14px;
+            box-sizing: border-box;
+            border-top: 1px solid #000000;
+            border-right: 1px solid #000000;
+        }
+
+        .table_l .tl30e {
+            float: left;
+            width: 30%;
+            height: 14px;
+            line-height: 14px;
+            box-sizing: border-box;
+            border-top: 1px solid #000000;
+        }
+
+        .table_l .tl32 {
+            float: left;
+            width: 32%;
+            height: 14px;
+            line-height: 14px;
+            box-sizing: border-box;
+            border-top: 1px solid #000000;
+            border-right: 1px solid #000000;
+        }
+
+        .table_l .tl36 {
+            float: left;
+            width: 36%;
+            height: 14px;
+            line-height: 14px;
+            box-sizing: border-box;
+            border-top: 1px solid #000000;
+            border-right: 1px solid #000000;
+        }
+
+        .table_l .tl44 {
+            float: left;
+            width: 44%;
+            height: 14px;
+            line-height: 14px;
+            box-sizing: border-box;
+            border-top: 1px solid #000000;
+            border-right: 1px solid #000000;
+        }
+
+        .table_l .tl50 {
+            float: left;
+            width: 50%;
+            height: 14px;
+            line-height: 14px;
+            box-sizing: border-box;
+            border-top: 1px solid #000000;
+            border-right: 1px solid #000000;
+        }
+
+        .table_l .tlh3 {
+            float: left;
+            width: 3%;
+            height: 252px;
+            box-sizing: border-box;
+            border-top: 1px solid #000000;
+            border-right: 1px solid #000000;
+        }
+
+        .table_l .tlh6 {
+            float: left;
+            width: 6%;
+            height: 28px;
+            box-sizing: border-box;
+            border-top: 1px solid #000000;
+            border-right: 1px solid #000000;
+        }
+
+        .table_l .tlh10 {
+            float: left;
+            width: 10%;
+            height: 28px;
+            box-sizing: border-box;
+            border-top: 1px solid #000000;
+            border-right: 1px solid #000000;
+        }
+
+        .table_l .tlh12 {
+            float: left;
+            width: 12%;
+            height: 28px;
+            box-sizing: border-box;
+            border-top: 1px solid #000000;
+            border-right: 1px solid #000000;
+        }
+
+        .table_l .tlh14 {
+            float: left;
+            width: 14%;
+            height: 42px;
+            line-height: 42px;
+            box-sizing: border-box;
+            border-top: 1px solid #000000;
+            border-right: 1px solid #000000;
+        }
+
+        .table_r {
+            display: table;
+            float: right;
+            width: 300px;
+            height: auto;
+            font-family: 'Noto Sans KR';
+            font-size: 11px;
+            background: transparent;
+            box-sizing: border-box;
+            border: 1px solid #000000;
+        }
+
+        .table_r .tr15 {
+            float: left;
+            width: 15%;
+            height: 14px;
+            line-height: 14px;
+            text-align: center;
+            box-sizing: border-box;
+            border-top: 1px solid #000000;
+            border-right: 1px solid #000000;
+        }
+
+        .table_r .tr85 {
+            float: left;
+            width: 85%;
+            height: 14px;
+            line-height: 14px;
+            text-align: center;
+            box-sizing: border-box;
+            border-top: 1px solid #000000;
+        }
+
+        .table_r .tr100 {
+            float: left;
+            width: 100%;
+            height: 14px;
+            line-height: 14px;
+            text-align: center;
+        }
+
+        .table_r .tr100t {
+            float: left;
+            width: 100%;
+            height: 272px;
+            text-align: left;
+            line-height: 9px;
+            font-size: 8px;
+            letter-spacing: -1px;
+            box-sizing: border-box;
+            border-top: 1px solid #000000;
+        }
+
+        .table_r .tr100t2 {
+            float: left;
+            width: 100%;
+            height: 108px;
+            text-align: left;
+            line-height: 9px;
+            font-size: 8px;
+            letter-spacing: -1px;
+            box-sizing: border-box;
+            border-top: 1px solid #000000;
+        }
+
+        .table_r .tr100b {
+            float: left;
+            width: 100%;
+            height: auto;
+            text-align: center;
+            line-height: 18px;
+            font-size: 11px;
+            font-weight: bold;
+            box-sizing: border-box;
+            border-top: 1px solid #000000;
+        }
+
+        .c_table {
+            display: table;
+            float: left;
+            width: 100%;
+            height: auto;
+            font-family: 'Noto Sans KR';
+            font-size: 12px;
+        }
+
+        .c_table .ct3 {
+            float: left;
+            width: 3%;
+            height: 18px;
+            line-height: 18px;
+            text-align: center;
+        }
+
+        .c_table .ct6 {
+            float: left;
+            width: 6%;
+            height: 18px;
+            line-height: 18px;
+            text-align: center;
+        }
+
+        .c_table .ct7 {
+            float: left;
+            width: 7%;
+            height: 18px;
+            line-height: 18px;
+            text-align: right;
+        }
+
+        .c_table .ct8 {
+            float: left;
+            width: 8%;
+            height: 18px;
+            line-height: 18px;
+            text-align: right;
+        }
+
+        .c_table .ct10 {
+            float: left;
+            width: 10%;
+            height: 18px;
+            line-height: 18px;
+            text-align: center;
+        }
+
+        .c_table .ct25 {
+            float: left;
+            width: 25%;
+            height: 18px;
+            line-height: 18px;
+            text-align: left;
+        }
+
+        .c_table .ct53 {
+            float: left;
+            width: 53%;
+            height: 18px;
+            line-height: 18px;
+            text-align: left;
+        }
+
+        .c_table .ct80 {
+            float: left;
+            width: 80%;
+            height: 18px;
+            line-height: 18px;
+            text-align: left;
+        }
+
+        .noti {
+            float: left;
+            width: 100%;
+            height: auto;
+            margin-top: 2px;
+            font-family: 'Noto Sans KR';
+            font-size: 10px;
+        }
+
+        span.stamp {
+            display: block;
+            position: absolute;
+            width: 40px;
+            height: 40px;
+            top: 593px;
+            left: 563px;
+            background: url(https://cdn.eumc.ac.kr/images/{{seal}}.png) no-repeat;
+            background-size: 90%;
+        }
+
+        /* footer */
+        .info {
+            display: flex;
+            flex: 0 0 50px;
+            flex-direction: row;
+            margin-top: auto;
+            width: 100%;
+            height: 50px;
+            text-align: left;
+        }
+
+        .info .txt {
+            float: left;
+            width: 90%;
+            height: 50px;
+            font-family: 'Noto Sans KR';
+            font-size: 10px;
+        }
+
+        .info .qr {
+            float: right;
+            width: 50px;
+            height: 50px;
+        }
+
+        .info .qr img {
+            width: 100%;
+            border: 0;
+        }
+
+        #footer {
+            display: flex;
+            flex: 0 0 163px;
+            flex-direction: column;
+            margin-top: auto;
+            width: 100%;
+            height: 163px;
+        }
+
+        .f_info {
+            float: left;
+            width: 100%;
+            height: auto;
+            line-height: 20px;
+            font-family: 'Noto Sans KR';
+            font-size: 12px;
+            text-align: center;
+        }
+
+        .f_infob {
+            float: left;
+            width: 100%;
+            height: auto;
+            font-family: 'Noto Sans KR';
+            font-size: 12px;
+            text-align: center;
+            box-sizing: border-box;
+            border: 1px solid #000000;
+        }
+
+        .f_infob .fi12 {
+            float: left;
+            width: 12%;
+            height: 18px;
+            line-height: 18px;
+            text-align: center;
+            box-sizing: border-box;
+            border-left: 1px solid #000000;
+        }
+
+        .f_infob .fi20 {
+            float: left;
+            width: 20%;
+            height: 18px;
+            line-height: 18px;
+            text-align: center;
+        }
+
+        .f_infob .fi28 {
+            float: left;
+            width: 28%;
+            height: 18px;
+            line-height: 18px;
+            text-align: right;
+            font-size: 13px;
+            box-sizing: border-box;
+            border-left: 1px solid #000000;
+        }
+
+        .f_infob .fi40 {
+            float: left;
+            width: 40%;
+            height: 18px;
+            line-height: 18px;
+            text-align: center;
+            font-weight: bold;
+            box-sizing: border-box;
+            border-left: 1px solid #000000;
+        }
+
+        .f_infob .fi100 {
+            float: left;
+            width: 100%;
+            height: auto;
+            line-height: 18px;
+            text-align: left;
+            box-sizing: border-box;
+            border: 2px solid #000000;
+        }
+    </style>
+    <script>
+        window.JSREPORT_CHROME_PDF_OPTIONS = {
+            isLandscape: true,
+            printBackground: true,
+            format: 'A4'
+        }
+    </script>
+</head>
+<body>
+<!-- wrap start -->
+<div id="wrap">
+    <!-- header start -->
+    <header id="header">
+        <div class="doc_num">
+            <span>문서확인번호</span>
+            <span>&nbsp;▣&nbsp;</span>
+            <span>{{fileCode}}</span>
+            <span>&nbsp;▣&nbsp;</span>
+        </div>
+        <div class="doc_hos">
+            <span>이화여자대학교 의과대학부속 {{hospitalName}}병원</span>
+        </div>
+        {{RCP_TYPE}}
+        <div class="doc_name">
+            <span>진료비 계산서·영수증</span>
+        </div>
+    </header>
+    <!-- header end -->
+    <!-- container start -->
+    <section id="container">
+        <div class="table_l">
+            <div class="tl18" style="height:21px; line-height:21px; border-top:0;">환자등록번호</div>
+            <div class="tl32" style="height:21px; line-height:21px; border-top:0;">환 자 성 명</div>
+            <div class="tl32" style="height:21px; line-height:21px; border-top:0;">진 료 기 간</div>
+            <div class="tl18e" style="height:21px; line-height:21px; border-top:0;">야간(공휴일)진료</div>
+            <div class="tl18" style="height:21px; line-height:21px;">{{pat_no}}</div>
+            <div class="tl32" style="height:21px; line-height:21px;">{{pat_nm}}</div>
+            <div class="tl32" style="height:21px; line-height:21px;">{{OUT_MEDDATE}}</div>
+            <div class="tl18e" style="height:21px; line-height:21px;"></div>
+            <div class="tl18" style="height:21px; line-height:21px;">진료과목 / 진료의사</div>
+            <div class="tl16" style="height:21px; line-height:21px;">질병군(DRG)번호</div>
+            <div class="tl16" style="height:21px; line-height:21px;">병실</div>
+            <div class="tl20" style="height:21px; line-height:21px;">급여종별</div>
+            <div class="tl12" style="height:21px; line-height:21px;">환자구분</div>
+            <div class="tl18e" style="height:21px; font-size:9px; line-height:9px;">영수증번호<br/>(연월-일련번호)</div>
+            <div class="tl18">{{OUT_DEPTNAME}}</div>
+            <div class="tl16"></div>
+            <div class="tl16">{{OUT_WARDNO}}</div>
+            <div class="tl20">{{OUT_PME_CLS_CD}}</div>
+            <div class="tl12">{{OUT_PSE_CLS_CD}}</div>
+            <div class="tl18e">{{OUT_CITIZEN}}</div>
+            <div class="tlh14">항 목</div>
+            <div class="tl36">급 여</div>
+            <div class="tl20">비 급 여</div>
+            <div class="tl30e">금액 산정내용</div>
+            <div class="tl24">
+                <span style="display:block; float:left; width:100%; height:14px; box-sizing:border-box; border-top:1px solid #000000; border-right:1px solid #000000;">일부 본인부담</span>
+                <span style="display:block; float:left; width:50%; height:14px; box-sizing:border-box; border-top:1px solid #000000; border-right:1px solid #000000;">본인부담금</span>
+                <span style="display:block; float:left; width:50%; height:14px; box-sizing:border-box; border-top:1px solid #000000; border-right:1px solid #000000;">공단부담금</span>
+            </div>
+            <div class="tlh12">전&nbsp;&nbsp;&nbsp;&nbsp;액<br/>본인부담</div>
+            <div class="tlh10">선&nbsp;&nbsp;택<br/>진료료</div>
+            <div class="tlh10">선택진료료<br/>이&nbsp;&nbsp;외</div>
+            <div class="tl18" style="height:28px;">⑦진료비총액<br/>(①+②+③+④+⑤)</div>
+            <div class="tl12e" style="height:28px;">{{OUT_MTCS_AMT}}</div>
+            <div class="tlh3" style="font-weight:bold;"><br/><br/><br/><br/><br/><br/>기<p>본
+                <p>항
+                <p>목</div>
+            <div class="tl11">진 찰 료</div>
+            <div class="tl12" style="text-align:right;">{{INSOWN_1}}&nbsp;</div>
+            <div class="tl12" style="text-align:right;">{{INSREQ_1}}&nbsp;</div>
+            <div class="tl12" style="text-align:right;">{{INSALL_1}}&nbsp;</div>
+            <div class="tl10" style="text-align:right;">{{SPC_1}}&nbsp;</div>
+            <div class="tl10" style="text-align:right;">{{UIN_1}}&nbsp;</div>
+            <div class="tl18" style="height:28px;">⑨환자부담총액<br/>(①-⑥)+③+④+⑧)</div>
+            <div class="tl12e" style="height:28px;">{{OUT_PBDN_AMT}}</div>
+            <div class="tlh3" style="height:42px; margin-top:-14px; letter-spacing:1px;">입원료</div>
+            <div class="tl8" style="margin-top:-14px;">1 인 실</div>
+            <div class="tl12" style="margin-left:8%; margin-top:-14px; text-align:right;">{{INSOWN_2}}&nbsp;</div>
+            <div class="tl12" style="margin-left:20%; margin-top:-14px; text-align:right;">{{INSREQ_2}}&nbsp;</div>
+            <div class="tl12" style="margin-left:32%; margin-top:-14px; text-align:right;">{{INSALL_2}}&nbsp;</div>
+            <div class="tl10" style="margin-left:44%; margin-top:-14px; text-align:right;">{{SPC_2}}&nbsp;</div>
+            <div class="tl10" style="margin-left:54%; margin-top:-14px; text-align:right;">{{UIN_2}}&nbsp;</div>
+            <div class="tl8">2*3 인실</div>
+            <div class="tl12" style="text-align:right;">{{INSOWN_3}}&nbsp;</div>
+            <div class="tl12" style="text-align:right;">{{INSREQ_3}}&nbsp;</div>
+            <div class="tl12" style="text-align:right;">{{INSALL_3}}&nbsp;</div>
+            <div class="tl10" style="text-align:right;">{{SPC_3}}&nbsp;</div>
+            <div class="tl10" style="text-align:right;">{{UIN_3}}&nbsp;</div>
+            <div class="tl18">외래 정산액</div>
+            <div class="tl12e" style="height:14px;">{{OUT_SPCPBDN_AMT}}</div>
+            <div class="tl8">4인실 이상</div>
+            <div class="tl12" style="text-align:right;">{{INSOWN_4}}&nbsp;</div>
+            <div class="tl12" style="text-align:right;">{{INSREQ_4}}&nbsp;</div>
+            <div class="tl12" style="text-align:right;">{{INSALL_4}}&nbsp;</div>
+            <div class="tl10" style="text-align:right;">{{SPC_4}} &nbsp;</div>
+            <div class="tl10" style="text-align:right;">{{UIN_4}} &nbsp;</div>
+            <div class="tl18"></div>
+            <div class="tl12e" style="height:14px; line-height:14px; text-align:right;">&nbsp;</div>
+            <div class="tl11">식&nbsp;&nbsp;&nbsp;&nbsp;대</div>
+            <div class="tl12" style="text-align:right;">{{INSOWN_5}}&nbsp;</div>
+            <div class="tl12" style="text-align:right;">{{INSREQ_5}}&nbsp;</div>
+            <div class="tl12" style="text-align:right;">{{INSALL_5}}&nbsp;</div>
+            <div class="tl10" style="text-align:right;">{{SPC_5}} &nbsp;</div>
+            <div class="tl10" style="text-align:right;">{{UIN_5}} &nbsp;</div>
+            <div class="tl18"></div>
+            <div class="tl12e" style="height:14px; line-height:14px; text-align:right;">&nbsp;</div>
+            <div class="tlh6" style="height:28px; letter-spacing:1px;">투약 및 조제료</div>
+            <div class="tl5">행위료</div>
+            <div class="tl12" style="text-align:right;">{{INSOWN_6}}&nbsp;</div>
+            <div class="tl12" style="text-align:right;">{{INSREQ_6}}&nbsp;</div>
+            <div class="tl12" style="text-align:right;">{{INSALL_6}}&nbsp;</div>
+            <div class="tl10" style="text-align:right;">{{SPC_6}} &nbsp;</div>
+            <div class="tl10" style="text-align:right;">{{UIN_6}} &nbsp;</div>
+            <div class="tl18">{{OUT_CARD}}</div>
+            <div class="tl12e" style="height:14px; line-height:14px; text-align:right;">&nbsp;</div>
+            <div class="tl5">약품비</div>
+            <div class="tl12" style="text-align:right;">{{INSOWN_7}}&nbsp;</div>
+            <div class="tl12" style="text-align:right;">{{INSREQ_7}}&nbsp;</div>
+            <div class="tl12" style="text-align:right;">{{INSALL_7}}&nbsp;</div>
+            <div class="tl10" style="text-align:right;">{{SPC_7}} &nbsp;</div>
+            <div class="tl10" style="text-align:right;">{{UIN_7}} &nbsp;</div>
+            <div class="tl18"></div>
+            <div class="tl12e" style="height:14px; line-height:14px; text-align:right;">&nbsp;</div>
+            <div class="tlh6" style="height:28px; line-height:28px; letter-spacing:1px;">주사료</div>
+            <div class="tl5">행위료</div>
+            <div class="tl12" style="text-align:right;">{{INSOWN_8}}&nbsp;</div>
+            <div class="tl12" style="text-align:right;">{{INSREQ_8}}&nbsp;</div>
+            <div class="tl12" style="text-align:right;">{{INSALL_8}}&nbsp;</div>
+            <div class="tl10" style="text-align:right;">{{SPC_8}} &nbsp;</div>
+            <div class="tl10" style="text-align:right;">{{UIN_8}} &nbsp;</div>
+            <div class="tl18"></div>
+            <div class="tl12e" style="height:14px; line-height:14px; text-align:right;">&nbsp;</div>
+            <div class="tl5">약품비</div>
+            <div class="tl12" style="text-align:right;">{{INSOWN_9}}&nbsp;</div>
+            <div class="tl12" style="text-align:right;">{{INSREQ_9}}&nbsp;</div>
+            <div class="tl12" style="text-align:right;">{{INSALL_9}}&nbsp;</div>
+            <div class="tl10" style="text-align:right;">{{SPC_9}} &nbsp;</div>
+            <div class="tl10" style="text-align:right;">{{UIN_9}} &nbsp;</div>
+            <div class="tl18"></div>
+            <div class="tl12e" style="height:14px; line-height:14px; text-align:right;"></div>
+            <div class="tl11">마&nbsp;&nbsp;&nbsp;&nbsp;취&nbsp;&nbsp;&nbsp;&nbsp;료</div>
+            <div class="tl12" style="text-align:right;">{{INSOWN_10}}&nbsp;</div>
+            <div class="tl12" style="text-align:right;">{{INSREQ_10}}&nbsp;</div>
+            <div class="tl12" style="text-align:right;">{{INSALL_10}}&nbsp;</div>
+            <div class="tl10" style="text-align:right;">{{SPC_10}} &nbsp;</div>
+            <div class="tl10" style="text-align:right;">{{UIN_10}} &nbsp;</div>
+            <div class="tl18"></div>
+            <div class="tl12e" style="height:14px; line-height:14px; text-align:right;">&nbsp;</div>
+            <div class="tl11">처치 및 수술료</div>
+            <div class="tl12" style="text-align:right;">{{INSOWN_11}}&nbsp;</div>
+            <div class="tl12" style="text-align:right;">{{INSREQ_11}}&nbsp;</div>
+            <div class="tl12" style="text-align:right;">{{INSALL_11}}&nbsp;</div>
+            <div class="tl10" style="text-align:right;">{{SPC_11}} &nbsp;</div>
+            <div class="tl10" style="text-align:right;">{{UIN_11}} &nbsp;</div>
+            <div class="tl18" style="height:28px; line-height:28px;">⑨이미 납부한 금액</div>
+            <div class="tl12e" style="height:28px; text-align:right;">{{OUT_PV_RPY_AMT}}-{{OUT_SPCPBDN_AMT}}&nbsp;</div>
+            <div class="tl11" style="margin-top:-14px;">검&nbsp;&nbsp;&nbsp;&nbsp;사&nbsp;&nbsp;&nbsp;&nbsp;료</div>
+            <div class="tl12" style="margin-left:11%; margin-top:-14px; text-align:right;">{{INSOWN_12}}&nbsp;</div>
+            <div class="tl12" style="margin-left:23%; margin-top:-14px; text-align:right;">{{INSREQ_12}}&nbsp;</div>
+            <div class="tl12" style="margin-left:35%; margin-top:-14px; text-align:right;">{{INSALL_12}}&nbsp;</div>
+            <div class="tl10" style="margin-left:47%; margin-top:-14px; text-align:right;">{{SPC_12}} &nbsp;</div>
+            <div class="tl10" style="margin-left:57%; margin-top:-14px; text-align:right;">{{UIN_12}} &nbsp;</div>
+            <div class="tl11">영 상 진 단 료</div>
+            <div class="tl12" style="text-align:right;">{{INSOWN_13}}&nbsp;</div>
+            <div class="tl12" style="text-align:right;">{{INSREQ_13}}&nbsp;</div>
+            <div class="tl12" style="text-align:right;">{{INSALL_13}}&nbsp;</div>
+            <div class="tl10" style="text-align:right;">{{SPC_13}} &nbsp;</div>
+            <div class="tl10" style="text-align:right;">{{UIN_13}} &nbsp;</div>
+            <div class="tl18" style="height:28px;">⑩납부할 금액<br/>(⑧~⑨)</div>
+            <div class="tl12e" style="height:28px; text-align:right;">{{OUT_RPY_AMT}}&nbsp;</div>
+            <div class="tl11" style="margin-top:-14px;">방사선치료료</div>
+            <div class="tl12" style="margin-left:11%; margin-top:-14px; text-align:right;">{{INSOWN_14}}&nbsp;</div>
+            <div class="tl12" style="margin-left:23%; margin-top:-14px; text-align:right;">{{INSREQ_14}}&nbsp;</div>
+            <div class="tl12" style="margin-left:35%; margin-top:-14px; text-align:right;">{{INSALL_14}}&nbsp;</div>
+            <div class="tl10" style="margin-left:47%; margin-top:-14px; text-align:right;">{{SPC_14}} &nbsp;</div>
+            <div class="tl10" style="margin-left:57%; margin-top:-14px; text-align:right;">{{UIN_14}} &nbsp;</div>
+            <div class="tl11">치 료 재 료 대</div>
+            <div class="tl12" style="text-align:right;">{{INSOWN_15}}&nbsp;</div>
+            <div class="tl12" style="text-align:right;">{{INSREQ_15}}&nbsp;</div>
+            <div class="tl12" style="text-align:right;">{{INSALL_15}}&nbsp;</div>
+            <div class="tl10" style="text-align:right;">{{SPC_15}} &nbsp;</div>
+            <div class="tl10" style="text-align:right;">{{UIN_15}} &nbsp;</div>
+            <div class="tl9" style="height:56px;"><br/>⑪납부한<br/>금&nbsp;&nbsp;액</div>
+            <div class="tl9">카&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;드</div>
+            <div class="tl12e" style="height:14px; line-height:14px; text-align:right;">{{OUT_CARD_RPY_AMT}}&nbsp;</div>
+            <div class="tl9">현금영수증</div>
+            <div class="tl12e" style="height:14px; line-height:14px; text-align:right;">0&nbsp;</div>
+            <div class="tl9">현&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;금</div>
+            <div class="tl12e" style="height:14px; line-height:14px; text-align:right;">0&nbsp;</div>
+            <div class="tl9">합&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;계</div>
+            <div class="tl12e" style="height:14px; line-height:14px; text-align:right;">{{OUT_CARD_RPY_AMT}}&nbsp;</div>
+            <div class="tl11" style="margin-left:3%; margin-top:-42px; letter-spacing:-1.5px;">재활 및 물리치료료</div>
+            <div class="tl12" style="margin-left:14%; margin-top:-42px; text-align:right;">{{INSOWN_16}}&nbsp;</div>
+            <div class="tl12" style="margin-left:26%; margin-top:-42px; text-align:right;">{{INSREQ_16}}&nbsp;</div>
+            <div class="tl12" style="margin-left:38%; margin-top:-42px; text-align:right;">{{INSALL_16}}&nbsp;</div>
+            <div class="tl10" style="margin-left:50%; margin-top:-42px; text-align:right;">{{SPC_16}} &nbsp;</div>
+            <div class="tl10" style="margin-left:60%; margin-top:-42px; text-align:right;">{{UIN_16}} &nbsp;</div>
+            <div class="tl11" style="margin-left:3%; margin-top:-28px;">정 신 요 법 료</div>
+            <div class="tl12" style="margin-left:14%; margin-top:-28px; text-align:right;">{{INSOWN_17}}&nbsp;</div>
+            <div class="tl12" style="margin-left:26%; margin-top:-28px; text-align:right;">{{INSREQ_17}}&nbsp;</div>
+            <div class="tl12" style="margin-left:38%; margin-top:-28px; text-align:right;">{{INSALL_17}}&nbsp;</div>
+            <div class="tl10" style="margin-left:50%; margin-top:-28px; text-align:right;">{{SPC_17}} &nbsp;</div>
+            <div class="tl10" style="margin-left:60%; margin-top:-28px; text-align:right;">{{UIN_17}} &nbsp;</div>
+            <div class="tl11" style="margin-left:3%; margin-top:-14px; letter-spacing:-2.5px;">전혈 및 혈액성분재료</div>
+            <div class="tl12" style="margin-left:14%; margin-top:-14px; text-align:right;">{{INSOWN_18}}&nbsp;</div>
+            <div class="tl12" style="margin-left:26%; margin-top:-14px; text-align:right;">{{INSREQ_18}}&nbsp;</div>
+            <div class="tl12" style="margin-left:38%; margin-top:-14px; text-align:right;">{{INSALL_18}}&nbsp;</div>
+            <div class="tl10" style="margin-left:50%; margin-top:-14px; text-align:right;">{{SPC_18}} &nbsp;</div>
+            <div class="tl10" style="margin-left:60%; margin-top:-14px; text-align:right;">{{UIN_18}} &nbsp;</div>
+            <div class="tlh3" style="height:84px; font-weight:bold;"><br/>선<br/>택<br/>항<br/>목</div>
+            <div class="tl11">C&nbsp;T&nbsp;&nbsp;&nbsp;진 단 료</div>
+            <div class="tl12" style="text-align:right;">{{INSOWN_19}}&nbsp;</div>
+            <div class="tl12" style="text-align:right;">{{INSREQ_19}}&nbsp;</div>
+            <div class="tl12" style="text-align:right;">{{INSALL_19}}&nbsp;</div>
+            <div class="tl10" style="text-align:right;">{{SPC_19}} &nbsp;</div>
+            <div class="tl10" style="text-align:right;">{{UIN_19}} &nbsp;</div>
+            <div class="tl18" style="height:28px;">납부하지 않은 금액<br/>(⑩~⑪)</div>
+            <div class="tl12e" style="height:28px; text-align:right;">{{OUT_UNCL_AMT}}&nbsp;</div>
+            <div class="tl11" style="margin-top:-14px;">M&nbsp;R&nbsp;I&nbsp;진 단 료</div>
+            <div class="tl12" style="margin-left:11%; margin-top:-14px; text-align:right;">{{INSOWN_20}}&nbsp;</div>
+            <div class="tl12" style="margin-left:23%; margin-top:-14px; text-align:right;">{{INSREQ_20}}&nbsp;</div>
+            <div class="tl12" style="margin-left:35%; margin-top:-14px; text-align:right;">{{INSALL_20}}&nbsp;</div>
+            <div class="tl10" style="margin-left:47%; margin-top:-14px; text-align:right;">{{SPC_20}} &nbsp;</div>
+            <div class="tl10" style="margin-left:57%; margin-top:-14px; text-align:right;">{{UIN_20}} &nbsp;</div>
+            <div class="tl11">P&nbsp;E&nbsp;T&nbsp;진 단 료</div>
+            <div class="tl12" style="text-align:right;">{{INSOWN_21}}&nbsp;</div>
+            <div class="tl12" style="text-align:right;">{{INSREQ_21}}&nbsp;</div>
+            <div class="tl12" style="text-align:right;">{{INSALL_21}}&nbsp;</div>
+            <div class="tl10" style="text-align:right;">{{SPC_21}} &nbsp;</div>
+            <div class="tl10" style="text-align:right;">{{UIN_21}} &nbsp;</div>
+            <div class="tl30e" style="text-align:left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;현금영수증( &nbsp;{{OUT_CASH6}}&nbsp;
+                )
+            </div>
+            <div class="tl11">초음파진단료</div>
+            <div class="tl12" style="text-align:right;">{{INSOWN_22}}&nbsp;</div>
+            <div class="tl12" style="text-align:right;">{{INSREQ_22}}&nbsp;</div>
+            <div class="tl12" style="text-align:right;">{{INSALL_22}}&nbsp;</div>
+            <div class="tl10" style="text-align:right;">{{SPC_22}} &nbsp;</div>
+            <div class="tl10" style="text-align:right;">{{UIN_22}} &nbsp;</div>
+            <div class="tl18">신분확인번호</div>
+            <div class="tl12e" style="height:14px; line-height:14px; text-align:right;">{{OUT_CASH3}}&nbsp;</div>
+            <div class="tl11">보철·교정료</div>
+            <div class="tl12" style="text-align:right;">{{INSOWN_23}}&nbsp;</div>
+            <div class="tl12" style="text-align:right;">{{INSREQ_23}}&nbsp;</div>
+            <div class="tl12" style="text-align:right;">{{INSALL_23}}&nbsp;</div>
+            <div class="tl10" style="text-align:right;">{{SPC_23}} &nbsp;</div>
+            <div class="tl10" style="text-align:right;">{{UIN_23}} &nbsp;</div>
+            <div class="tl18">현금승인번호</div>
+            <div class="tl12e" style="height:14px; line-height:14px; text-align:right;">{{OUT_CASH5}}&nbsp;</div>
+            <div class="tl11">제 증 명 료</div>
+            <div class="tl12" style="text-align:right;">{{INSOWN_24}}&nbsp;</div>
+            <div class="tl12" style="text-align:right;">{{INSREQ_24}}&nbsp;</div>
+            <div class="tl12" style="text-align:right;">{{INSALL_24}}&nbsp;</div>
+            <div class="tl10" style="text-align:right;">{{SPC_24}} &nbsp;</div>
+            <div class="tl10" style="text-align:right;">{{UIN_24}} &nbsp;</div>
+            <div class="tl18" style="height:42px; font-weight:bold;"><span style="display:block; margin-top:7px;">원내약접수번호<br/>(1층 외래약국)</span>
+            </div>
+            <div class="tl12e" style="height:42px; line-height:42px;">{{OUT_DOSNO05}}</div>
+            <div class="tlh14" style="height:14px; margin-top:-28px; line-height:14px;">65세 이상 등 정액</div>
+            <div class="tl12" style="margin-left:14%; margin-top:-28px; text-align:right;">{{INSOWN_25}}&nbsp;</div>
+            <div class="tl12" style="margin-left:26%; margin-top:-28px; text-align:right;">{{INSREQ_25}}&nbsp;</div>
+            <div class="tl12" style="margin-left:38%; margin-top:-28px; text-align:right;">{{INSALL_25}}&nbsp;</div>
+            <div class="tl10" style="margin-left:50%; margin-top:-28px; text-align:right;">{{SPC_25}} &nbsp;</div>
+            <div class="tl10" style="margin-left:60%; margin-top:-28px; text-align:right;">{{UIN_25}} &nbsp;</div>
+            <div class="tlh14" style="height:14px; margin-top:-14px; line-height:14px;">정액수가(요양병원)</div>
+            <div class="tl12" style="margin-left:14%; margin-top:-14px; text-align:right;">&nbsp;</div>
+            <div class="tl12" style="margin-left:26%; margin-top:-14px; text-align:right;">&nbsp;</div>
+            <div class="tl12" style="margin-left:38%; margin-top:-14px; text-align:right;">&nbsp;</div>
+            <div class="tl10" style="margin-left:50%; margin-top:-14px; text-align:right;">&nbsp;</div>
+            <div class="tl10" style="margin-left:60%; margin-top:-14px; text-align:right;">&nbsp;</div>
+            <div class="tlh14" style="height:14px; line-height:14px;">포 괄 수 가 진료비</div>
+            <div class="tl12" style="text-align:right;">{{INSOWN_26}}&nbsp;</div>
+            <div class="tl12" style="text-align:right;">{{INSREQ_26}}&nbsp;</div>
+            <div class="tl12" style="text-align:right;">{{INSALL_26}}&nbsp;</div>
+            <div class="tl10" style="text-align:right;">{{SPC_26}} &nbsp;</div>
+            <div class="tl10" style="text-align:right;">{{UIN_26}} &nbsp;</div>
+            <div class="tl18" style="height:42px;"><span
+                    style="display:block; margin-top:7px;">원 외 처 방 전<br/>(외부약국)</span></div>
+            <div class="tl12e" style="height:42px;">{{OUT_EXDOSNO}}</div>
+            <div class="tlh14"
+                 style="margin-top:-28px; height:14px; line-height:14px; font-size:8px; letter-spacing:-1.5px;">
+                국민보험법제41조의4에따른요양급여
+            </div>
+            <div class="tl12" style="margin-left:14%; margin-top:-28px; text-align:right;">{{INSOWN_27}}&nbsp;</div>
+            <div class="tl12" style="margin-left:26%; margin-top:-28px; text-align:right;">{{INSREQ_27}}&nbsp;</div>
+            <div class="tl12" style="margin-left:38%; margin-top:-28px; text-align:right;">{{INSALL_27}}&nbsp;</div>
+            <div class="tl10" style="margin-left:50%; margin-top:-28px; text-align:right;">{{SPC_27}} &nbsp;</div>
+            <div class="tl10" style="margin-left:60%; margin-top:-28px; text-align:right;">{{UIN_27}} &nbsp;</div>
+            <div class="tlh14" style="height:14px; margin-top:-14px; line-height:14px;">기&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;타</div>
+            <div class="tl12" style="margin-left:14%; margin-top:-14px; text-align:right;">{{INSOWN_28}}&nbsp;</div>
+            <div class="tl12" style="margin-left:26%; margin-top:-14px; text-align:right;">{{INSREQ_28}}&nbsp;</div>
+            <div class="tl12" style="margin-left:38%; margin-top:-14px; text-align:right;">{{INSALL_28}}&nbsp;</div>
+            <div class="tl10" style="margin-left:50%; margin-top:-14px; text-align:right;">{{SPC_28}} &nbsp;</div>
+            <div class="tl10" style="margin-left:60%; margin-top:-14px; text-align:right;">{{UIN_28}} &nbsp;</div>
+            <div class="tlh14" style="background:#d6d6d6; height:14px; line-height:14px;">합&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;계</div>
+            <div class="tl12" style="background:#d6d6d6; text-align:left;">&nbsp;①&nbsp;<span
+                    style="display:block; float:right;">{{INSOWN_29}}&nbsp;</span></div>
+            <div class="tl12" style="background:#d6d6d6; text-align:left;">&nbsp;②&nbsp;<span
+                    style="display:block; float:right;">{{INSREQ_29}}&nbsp;</span></div>
+            <div class="tl12" style="background:#d6d6d6; text-align:left;">&nbsp;③&nbsp;<span
+                    style="display:block; float:right;">{{INSALL_29}}&nbsp;</span></div>
+            <div class="tl10" style="background:#d6d6d6; text-align:left;">&nbsp;④&nbsp;<span
+                    style="display:block; float:right;">{{SPC_29}}   &nbsp;</span></div>
+            <div class="tl10" style="background:#d6d6d6; text-align:left;">&nbsp;⑤&nbsp;<span
+                    style="display:block; float:right;">{{UIN_29}}   &nbsp;</span></div>
+            <div class="tl18">선택진료 신청</div>
+            {{OUT_SPCYN}}
+            <div class="tlh14" style="height:14px; line-height:14px;">상한액 초과금</div>
+            <div class="tl12" style="text-align:left;">&nbsp;⑥&nbsp;<span
+                    style="display:block; float:right;">&nbsp;</span></div>
+            <div class="tl44" style="text-align:center;">-</div>
+            <div class="tl18">수&nbsp;&nbsp;&nbsp;&nbsp;납&nbsp;&nbsp;&nbsp;&nbsp;자</div>
+            <div class="tl12e" style="height:14px; line-height:14px;">KIO099(모바일)</div>
+            <div class="tlh14" style="height:14px; line-height:14px;">사업자등록번호</div>
+            <div class="tl12">{{businessNumber}}</div>
+            <div class="tl12">요양기관번호</div>
+            <div class="tl12">{{yoyangNumber}}</div>
+            <div class="tl6">상&nbsp;&nbsp;호</div>
+            <div class="tl26">{{hosName}}</div>
+            <div class="tl8">전화번호</div>
+            <div class="tl10e">{{callNumber}}</div>
+            <div class="tlh14" style="height:21px; line-height:21px;">사업장&nbsp;&nbsp;소재지</div>
+            <div class="tl36" style="height:21px; line-height:21px;">{{address}}</div>
+            <div class="tl6" style="height:21px; line-height:21px;">대표자</div>
+            <span class="stamp"></span>
+            <div class="tl26" style="height:21px; line-height:21px;">유&nbsp;&nbsp;경&nbsp;&nbsp;하&nbsp;&nbsp;(인)</div>
+            <div class="tl8" style="height:21px; line-height:21px; letter-spacing:-2px;">요양기관 종류</div>
+            <div class="tl10e" style="height:21px; line-height:21px;">{{hospitalType}}</div>
+            <div class="tl50" style="height:21px; line-height:21px;">{{currentYear}}년 {{currentMonth}}월
+                {{currentDay}}일
+            </div>
+            <div class="tl20" style="height:21px; line-height:21px;">가상계좌번호</div>
+            <div class="tl30e" style="height:21px; line-height:21px;"></div>
+        </div>
+        <div class="table_r">
+            <div class="tr100">다 음 진 료</div>
+            <div class="tr15">1</div>
+            <div class="tr85">{{MED_RSV_DTM_1}}</div>
+            <div class="tr15">2</div>
+            <div class="tr85"></div>
+            <div class="tr15">3</div>
+            <div class="tr85"></div>
+            <div class="tr15">4</div>
+            <div class="tr85"></div>
+            <div class="tr15">5</div>
+            <div class="tr85"></div>
+            <div class="tr100" style="box-sizing:border-box; border-top:1px solid #000000;">가 셔 야 할 곳</div>
+            <div class="tr15">1</div>
+            <div class="tr85">{{NXT_PRGR_DEPT_CD}}</div>
+            <div class="tr15">2</div>
+            <div class="tr85"></div>
+            <div class="tr15">3</div>
+            <div class="tr85"></div>
+            <div class="tr15">4</div>
+            <div class="tr85"></div>
+            <div class="tr15">5</div>
+            <div class="tr85"></div>
+            <div class="tr15">계약처</div>
+            <div class="tr85"></div>
+            <!-- <div class="tr100" style="box-sizing:border-box; border-top:1px solid #000000;">항 목 별 설 명</div> -->
+            <div class="tr100t">
+                <!-- 1. 일부 본인부담 : 일반적으로 다음과 같이 본인부담률을 적용하나, 요양기관 지역, 요양기관의 종별, 환자 자격, 「국민건강보험법」제 41조의 4에 따른 요양급여 여부, 병실종류 등에 따라 달라질 수 있습니다.<br />
+                &nbsp;&nbsp;-외래 본인부담률 : 요양기관 종별에 따라 30% ~ 60%(의료급여는 수급권자 종별 및 의료급여기관 유형 등에 따라 0월 ~ 2500원, 0% ~ 15%)등<br />
+                &nbsp;&nbsp;-입원 본인부담률 : 20%(의료급여는 수급권자 종별 및 의료급여기관유형 등에 따라 0% ~ 10%) 등<br />
+                &nbsp;&nbsp;※식대 : 50%(의료급여는 20%)<br />
+                &nbsp;&nbsp;CT·MRI·PET:외래 본인부담률(의료급여는 입원본인부담률과동일)「국민건강보험법」제41조4에따른 요양급여(선별급여):보건복지부장관 고시한 항목별 본인부담률<br />
+                &nbsp;&nbsp;※상급종합병원 입원료 : 2인실 50%, 3인실 40%, 4인길 30% / 종합병원 입원료 : 2인실 40%, 3인실 30%<br /><br />
+                2. 전액 본인부담 : 「국민건강보험법 시행규칙」별표 6 또는 「의료급여법 시행규칙」별표 1의2에 따라 적용되는 항목으로 건강보험(의료급여)에서 금액을 정하고 있으나 진료비 전액을 환자 본인이 부담합니다.<br /><br />
+                3. 상환액 초과금 : 본인부담액 상한제에 따라 같은 의료기관에서 연간 506만원 (2015년부터는 「국민건강보험법 시행령」별표 3 제2호에 따라 산정한 본인부담상한액의 최고금액, 환자가 내는 보험료 등에 따라 다를 수 있음)이상 본인부담금이 발생한 경우 공단이 부담하는 초과분중 사전 정산하는 금액을 말합니다.<br />
+                &nbsp;&nbsp;※전액 본인부담 및 「국민건강보험법」제41조의4에 따른 요양급여의 본인부담금등은 본인부담상한액 산정시 제외합니다.<br /><br />
+                4."질병군 포괄수가"란 「국민건강보험법 시행령」제21조제3항제2호 및 「국민건강보험법 요양급여의기준에 관한 규칙」제8조제3항에 따라 보건복지부장관이 고시한 질병군 입원진료에 대하여 해당 입원진료와 관련되는 여러 의료행위를 하나의 행위로 정하여 요양급여비용을 결정한 것을 말한다. 다만, 해당 질병군의 입원진료와 관련되는 의료행위라도 비급여대상이나 이송처치료 등 포괄수가에서 제외되는 항목은 위 표의 기본항목 및 선택항목란에 합산하여 표기됩니다. -->
+            </div>
+            <!-- <div class="tr100" style="box-sizing:border-box; border-top:1px solid #000000;">일 반 사 항 안 내</div> -->
+            <div class="tr100t2">
+                <!-- 1. 이 계산서·영수증에 대한 세부내용은 요양기관에 요구하여 제공받을 수 있습니다.<br /><br />
+                2. 「국민건강보험법」제43조 또는 「의료급여법」제1 1조의 3에 따라 환자가 전액 부담한 비용과 비급여로 부담한 비용의 타당성 여부를 건강보험심사평가원(☏1644-2000, 홈페이지:www.hira.co.kr)에 확인 요청하실 수 있습니다.<br /><br />
+                3. 계산서·영수증 「소득세법」에 따른 의료비공제신청 또는 「조세특례제한법」에 따른 현금영수증공제신청 (현금영수증 승인번호가 적힌 경우만 해당합니다)에 사용할 수 있습니다. 다만, 지출증빙용으로 발급된 "현금영수증(지출증빙)"은 공제신청에 사용할 수 없습니다. (현금영수증문의 126 인터넷 홈페이지 : http://현금영수증.kr) -->
+            </div>
+            <div class="tr100b">진료예약·변경</div>
+            <div class="tr50">이대목동병원 1666-5000</div>
+            <div class="tr50">이대서울병원 1522-7000</div>
+        </div>
+        <div class="noti">* 환자정보(주소, 전화번호) 변경시 콜센터 또는 수납창구에서 변경하시기 바랍니다</div>
+    </section>
+    <div class="info">
+        <!-- <div class="txt">본 증명서는 인터넷으로 발급되었으며, https://cert.curelink.co.kr에서 원본확인이 가능합니다.<br/>단, 원본확인은 발급일로 부터 90일 까지
+            가능합니다.
+        </div>
+        <div class="qr"><img src="https://cdn.eumc.ac.kr/qrcode/{{qrName}}.png"></div> -->
+    </div>
+</div>
+<!-- wrap end -->
+</body>
+</html>
+

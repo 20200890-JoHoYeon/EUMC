@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36">
+    <defs>
+        <clipPath id="kivjshpm8a">
+            <path data-name="사각형 2680" transform="translate(997 741)" style="stroke:#707070;fill:#fff" d="M0 0h36v36H0z"/>
+        </clipPath>
+    </defs>
+    <g data-name="그룹 4052" transform="translate(-997 -741)" style="clip-path:url(#kivjshpm8a)">
+        <g data-name="그룹 3853" transform="translate(.977 -.093)">
+            <g data-name="사각형 2540" transform="rotate(-90 883.212 -114.789)" style="stroke-linejoin:round;stroke-linecap:round;stroke:#222;fill:#fff">
+                <rect width="19.349" height="30.02" rx="2" style="stroke:none"/>
+                <rect x=".5" y=".5" width="18.349" height="29.02" rx="1.5" style="fill:none"/>
+            </g>
+            <g data-name="사각형 2541" style="fill:#fcbb76;stroke-linejoin:round;stroke-linecap:round;stroke:#222">
+                <path d="M0 0h4.5a2 2 0 0 1 2 2v26.02a2 2 0 0 1-2 2H0V0z" style="stroke:none" transform="matrix(0 -1 1 0 998 754.57)"/>
+                <path d="M.5.5h4A1.5 1.5 0 0 1 6 2v26.02a1.5 1.5 0 0 1-1.5 1.5h-4 0V.5h0z" style="fill:none" transform="matrix(0 -1 1 0 998 754.57)"/>
+            </g>
+            <circle data-name="타원 129" cx="2.502" cy="2.502" transform="rotate(-90 883.13 -117.984)" style="fill:#f1668d;stroke:#222" r="2.502"/>
+            <circle data-name="타원 130" cx="2.502" cy="2.502" transform="rotate(-90 885.006 -119.86)" style="fill:#f7941e;stroke:#222" r="2.502"/>
+            <rect data-name="사각형 2542" width="4.865" height="1" rx=".5" transform="translate(1013.01 762.629)" style="fill:#222"/>
+            <rect data-name="사각형 2543" width="3.865" height="1.656" rx=".828" transform="translate(1018.047 762.629)" style="fill:#222"/>
+        </g>
+        <g data-name="그룹 4081" transform="translate(686.981 -85)">
+            <circle data-name="타원 128" cx="7.5" cy="7.5" r="7.5" transform="translate(330.02 844)" style="fill:#f7941e"/>
+            <g data-name="그룹 4066">
+                <g data-name="타원 141" transform="translate(333.019 847)" style="stroke:#fff;fill:#f7941e;stroke-linecap:round">
+                    <circle cx="3.947" cy="3.947" style="stroke:none" r="3.947"/>
+                    <circle cx="3.947" cy="3.947" style="fill:none" r="3.447"/>
+                </g>
+                <path data-name="선 215" transform="translate(339.749 853.73)" style="fill:none;stroke:#fff;stroke-linecap:round" d="M1.77 1.771 0 0"/>
+            </g>
+        </g>
+    </g>
+</svg>

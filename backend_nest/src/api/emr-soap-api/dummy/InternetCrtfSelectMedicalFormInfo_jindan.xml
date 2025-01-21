@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string xmlns="http://tempuri.org">
+    <NewDataSet>
+        <Table>
+            <PT_NO>12112191</PT_NO>
+            <PT_NM>김종형</PT_NM>
+            <RRN1>871231</RRN1>
+            <RRN2>1017511</RRN2>
+            <ADDR>서울특별시 송파구 송이로17길 21-1 (가락동, 일정빌) 201호</ADDR>
+            <DG_OPTION1_YN>임상적추정</DG_OPTION1_YN>
+            <DG_NM>[주] Routine check up {Z00.0}</DG_NM>
+            <DG_YEAR>2019</DG_YEAR>
+            <DG_MONTH>2</DG_MONTH>
+            <DGC_DAY>21</DGC_DAY>
+            <OPINION>상기인은 가끔 혈압이 높아 혈액검사를 포함 흉부사진, 24시간혈압으로 측정함.</OPINION>
+            <UPUR_ISCM_YN>보험회사 제출용</UPUR_ISCM_YN>
+            <WRT_YEAR>2019</WRT_YEAR>
+            <WRT_MONTH>02</WRT_MONTH>
+            <WRT_DAY>21</WRT_DAY>
+            <MDINS_NM>이화여자대학교 의과대학부속 목동병원</MDINS_NM>
+            <MDINS_ADDR>서울시 양천구 안양천로 1071</MDINS_ADDR>
+            <DOC_YN>의사</DOC_YN>
+            <LCNS_NO>26576</LCNS_NO>
+            <WRTR_NM>이상화</WRTR_NM>
+            <DGNS_RER_RCDC_NO>2019-A0009851</DGNS_RER_RCDC_NO>
+        </Table>
+    </NewDataSet>
+</string>

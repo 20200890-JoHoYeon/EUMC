@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string xmlns="http://tempuri.org/literalTypes">
+    <?xml version='1.0' encoding='euc-kr'?>
+    <NewDataSet>
+        <Table0>
+            <HSP_TP_CD><![CDATA[02]]></HSP_TP_CD>
+            <PT_NO><![CDATA[10453963]]></PT_NO>
+            <MED_RSV_DTM><![CDATA[2018-08-01 오전 12:00:00]]></MED_RSV_DTM>
+            <DS_EXPT_DT><![CDATA[2018-08-05 오전 12:00:00]]></DS_EXPT_DT>
+            <MED_DEPT_CD><![CDATA[EN]]></MED_DEPT_CD>
+            <RPY_PACT_ID><![CDATA[1000768377]]></RPY_PACT_ID>
+            <DEPT_NM><![CDATA[이비인후과]]></DEPT_NM>
+            <RPY_DT><![CDATA[2018-08-05 오전 12:00:00]]></RPY_DT>
+        </Table0>
+    </NewDataSet>
+</string>

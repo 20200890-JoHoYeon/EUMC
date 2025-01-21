@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36">
+    <defs>
+        <clipPath id="8ct1d1ktha">
+            <path data-name="사각형 2131" transform="translate(-350 2490)" style="stroke:#707070;fill:#fff" d="M0 0h36v36H0z"/>
+        </clipPath>
+    </defs>
+    <g transform="translate(350 -2490)" style="clip-path:url(#8ct1d1ktha)">
+        <g transform="translate(-354 2487)">
+            <g data-name="사각형 1863" transform="translate(13 6)" style="stroke-linejoin:round;stroke-linecap:round;stroke:#231f20;fill:#ecf7ff">
+                <rect width="18" height="30" rx="2" style="stroke:none"/>
+                <rect x=".5" y=".5" width="17" height="29" rx="1.5" style="fill:none"/>
+            </g>
+            <path data-name="사각형 2317" d="M0 0h10v1a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V0z" transform="translate(17 6.5)" style="fill:#231f20"/>
+            <rect data-name="사각형 2327" width="6" height="1" rx=".5" transform="translate(19.188 33.5)" style="fill:#231f20"/>
+        </g>
+        <g data-name="사각형 1863" transform="translate(-338 2499)" style="stroke-linejoin:round;stroke-linecap:round;stroke:#231f20;fill:#fff">
+            <rect width="12" height="18" rx="2" style="stroke:none"/>
+            <rect x=".5" y=".5" width="11" height="17" rx="1.5" style="fill:none"/>
+        </g>
+        <g data-name="사각형 2328" style="stroke-linejoin:round;stroke-linecap:round;stroke:#231f20;fill:#fff">
+            <path d="M0 0h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H0V0z" style="stroke:none" transform="translate(-330 2499)"/>
+            <path d="M.5.5H2A1.5 1.5 0 0 1 3.5 2v14A1.5 1.5 0 0 1 2 17.5H.5h0V.5h0z" style="fill:none" transform="translate(-330 2499)"/>
+        </g>
+        <circle data-name="타원 80" cx="1.5" cy="1.5" r="1.5" transform="translate(-335 2509)" style="fill:#f1668d;stroke:#231f20"/>
+        <circle data-name="타원 81" cx="1.5" cy="1.5" r="1.5" transform="translate(-335 2511)" style="fill:#f7941e;stroke:#222"/>
+        <path data-name="선 163" transform="translate(-334.5 2502.5)" style="fill:none;stroke-linecap:round;stroke:#231f20" d="M0 0v1"/>
+        <path data-name="선 164" transform="translate(-334.5 2505.5)" style="fill:none;stroke-linecap:round;stroke:#231f20" d="M0 0v1"/>
+    </g>
+</svg>

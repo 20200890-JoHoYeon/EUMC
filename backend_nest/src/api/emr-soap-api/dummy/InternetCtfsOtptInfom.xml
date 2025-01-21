@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfInternetCtfsOtptInfom xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://tempuri.org/">
+    <InternetCtfsOtptInfom>
+        <DEPTNAME>성형외과</DEPTNAME>
+        <FROMDATE>2018년 05월 31일 </FROMDATE>
+        <TODATE>X</TODATE>
+        <DEPTCD>PS</DEPTCD>
+        <MEDDR>박보영</MEDDR>
+    </InternetCtfsOtptInfom>
+    <InternetCtfsOtptInfom>
+        <DEPTNAME>정형외과</DEPTNAME>
+        <FROMDATE>2018년 06월 15일 </FROMDATE>
+        <TODATE>X</TODATE>
+        <DEPTCD>OS</DEPTCD>
+        <MEDDR>윤여헌</MEDDR>
+    </InternetCtfsOtptInfom>
+    <InternetCtfsOtptInfom>
+        <DEPTNAME>성형외과</DEPTNAME>
+        <FROMDATE>2018년 06월 18일 </FROMDATE>
+        <TODATE>X</TODATE>
+        <DEPTCD>PS</DEPTCD>
+        <MEDDR>박보영</MEDDR>
+    </InternetCtfsOtptInfom>
+    <InternetCtfsOtptInfom>
+        <DEPTNAME>마취통증의학과</DEPTNAME>
+        <FROMDATE>2018년 06월 22일 </FROMDATE>
+        <TODATE>X</TODATE>
+        <DEPTCD>AN</DEPTCD>
+        <MEDDR>마취전진료</MEDDR>
+    </InternetCtfsOtptInfom>
+    <InternetCtfsOtptInfom>
+        <DEPTNAME>정형외과</DEPTNAME>
+        <FROMDATE>2018년 06월 22일 </FROMDATE>
+        <TODATE>X</TODATE>
+        <DEPTCD>OS</DEPTCD>
+        <MEDDR>윤여헌</MEDDR>
+    </InternetCtfsOtptInfom>
+    <InternetCtfsOtptInfom>
+        <DEPTNAME>성형외과</DEPTNAME>
+        <FROMDATE>2018년 07월 19일 </FROMDATE>
+        <TODATE>X</TODATE>
+        <DEPTCD>PS</DEPTCD>
+        <MEDDR>박보영</MEDDR>
+    </InternetCtfsOtptInfom>
+    <InternetCtfsOtptInfom>
+        <DEPTNAME>성형외과</DEPTNAME>
+        <FROMDATE>2018년 07월 21일 </FROMDATE>
+        <TODATE>X</TODATE>
+        <DEPTCD>PS</DEPTCD>
+        <MEDDR>박보영</MEDDR>
+    </InternetCtfsOtptInfom>
+    <InternetCtfsOtptInfom>
+        <DEPTNAME>정형외과</DEPTNAME>
+        <FROMDATE>2018년 07월 21일 </FROMDATE>
+        <TODATE>X</TODATE>
+        <DEPTCD>OS</DEPTCD>
+        <MEDDR>일반진료</MEDDR>
+    </InternetCtfsOtptInfom>
+    <InternetCtfsOtptInfom>
+        <DEPTNAME>성형외과</DEPTNAME>
+        <FROMDATE>2018년 07월 23일 </FROMDATE>
+        <TODATE>X</TODATE>
+        <DEPTCD>PS</DEPTCD>
+        <MEDDR>박보영</MEDDR>
+    </InternetCtfsOtptInfom>
+    <InternetCtfsOtptInfom>
+        <DEPTNAME>정형외과</DEPTNAME>
+        <FROMDATE>2018년 07월 24일 </FROMDATE>
+        <TODATE>X</TODATE>
+        <DEPTCD>OS</DEPTCD>
+        <MEDDR>윤여헌</MEDDR>
+    </InternetCtfsOtptInfom>
+    <InternetCtfsOtptInfom>
+        <DEPTNAME>마취통증의학과</DEPTNAME>
+        <FROMDATE>2018년 07월 25일 </FROMDATE>
+        <TODATE>X</TODATE>
+        <DEPTCD>AN</DEPTCD>
+        <MEDDR>마취전진료</MEDDR>
+    </InternetCtfsOtptInfom>
+</ArrayOfInternetCtfsOtptInfom>

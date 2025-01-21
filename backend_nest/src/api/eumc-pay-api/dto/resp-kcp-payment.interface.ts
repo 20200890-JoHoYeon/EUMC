@@ -1,0 +1,51 @@
+import { ApiProperty } from "@nestjs/swagger";
+
+export interface RespKcpPayment {
+  order_no: string, //":"20230412329",
+  mall_taxno: string, //":"1138521083",
+  partcanc_yn: string, //":"Y",
+  noinf: string, //":"N",
+  res_msg: string, //"정상처리",
+  coupon_mny: string, //"0",
+  pg_txid: string, //"0412032914MK28987373370000000011000070577311",
+  card_bin_type_01: string, //"0",
+  trace_no: string, //"A52Q7YM1N8ONLXDR",
+  card_mny: string, //"1100",
+  res_vat_mny: string, //"100",
+  ca_order_id: string, //"20230412329",
+  res_tax_flag: string, //"TG01",
+  acqu_name: string, //"신한카드",
+  card_no: string, //"461954******7815",
+  quota: string, //"00",
+  van_cd: string, //"VNKC",
+  acqu_cd: string, //"CCLG",
+  amount: string, //"1100",
+  cert_no: string, //"23732987373372",
+  van_apptime: string, //"20230412032914",
+  use_point: string, //"0",
+  res_free_mny: string, //"0",
+  pay_method: string, //"PACA",
+  card_bin_bank_cd: string, //"0301",
+  bizx_numb: string, //"0040905630",
+  res_cd: string, //"0000",
+  escw_yn: string, //"N",
+  join_cd: string, //"0000",
+  app_time: string, //"20230412032914",
+  tno: string, //"23732987373372",
+  card_bin_type_02: string, //"1",
+  card_cd: string, //"CCLG",
+  res_en_msg: string, //"processing completed",
+  card_name: string, //"신한카드",
+  mcht_taxno: string, //"1138521083",
+  res_green_deposit_mny: string, //"0",
+  res_tax_mny: string, //"1000",
+  app_no: string, //"70577311"}
+
+}
+
+
+  // site_cd : site_cd,
+  // kcp_cert_info : this.KCP_CERT_INFO,
+  // bt_group_id : bt_group_id,
+  // bt_batch_key : bt_batch_key,
+  // good_mny : '1' // 결제요청금액   ** 1 원은 실제로 업체에서 결제하셔야 될 원 금액을 넣어주셔야 합니다. 결제금액 유효성 검증 **

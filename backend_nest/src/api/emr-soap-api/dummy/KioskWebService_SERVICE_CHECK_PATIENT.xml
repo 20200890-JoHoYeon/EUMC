@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string xmlns="http://tempuri.org/literalTypes"><?xml version='1.0' encoding='euc-kr'?>
+    <NewDataSet>
+        <Table00>
+            <OUT_PT_NO><![CDATA[10453963]]></OUT_PT_NO>
+        </Table00>
+        <Table00>
+            <OUT_PATNAME><![CDATA[강*애]]></OUT_PATNAME>
+        </Table00>
+        <Table00>
+            <OUT_SSN><![CDATA[7606202231511]]></OUT_SSN>
+        </Table00>
+        <Table00>
+            <OUT_MIDAMT><![CDATA[]]></OUT_MIDAMT>
+        </Table00>
+    </NewDataSet>
+</string>

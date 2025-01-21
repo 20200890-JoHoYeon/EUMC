@@ -1,0 +1,2304 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<DataSet xmlns="http://tempuri.org/">
+    <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+        <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+            <xs:complexType>
+                <xs:choice minOccurs="0" maxOccurs="unbounded">
+                    <xs:element name="Table" msprop:REFCursorName="REFCursor">
+                        <xs:complexType>
+                            <xs:sequence>
+                                <xs:element name="INSTYPE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                                <xs:element name="ACCUCD" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                                <xs:element name="CODENAME" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                                <xs:element name="EDICODE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                                <xs:element name="KORSUGA" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                                <xs:element name="PATNAME" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                                <xs:element name="KORNAME" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                                <xs:element name="USEDAY" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                                <xs:element name="USEQTY" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                                <xs:element name="PRICE" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                                <xs:element name="SUMPRICE" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                                <xs:element name="INSAMT" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                                <xs:element name="INREAMT" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                                <xs:element name="INSALL" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                                <xs:element name="UNCAMT" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                                <xs:element name="TOSUMPRICE" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                                <xs:element name="TOINSAMT" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                                <xs:element name="TOINREAMT" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                                <xs:element name="TOINSALL" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                                <xs:element name="TOUNCAMT" msprop:OraDbType="107" type="xs:decimal" minOccurs="0" />
+                                <xs:element name="USEUNIT" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                                <xs:element name="FROMDATE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                                <xs:element name="TODATE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                                <xs:element name="MEDDEPT" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                                <xs:element name="SORT" msprop:OraDbType="104" type="xs:string" minOccurs="0" />
+                                <xs:element name="ORDDATE" msprop:OraDbType="126" type="xs:string" minOccurs="0" />
+                            </xs:sequence>
+                        </xs:complexType>
+                    </xs:element>
+                </xs:choice>
+            </xs:complexType>
+        </xs:element>
+    </xs:schema>
+    <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+        <NewDataSet xmlns="">
+            <Table diffgr:id="Table1" msdata:rowOrder="0">
+                <INSTYPE>급여</INSTYPE>
+                <ACCUCD>01</ACCUCD>
+                <CODENAME>진 찰 료 </CODENAME>
+                <EDICODE>AC421</EDICODE>
+                <KORSUGA>A5006</KORSUGA>
+                <PATNAME>강경애</PATNAME>
+                <KORNAME>입원환자 안전관리료(1일당) (가29)</KORNAME>
+                <USEDAY>2</USEDAY>
+                <USEQTY>2</USEQTY>
+                <PRICE>1970</PRICE>
+                <SUMPRICE>3940</SUMPRICE>
+                <INSAMT>198</INSAMT>
+                <INREAMT>3742</INREAMT>
+                <INSALL>0</INSALL>
+                <UNCAMT>0</UNCAMT>
+                <TOSUMPRICE>0</TOSUMPRICE>
+                <TOINSAMT>0</TOINSAMT>
+                <TOINREAMT>0</TOINREAMT>
+                <TOINSALL>0</TOINSALL>
+                <TOUNCAMT>0</TOUNCAMT>
+                <FROMDATE>2018-08-01</FROMDATE>
+                <TODATE>2018-08-02</TODATE>
+                <MEDDEPT>         이비인후과 / 이비인후과</MEDDEPT>
+                <SORT>1</SORT>
+            </Table>
+            <Table diffgr:id="Table2" msdata:rowOrder="1">
+                <INSTYPE>급여</INSTYPE>
+                <ACCUCD>01</ACCUCD>
+                <CODENAME>진 찰 료 </CODENAME>
+                <EDICODE>AH011</EDICODE>
+                <KORSUGA>A5003</KORSUGA>
+                <PATNAME>강경애</PATNAME>
+                <KORNAME>감염예방·관리료 (1일당) 가25가(1)</KORNAME>
+                <USEDAY>2</USEDAY>
+                <USEQTY>2</USEQTY>
+                <PRICE>2460</PRICE>
+                <SUMPRICE>4920</SUMPRICE>
+                <INSAMT>246</INSAMT>
+                <INREAMT>4674</INREAMT>
+                <INSALL>0</INSALL>
+                <UNCAMT>0</UNCAMT>
+                <TOSUMPRICE>0</TOSUMPRICE>
+                <TOINSAMT>0</TOINSAMT>
+                <TOINREAMT>0</TOINREAMT>
+                <TOINSALL>0</TOINSALL>
+                <TOUNCAMT>0</TOUNCAMT>
+                <FROMDATE>2018-08-01</FROMDATE>
+                <TODATE>2018-08-02</TODATE>
+                <MEDDEPT>         이비인후과 / 이비인후과</MEDDEPT>
+                <SORT>1</SORT>
+            </Table>
+            <Table diffgr:id="Table3" msdata:rowOrder="2">
+                <INSTYPE>급여</INSTYPE>
+                <ACCUCD>01</ACCUCD>
+                <CODENAME>진 찰 료 </CODENAME>
+                <EDICODE>AP601</EDICODE>
+                <KORSUGA>A6020</KORSUGA>
+                <PATNAME>강경애</PATNAME>
+                <KORNAME>회복관리료(가17가)</KORNAME>
+                <USEDAY>1</USEDAY>
+                <USEQTY>1</USEQTY>
+                <PRICE>31790</PRICE>
+                <SUMPRICE>31790</SUMPRICE>
+                <INSAMT>1590</INSAMT>
+                <INREAMT>30200</INREAMT>
+                <INSALL>0</INSALL>
+                <UNCAMT>0</UNCAMT>
+                <TOSUMPRICE>0</TOSUMPRICE>
+                <TOINSAMT>0</TOINSAMT>
+                <TOINREAMT>0</TOINREAMT>
+                <TOINSALL>0</TOINSALL>
+                <TOUNCAMT>0</TOUNCAMT>
+                <FROMDATE>2018-08-02</FROMDATE>
+                <TODATE>2018-08-02</TODATE>
+                <MEDDEPT>         이비인후과 / 이비인후과</MEDDEPT>
+                <SORT>1</SORT>
+            </Table>
+            <Table diffgr:id="Table4" msdata:rowOrder="3">
+                <INSTYPE>급여</INSTYPE>
+                <ACCUCD>01</ACCUCD>
+                <CODENAME>진 찰 료 </CODENAME>
+                <EDICODE>AU221</EDICODE>
+                <KORSUGA>A7201</KORSUGA>
+                <PATNAME>강경애</PATNAME>
+                <KORNAME>입원-의료질평가지원금(의료 질 및 환자안전·공공성 </KORNAME>
+                <USEDAY>2</USEDAY>
+                <USEQTY>2</USEQTY>
+                <PRICE>9820</PRICE>
+                <SUMPRICE>19640</SUMPRICE>
+                <INSAMT>982</INSAMT>
+                <INREAMT>18658</INREAMT>
+                <INSALL>0</INSALL>
+                <UNCAMT>0</UNCAMT>
+                <TOSUMPRICE>0</TOSUMPRICE>
+                <TOINSAMT>0</TOINSAMT>
+                <TOINREAMT>0</TOINREAMT>
+                <TOINSALL>0</TOINSALL>
+                <TOUNCAMT>0</TOUNCAMT>
+                <FROMDATE>2018-08-01</FROMDATE>
+                <TODATE>2018-08-02</TODATE>
+                <MEDDEPT>         이비인후과 / 이비인후과</MEDDEPT>
+                <SORT>1</SORT>
+            </Table>
+            <Table diffgr:id="Table5" msdata:rowOrder="4">
+                <INSTYPE>급여</INSTYPE>
+                <ACCUCD>01</ACCUCD>
+                <CODENAME>진 찰 료 </CODENAME>
+                <EDICODE>AU301</EDICODE>
+                <KORSUGA>A7301</KORSUGA>
+                <PATNAME>강경애</PATNAME>
+                <KORNAME>입원-의료질평가지원금(교육수련 분야) (가22나(1)(가</KORNAME>
+                <USEDAY>2</USEDAY>
+                <USEQTY>2</USEQTY>
+                <PRICE>1830</PRICE>
+                <SUMPRICE>3660</SUMPRICE>
+                <INSAMT>184</INSAMT>
+                <INREAMT>3476</INREAMT>
+                <INSALL>0</INSALL>
+                <UNCAMT>0</UNCAMT>
+                <TOSUMPRICE>0</TOSUMPRICE>
+                <TOINSAMT>0</TOINSAMT>
+                <TOINREAMT>0</TOINREAMT>
+                <TOINSALL>0</TOINSALL>
+                <TOUNCAMT>0</TOUNCAMT>
+                <FROMDATE>2018-08-01</FROMDATE>
+                <TODATE>2018-08-02</TODATE>
+                <MEDDEPT>         이비인후과 / 이비인후과</MEDDEPT>
+                <SORT>1</SORT>
+            </Table>
+            <Table diffgr:id="Table6" msdata:rowOrder="5">
+                <INSTYPE>급여</INSTYPE>
+                <ACCUCD>01</ACCUCD>
+                <CODENAME>진 찰 료 </CODENAME>
+                <EDICODE>AU401</EDICODE>
+                <KORSUGA>A7401</KORSUGA>
+                <PATNAME>강경애</PATNAME>
+                <KORNAME>입원-의료질평가지원금(연구개발 분야) (가22다(1)(가</KORNAME>
+                <USEDAY>2</USEDAY>
+                <USEQTY>2</USEQTY>
+                <PRICE>1820</PRICE>
+                <SUMPRICE>3640</SUMPRICE>
+                <INSAMT>182</INSAMT>
+                <INREAMT>3458</INREAMT>
+                <INSALL>0</INSALL>
+                <UNCAMT>0</UNCAMT>
+                <TOSUMPRICE>0</TOSUMPRICE>
+                <TOINSAMT>0</TOINSAMT>
+                <TOINREAMT>0</TOINREAMT>
+                <TOINSALL>0</TOINSALL>
+                <TOUNCAMT>0</TOUNCAMT>
+                <FROMDATE>2018-08-01</FROMDATE>
+                <TODATE>2018-08-02</TODATE>
+                <MEDDEPT>         이비인후과 / 이비인후과</MEDDEPT>
+                <SORT>1</SORT>
+            </Table>
+            <Table diffgr:id="Table7" msdata:rowOrder="6">
+                <INSTYPE>급여</INSTYPE>
+                <ACCUCD>01</ACCUCD>
+                <CODENAME>소계</CODENAME>
+                <PATNAME>강경애</PATNAME>
+                <SUMPRICE>67590</SUMPRICE>
+                <INSAMT>3382</INSAMT>
+                <INREAMT>64208</INREAMT>
+                <INSALL>0</INSALL>
+                <UNCAMT>0</UNCAMT>
+                <TOSUMPRICE>0</TOSUMPRICE>
+                <TOINSAMT>0</TOINSAMT>
+                <TOINREAMT>0</TOINREAMT>
+                <TOINSALL>0</TOINSALL>
+                <TOUNCAMT>0</TOUNCAMT>
+                <FROMDATE>2018-08-01</FROMDATE>
+                <TODATE>2018-08-02</TODATE>
+                <MEDDEPT>         이비인후과 / 이비인후과</MEDDEPT>
+                <SORT>2</SORT>
+            </Table>
+            <Table diffgr:id="Table8" msdata:rowOrder="7">
+                <INSTYPE>급여</INSTYPE>
+                <ACCUCD>02</ACCUCD>
+                <CODENAME>입 원 료 </CODENAME>
+                <EDICODE>AB201</EDICODE>
+                <KORSUGA>B1101</KORSUGA>
+                <PATNAME>강경애</PATNAME>
+                <KORNAME>기본 입원료 1-15일(일반과)(가2가(1))</KORNAME>
+                <USEDAY>2</USEDAY>
+                <USEQTY>2</USEQTY>
+                <PRICE>61320</PRICE>
+                <SUMPRICE>122640</SUMPRICE>
+                <INSAMT>6132</INSAMT>
+                <INREAMT>116508</INREAMT>
+                <INSALL>0</INSALL>
+                <UNCAMT>0</UNCAMT>
+                <TOSUMPRICE>0</TOSUMPRICE>
+                <TOINSAMT>0</TOINSAMT>
+                <TOINREAMT>0</TOINREAMT>
+                <TOINSALL>0</TOINSALL>
+                <TOUNCAMT>0</TOUNCAMT>
+                <FROMDATE>2018-08-01</FROMDATE>
+                <TODATE>2018-08-02</TODATE>
+                <MEDDEPT>         이비인후과 / 이비인후과</MEDDEPT>
+                <SORT>1</SORT>
+            </Table>
+            <Table diffgr:id="Table9" msdata:rowOrder="8">
+                <INSTYPE>급여</INSTYPE>
+                <ACCUCD>02</ACCUCD>
+                <CODENAME>소계</CODENAME>
+                <PATNAME>강경애</PATNAME>
+                <SUMPRICE>122640</SUMPRICE>
+                <INSAMT>6132</INSAMT>
+                <INREAMT>116508</INREAMT>
+                <INSALL>0</INSALL>
+                <UNCAMT>0</UNCAMT>
+                <TOSUMPRICE>0</TOSUMPRICE>
+                <TOINSAMT>0</TOINSAMT>
+                <TOINREAMT>0</TOINREAMT>
+                <TOINSALL>0</TOINSALL>
+                <TOUNCAMT>0</TOUNCAMT>
+                <FROMDATE>2018-08-01</FROMDATE>
+                <TODATE>2018-08-02</TODATE>
+                <MEDDEPT>         이비인후과 / 이비인후과</MEDDEPT>
+                <SORT>2</SORT>
+            </Table>
+            <Table diffgr:id="Table10" msdata:rowOrder="9">
+                <INSTYPE>급여</INSTYPE>
+                <ACCUCD>03</ACCUCD>
+                <CODENAME>식   대 2</CODENAME>
+                <EDICODE>Y2200</EDICODE>
+                <KORSUGA>B96001</KORSUGA>
+                <PATNAME>강경애</PATNAME>
+                <KORNAME>일반식 기본 (1식당)</KORNAME>
+                <USEDAY>2</USEDAY>
+                <USEQTY>2</USEQTY>
+                <PRICE>4550</PRICE>
+                <SUMPRICE>9100</SUMPRICE>
+                <INSAMT>4550</INSAMT>
+                <INREAMT>4550</INREAMT>
+                <INSALL>0</INSALL>
+                <UNCAMT>0</UNCAMT>
+                <TOSUMPRICE>0</TOSUMPRICE>
+                <TOINSAMT>0</TOINSAMT>
+                <TOINREAMT>0</TOINREAMT>
+                <TOINSALL>0</TOINSALL>
+                <TOUNCAMT>0</TOUNCAMT>
+                <FROMDATE>2018-08-01</FROMDATE>
+                <TODATE>2018-08-02</TODATE>
+                <MEDDEPT>         이비인후과 / 이비인후과</MEDDEPT>
+                <SORT>1</SORT>
+            </Table>
+            <Table diffgr:id="Table11" msdata:rowOrder="10">
+                <INSTYPE>급여</INSTYPE>
+                <ACCUCD>03</ACCUCD>
+                <CODENAME>식   대 2</CODENAME>
+                <EDICODE>Z0010</EDICODE>
+                <KORSUGA>B96003</KORSUGA>
+                <PATNAME>강경애</PATNAME>
+                <KORNAME>일반식가산-영양사(1식당)</KORNAME>
+                <USEDAY>2</USEDAY>
+                <USEQTY>2</USEQTY>
+                <PRICE>560</PRICE>
+                <SUMPRICE>1120</SUMPRICE>
+                <INSAMT>560</INSAMT>
+                <INREAMT>560</INREAMT>
+                <INSALL>0</INSALL>
+                <UNCAMT>0</UNCAMT>
+                <TOSUMPRICE>0</TOSUMPRICE>
+                <TOINSAMT>0</TOINSAMT>
+                <TOINREAMT>0</TOINREAMT>
+                <TOINSALL>0</TOINSALL>
+                <TOUNCAMT>0</TOUNCAMT>
+                <FROMDATE>2018-08-01</FROMDATE>
+                <TODATE>2018-08-02</TODATE>
+                <MEDDEPT>         이비인후과 / 이비인후과</MEDDEPT>
+                <SORT>1</SORT>
+            </Table>
+            <Table diffgr:id="Table12" msdata:rowOrder="11">
+                <INSTYPE>급여</INSTYPE>
+                <ACCUCD>03</ACCUCD>
+                <CODENAME>소계</CODENAME>
+                <PATNAME>강경애</PATNAME>
+                <SUMPRICE>10220</SUMPRICE>
+                <INSAMT>5110</INSAMT>
+                <INREAMT>5110</INREAMT>
+                <INSALL>0</INSALL>
+                <UNCAMT>0</UNCAMT>
+                <TOSUMPRICE>0</TOSUMPRICE>
+                <TOINSAMT>0</TOINSAMT>
+                <TOINREAMT>0</TOINREAMT>
+                <TOINSALL>0</TOINSALL>
+                <TOUNCAMT>0</TOUNCAMT>
+                <FROMDATE>2018-08-01</FROMDATE>
+                <TODATE>2018-08-02</TODATE>
+                <MEDDEPT>         이비인후과 / 이비인후과</MEDDEPT>
+                <SORT>2</SORT>
+            </Table>
+            <Table diffgr:id="Table13" msdata:rowOrder="12">
+                <INSTYPE>급여</INSTYPE>
+                <ACCUCD>04</ACCUCD>
+                <CODENAME>투 약 료 </CODENAME>
+                <EDICODE>642100270</EDICODE>
+                <KORSUGA>8806421002713</KORSUGA>
+                <PATNAME>강경애</PATNAME>
+                <KORNAME>레코미드정 (100mg/TAB)</KORNAME>
+                <USEDAY>1</USEDAY>
+                <USEQTY>1</USEQTY>
+                <PRICE>79</PRICE>
+                <SUMPRICE>79</SUMPRICE>
+                <INSAMT>4</INSAMT>
+                <INREAMT>75</INREAMT>
+                <INSALL>0</INSALL>
+                <UNCAMT>0</UNCAMT>
+                <TOSUMPRICE>0</TOSUMPRICE>
+                <TOINSAMT>0</TOINSAMT>
+                <TOINREAMT>0</TOINREAMT>
+                <TOINSALL>0</TOINSALL>
+                <TOUNCAMT>0</TOUNCAMT>
+                <USEUNIT>mg</USEUNIT>
+                <FROMDATE>2018-08-02</FROMDATE>
+                <TODATE>2018-08-02</TODATE>
+                <MEDDEPT>         이비인후과 / 이비인후과</MEDDEPT>
+                <SORT>1</SORT>
+            </Table>
+            <Table diffgr:id="Table14" msdata:rowOrder="13">
+                <INSTYPE>급여</INSTYPE>
+                <ACCUCD>04</ACCUCD>
+                <CODENAME>투 약 료 </CODENAME>
+                <EDICODE>643604880</EDICODE>
+                <KORSUGA>8806436048812</KORSUGA>
+                <PATNAME>강경애</PATNAME>
+                <KORNAME>그린플라스트큐프리필드시린지키트_(2mL)</KORNAME>
+                <USEDAY>1</USEDAY>
+                <USEQTY>1</USEQTY>
+                <PRICE>82062</PRICE>
+                <SUMPRICE>82062</SUMPRICE>
+                <INSAMT>4103</INSAMT>
+                <INREAMT>77959</INREAMT>
+                <INSALL>0</INSALL>
+                <UNCAMT>0</UNCAMT>
+                <TOSUMPRICE>0</TOSUMPRICE>
+                <TOINSAMT>0</TOINSAMT>
+                <TOINREAMT>0</TOINREAMT>
+                <TOINSALL>0</TOINSALL>
+                <TOUNCAMT>0</TOUNCAMT>
+                <USEUNIT>kit</USEUNIT>
+                <FROMDATE>2018-08-02</FROMDATE>
+                <TODATE>2018-08-02</TODATE>
+                <MEDDEPT>         이비인후과 / 이비인후과</MEDDEPT>
+                <SORT>1</SORT>
+            </Table>
+            <Table diffgr:id="Table15" msdata:rowOrder="14">
+                <INSTYPE>급여</INSTYPE>
+                <ACCUCD>04</ACCUCD>
+                <CODENAME>투 약 료 </CODENAME>
+                <EDICODE>646900690</EDICODE>
+                <KORSUGA>8806469006919</KORSUGA>
+                <PATNAME>강경애</PATNAME>
+                <KORNAME>타이레놀8시간이알서방정 650mg (no＜12yr)</KORNAME>
+                <USEDAY>1</USEDAY>
+                <USEQTY>2</USEQTY>
+                <PRICE>36</PRICE>
+                <SUMPRICE>72</SUMPRICE>
+                <INSAMT>4</INSAMT>
+                <INREAMT>68</INREAMT>
+                <INSALL>0</INSALL>
+                <UNCAMT>0</UNCAMT>
+                <TOSUMPRICE>0</TOSUMPRICE>
+                <TOINSAMT>0</TOINSAMT>
+                <TOINREAMT>0</TOINREAMT>
+                <TOINSALL>0</TOINSALL>
+                <TOUNCAMT>0</TOUNCAMT>
+                <USEUNIT>mg</USEUNIT>
+                <FROMDATE>2018-08-02</FROMDATE>
+                <TODATE>2018-08-02</TODATE>
+                <MEDDEPT>         이비인후과 / 이비인후과</MEDDEPT>
+                <SORT>1</SORT>
+            </Table>
+            <Table diffgr:id="Table16" msdata:rowOrder="15">
+                <INSTYPE>급여</INSTYPE>
+                <ACCUCD>04</ACCUCD>
+                <CODENAME>투 약 료 </CODENAME>
+                <EDICODE>655300240</EDICODE>
+                <KORSUGA>8806553002421</KORSUGA>
+                <PATNAME>강경애</PATNAME>
+                <KORNAME>타코실_(7.5㎠/1매)</KORNAME>
+                <USEDAY>1</USEDAY>
+                <USEQTY>1</USEQTY>
+                <PRICE>70773</PRICE>
+                <SUMPRICE>70773</SUMPRICE>
+                <INSAMT>3539</INSAMT>
+                <INREAMT>67234</INREAMT>
+                <INSALL>0</INSALL>
+                <UNCAMT>0</UNCAMT>
+                <TOSUMPRICE>0</TOSUMPRICE>
+                <TOINSAMT>0</TOINSAMT>
+                <TOINREAMT>0</TOINREAMT>
+                <TOINSALL>0</TOINSALL>
+                <TOUNCAMT>0</TOUNCAMT>
+                <USEUNIT>㎤/매</USEUNIT>
+                <FROMDATE>2018-08-02</FROMDATE>
+                <TODATE>2018-08-02</TODATE>
+                <MEDDEPT>         이비인후과 / 이비인후과</MEDDEPT>
+                <SORT>1</SORT>
+            </Table>
+            <Table diffgr:id="Table17" msdata:rowOrder="16">
+                <INSTYPE>급여</INSTYPE>
+                <ACCUCD>04</ACCUCD>
+                <CODENAME>투 약 료 </CODENAME>
+                <EDICODE>J2000</EDICODE>
+                <KORSUGA>C4001</KORSUGA>
+                <PATNAME>강경애</PATNAME>
+                <KORNAME>입원환자 조제.복약지도료(라2)</KORNAME>
+                <USEDAY>1</USEDAY>
+                <USEQTY>1</USEQTY>
+                <PRICE>1340</PRICE>
+                <SUMPRICE>1675</SUMPRICE>
+                <INSAMT>84</INSAMT>
+                <INREAMT>1591</INREAMT>
+                <INSALL>0</INSALL>
+                <UNCAMT>0</UNCAMT>
+                <TOSUMPRICE>0</TOSUMPRICE>
+                <TOINSAMT>0</TOINSAMT>
+                <TOINREAMT>0</TOINREAMT>
+                <TOINSALL>0</TOINSALL>
+                <TOUNCAMT>0</TOUNCAMT>
+                <FROMDATE>2018-08-02</FROMDATE>
+                <TODATE>2018-08-02</TODATE>
+                <MEDDEPT>         이비인후과 / 이비인후과</MEDDEPT>
+                <SORT>1</SORT>
+            </Table>
+            <Table diffgr:id="Table18" msdata:rowOrder="17">
+                <INSTYPE>급여</INSTYPE>
+                <ACCUCD>04</ACCUCD>
+                <CODENAME>소계</CODENAME>
+                <PATNAME>강경애</PATNAME>
+                <SUMPRICE>154661</SUMPRICE>
+                <INSAMT>7734</INSAMT>
+                <INREAMT>146927</INREAMT>
+                <INSALL>0</INSALL>
+                <UNCAMT>0</UNCAMT>
+                <TOSUMPRICE>0</TOSUMPRICE>
+                <TOINSAMT>0</TOINSAMT>
+                <TOINREAMT>0</TOINREAMT>
+                <TOINSALL>0</TOINSALL>
+                <TOUNCAMT>0</TOUNCAMT>
+                <FROMDATE>2018-08-02</FROMDATE>
+                <TODATE>2018-08-02</TODATE>
+                <MEDDEPT>         이비인후과 / 이비인후과</MEDDEPT>
+                <SORT>2</SORT>
+            </Table>
+            <Table diffgr:id="Table19" msdata:rowOrder="18">
+                <INSTYPE>전액본인부담</INSTYPE>
+                <ACCUCD>04</ACCUCD>
+                <CODENAME>투 약 료 </CODENAME>
+                <EDICODE>643500900</EDICODE>
+                <KORSUGA>8806435009005</KORSUGA>
+                <PATNAME>강경애</PATNAME>
+                <KORNAME>메디락디에스장용캡슐(바실루스서브틸리스균엔테로코 </KORNAME>
+                <USEDAY>1</USEDAY>
+                <USEQTY>1</USEQTY>
+                <PRICE>59</PRICE>
+                <SUMPRICE>59</SUMPRICE>
+                <INSAMT>0</INSAMT>
+                <INREAMT>0</INREAMT>
+                <INSALL>59</INSALL>
+                <UNCAMT>0</UNCAMT>
+                <TOSUMPRICE>0</TOSUMPRICE>
+                <TOINSAMT>0</TOINSAMT>
+                <TOINREAMT>0</TOINREAMT>
+                <TOINSALL>0</TOINSALL>
+                <TOUNCAMT>0</TOUNCAMT>
+                <USEUNIT>cap</USEUNIT>
+                <FROMDATE>2018-08-02</FROMDATE>
+                <TODATE>2018-08-02</TODATE>
+                <MEDDEPT>         이비인후과 / 이비인후과</MEDDEPT>
+                <SORT>1</SORT>
+            </Table>
+            <Table diffgr:id="Table20" msdata:rowOrder="19">
+                <INSTYPE>전액본인부담</INSTYPE>
+                <ACCUCD>04</ACCUCD>
+                <CODENAME>소계</CODENAME>
+                <PATNAME>강경애</PATNAME>
+                <SUMPRICE>59</SUMPRICE>
+                <INSAMT>0</INSAMT>
+                <INREAMT>0</INREAMT>
+                <INSALL>59</INSALL>
+                <UNCAMT>0</UNCAMT>
+                <TOSUMPRICE>0</TOSUMPRICE>
+                <TOINSAMT>0</TOINSAMT>
+                <TOINREAMT>0</TOINREAMT>
+                <TOINSALL>0</TOINSALL>
+                <TOUNCAMT>0</TOUNCAMT>
+                <FROMDATE>2018-08-02</FROMDATE>
+                <TODATE>2018-08-02</TODATE>
+                <MEDDEPT>         이비인후과 / 이비인후과</MEDDEPT>
+                <SORT>2</SORT>
+            </Table>
+            <Table diffgr:id="Table21" msdata:rowOrder="20">
+                <INSTYPE>급여</INSTYPE>
+                <ACCUCD>05</ACCUCD>
+                <CODENAME>주 사 료 </CODENAME>
+                <EDICODE>640001071</EDICODE>
+                <KORSUGA>8806400010715</KORSUGA>
+                <PATNAME>강경애</PATNAME>
+                <KORNAME>0.9%생리식염주사액 100ml/bag</KORNAME>
+                <USEDAY>3</USEDAY>
+                <USEQTY>5</USEQTY>
+                <PRICE>1212</PRICE>
+                <SUMPRICE>6060</SUMPRICE>
+                <INSAMT>303</INSAMT>
+                <INREAMT>5757</INREAMT>
+                <INSALL>0</INSALL>
+                <UNCAMT>0</UNCAMT>
+                <TOSUMPRICE>0</TOSUMPRICE>
+                <TOINSAMT>0</TOINSAMT>
+                <TOINREAMT>0</TOINREAMT>
+                <TOINSALL>0</TOINSALL>
+                <TOUNCAMT>0</TOUNCAMT>
+                <USEUNIT>mL</USEUNIT>
+                <FROMDATE>2018-08-02</FROMDATE>
+                <TODATE>2018-08-02</TODATE>
+                <MEDDEPT>         이비인후과 / 이비인후과</MEDDEPT>
+                <SORT>1</SORT>
+            </Table>
+            <Table diffgr:id="Table22" msdata:rowOrder="21">
+                <INSTYPE>급여</INSTYPE>
+                <ACCUCD>05</ACCUCD>
+                <CODENAME>주 사 료 </CODENAME>
+                <EDICODE>640001300</EDICODE>
+                <KORSUGA>8806400013013</KORSUGA>
+                <PATNAME>강경애</PATNAME>
+                <KORNAME>5% 포도당 엔에이 케이 2 주1000ml/bag</KORNAME>
+                <USEDAY>1</USEDAY>
+                <USEQTY>1</USEQTY>
+                <PRICE>1675</PRICE>
+                <SUMPRICE>1675</SUMPRICE>
+                <INSAMT>84</INSAMT>
+                <INREAMT>1591</INREAMT>
+                <INSALL>0</INSALL>
+                <UNCAMT>0</UNCAMT>
+                <TOSUMPRICE>0</TOSUMPRICE>
+                <TOINSAMT>0</TOINSAMT>
+                <TOINREAMT>0</TOINREAMT>
+                <TOINSALL>0</TOINSALL>
+                <TOUNCAMT>0</TOUNCAMT>
+                <USEUNIT>mL</USEUNIT>
+                <FROMDATE>2018-08-01</FROMDATE>
+                <TODATE>2018-08-01</TODATE>
+                <MEDDEPT>         이비인후과 / 이비인후과</MEDDEPT>
+                <SORT>1</SORT>
+            </Table>
+            <Table diffgr:id="Table23" msdata:rowOrder="22">
+                <INSTYPE>급여</INSTYPE>
+                <ACCUCD>05</ACCUCD>
+                <CODENAME>주 사 료 </CODENAME>
+                <EDICODE>640001401</EDICODE>
+                <KORSUGA>8806400014010</KORSUGA>
+                <PATNAME>강경애</PATNAME>
+                <KORNAME>5% 덱스트로즈 주 1000ml/BAG</KORNAME>
+                <USEDAY>1</USEDAY>
+                <USEQTY>1</USEQTY>
+                <PRICE>1503</PRICE>
+                <SUMPRICE>1503</SUMPRICE>
+                <INSAMT>75</INSAMT>
+                <INREAMT>1428</INREAMT>
+                <INSALL>0</INSALL>
+                <UNCAMT>0</UNCAMT>
+                <TOSUMPRICE>0</TOSUMPRICE>
+                <TOINSAMT>0</TOINSAMT>
+                <TOINREAMT>0</TOINREAMT>
+                <TOINSALL>0</TOINSALL>
+                <TOUNCAMT>0</TOUNCAMT>
+                <USEUNIT>mL</USEUNIT>
+                <FROMDATE>2018-08-02</FROMDATE>
+                <TODATE>2018-08-02</TODATE>
+                <MEDDEPT>         이비인후과 / 이비인후과</MEDDEPT>
+                <SORT>1</SORT>
+            </Table>
+            <Table diffgr:id="Table24" msdata:rowOrder="23">
+                <INSTYPE>급여</INSTYPE>
+                <ACCUCD>05</ACCUCD>
+                <CODENAME>주 사 료 </CODENAME>
+                <EDICODE>640002680</EDICODE>
+                <KORSUGA>8806400026815</KORSUGA>
+                <PATNAME>강경애</PATNAME>
+                <KORNAME>하트만용액 1000ML/BAG</KORNAME>
+                <USEDAY>1</USEDAY>
+                <USEQTY>1</USEQTY>
+                <PRICE>1550</PRICE>
+                <SUMPRICE>1550</SUMPRICE>
+                <INSAMT>78</INSAMT>
+                <INREAMT>1472</INREAMT>
+                <INSALL>0</INSALL>
+                <UNCAMT>0</UNCAMT>
+                <TOSUMPRICE>0</TOSUMPRICE>
+                <TOINSAMT>0</TOINSAMT>
+                <TOINREAMT>0</TOINREAMT>
+                <TOINSALL>0</TOINSALL>
+                <TOUNCAMT>0</TOUNCAMT>
+                <USEUNIT>mL</USEUNIT>
+                <FROMDATE>2018-08-02</FROMDATE>
+                <TODATE>2018-08-02</TODATE>
+                <MEDDEPT>         이비인후과 / 이비인후과</MEDDEPT>
+                <SORT>1</SORT>
+            </Table>
+            <Table diffgr:id="Table25" msdata:rowOrder="24">
+                <INSTYPE>급여</INSTYPE>
+                <ACCUCD>05</ACCUCD>
+                <CODENAME>주 사 료 </CODENAME>
+                <EDICODE>642101400</EDICODE>
+                <KORSUGA>8806421014013</KORSUGA>
+                <PATNAME>강경애</PATNAME>
+                <KORNAME>2%염산리도카인(1대10만) 1.8ml/amp</KORNAME>
+                <USEDAY>1</USEDAY>
+                <USEQTY>1</USEQTY>
+                <PRICE>346</PRICE>
+                <SUMPRICE>346</SUMPRICE>
+                <INSAMT>17</INSAMT>
+                <INREAMT>329</INREAMT>
+                <INSALL>0</INSALL>
+                <UNCAMT>0</UNCAMT>
+                <TOSUMPRICE>0</TOSUMPRICE>
+                <TOINSAMT>0</TOINSAMT>
+                <TOINREAMT>0</TOINREAMT>
+                <TOINSALL>0</TOINSALL>
+                <TOUNCAMT>0</TOUNCAMT>
+                <USEUNIT>mL</USEUNIT>
+                <FROMDATE>2018-08-02</FROMDATE>
+                <TODATE>2018-08-02</TODATE>
+                <MEDDEPT>         이비인후과 / 이비인후과</MEDDEPT>
+                <SORT>1</SORT>
+            </Table>
+            <Table diffgr:id="Table26" msdata:rowOrder="25">
+                <INSTYPE>급여</INSTYPE>
+                <ACCUCD>05</ACCUCD>
+                <CODENAME>주 사 료 </CODENAME>
+                <EDICODE>642200691</EDICODE>
+                <KORSUGA>8806422006918</KORSUGA>
+                <PATNAME>강경애</PATNAME>
+                <KORNAME>부광미다졸람주사_(3mg/3mL)</KORNAME>
+                <USEDAY>1</USEDAY>
+                <USEQTY>1</USEQTY>
+                <PRICE>682</PRICE>
+                <SUMPRICE>682</SUMPRICE>
+                <INSAMT>34</INSAMT>
+                <INREAMT>648</INREAMT>
+                <INSALL>0</INSALL>
+                <UNCAMT>0</UNCAMT>
+                <TOSUMPRICE>0</TOSUMPRICE>
+                <TOINSAMT>0</TOINSAMT>
+                <TOINREAMT>0</TOINREAMT>
+                <TOINSALL>0</TOINSALL>
+                <TOUNCAMT>0</TOUNCAMT>
+                <USEUNIT>MG</USEUNIT>
+                <FROMDATE>2018-08-02</FROMDATE>
+                <TODATE>2018-08-02</TODATE>
+                <MEDDEPT>         이비인후과 / 이비인후과</MEDDEPT>
+                <SORT>1</SORT>
+            </Table>
+            <Table diffgr:id="Table27" msdata:rowOrder="26">
+                <INSTYPE>급여</INSTYPE>
+                <ACCUCD>05</ACCUCD>
+                <CODENAME>주 사 료 </CODENAME>
+                <EDICODE>642400161</EDICODE>
+                <KORSUGA>8806424001614</KORSUGA>
+                <PATNAME>강경애</PATNAME>
+                <KORNAME>데노간주(프로파세타몰염산염)_(1g/1병)</KORNAME>
+                <USEDAY>1</USEDAY>
+                <USEQTY>2</USEQTY>
+                <PRICE>1483</PRICE>
+                <SUMPRICE>2966</SUMPRICE>
+                <INSAMT>148</INSAMT>
+                <INREAMT>2818</INREAMT>
+                <INSALL>0</INSALL>
+                <UNCAMT>0</UNCAMT>
+                <TOSUMPRICE>0</TOSUMPRICE>
+                <TOINSAMT>0</TOINSAMT>
+                <TOINREAMT>0</TOINREAMT>
+                <TOINSALL>0</TOINSALL>
+                <TOUNCAMT>0</TOUNCAMT>
+                <USEUNIT>G</USEUNIT>
+                <FROMDATE>2018-08-02</FROMDATE>
+                <TODATE>2018-08-02</TODATE>
+                <MEDDEPT>         이비인후과 / 이비인후과</MEDDEPT>
+                <SORT>1</SORT>
+            </Table>
+            <Table diffgr:id="Table28" msdata:rowOrder="27">
+                <INSTYPE>급여</INSTYPE>
+                <ACCUCD>05</ACCUCD>
+                <CODENAME>주 사 료 </CODENAME>
+                <EDICODE>644901581</EDICODE>
+                <KORSUGA>8806449015818</KORSUGA>
+                <PATNAME>강경애</PATNAME>
+                <KORNAME>에취투 주 200MG/2ML/AMP</KORNAME>
+                <USEDAY>1</USEDAY>
+                <USEQTY>2</USEQTY>
+                <PRICE>260</PRICE>
+                <SUMPRICE>520</SUMPRICE>
+                <INSAMT>26</INSAMT>
+                <INREAMT>494</INREAMT>
+                <INSALL>0</INSALL>
+                <UNCAMT>0</UNCAMT>
+                <TOSUMPRICE>0</TOSUMPRICE>
+                <TOINSAMT>0</TOINSAMT>
+                <TOINREAMT>0</TOINREAMT>
+                <TOINSALL>0</TOINSALL>
+                <TOUNCAMT>0</TOUNCAMT>
+                <USEUNIT>mg</USEUNIT>
+                <FROMDATE>2018-08-02</FROMDATE>
+                <TODATE>2018-08-02</TODATE>
+                <MEDDEPT>         이비인후과 / 이비인후과</MEDDEPT>
+                <SORT>1</SORT>
+            </Table>
+            <Table diffgr:id="Table29" msdata:rowOrder="28">
+                <INSTYPE>급여</INSTYPE>
+                <ACCUCD>05</ACCUCD>
+                <CODENAME>주 사 료 </CODENAME>
+                <EDICODE>645100643</EDICODE>
+                <KORSUGA>8806451006439</KORSUGA>
+                <PATNAME>강경애</PATNAME>
+                <KORNAME>주사용수 20ml/amp</KORNAME>
+                <USEDAY>1</USEDAY>
+                <USEQTY>1</USEQTY>
+                <PRICE>211</PRICE>
+                <SUMPRICE>211</SUMPRICE>
+                <INSAMT>11</INSAMT>
+                <INREAMT>200</INREAMT>
+                <INSALL>0</INSALL>
+                <UNCAMT>0</UNCAMT>
+                <TOSUMPRICE>0</TOSUMPRICE>
+                <TOINSAMT>0</TOINSAMT>
+                <TOINREAMT>0</TOINREAMT>
+                <TOINSALL>0</TOINSALL>
+                <TOUNCAMT>0</TOUNCAMT>
+                <USEUNIT>mL</USEUNIT>
+                <FROMDATE>2018-08-02</FROMDATE>
+                <TODATE>2018-08-02</TODATE>
+                <MEDDEPT>         이비인후과 / 이비인후과</MEDDEPT>
+                <SORT>1</SORT>
+            </Table>
+            <Table diffgr:id="Table30" msdata:rowOrder="29">
+                <INSTYPE>급여</INSTYPE>
+                <ACCUCD>05</ACCUCD>
+                <CODENAME>주 사 료 </CODENAME>
+                <EDICODE>645100741</EDICODE>
+                <KORSUGA>8806451007412</KORSUGA>
+                <PATNAME>강경애</PATNAME>
+                <KORNAME>에피네프린 1MG/ML/AMP</KORNAME>
+                <USEDAY>1</USEDAY>
+                <USEQTY>1</USEQTY>
+                <PRICE>322</PRICE>
+                <SUMPRICE>322</SUMPRICE>
+                <INSAMT>16</INSAMT>
+                <INREAMT>306</INREAMT>
+                <INSALL>0</INSALL>
+                <UNCAMT>0</UNCAMT>
+                <TOSUMPRICE>0</TOSUMPRICE>
+                <TOINSAMT>0</TOINSAMT>
+                <TOINREAMT>0</TOINREAMT>
+                <TOINSALL>0</TOINSALL>
+                <TOUNCAMT>0</TOUNCAMT>
+                <USEUNIT>mg</USEUNIT>
+                <FROMDATE>2018-08-02</FROMDATE>
+                <TODATE>2018-08-02</TODATE>
+                <MEDDEPT>         이비인후과 / 이비인후과</MEDDEPT>
+                <SORT>1</SORT>
+            </Table>
+            <Table diffgr:id="Table31" msdata:rowOrder="30">
+                <INSTYPE>급여</INSTYPE>
+                <ACCUCD>05</ACCUCD>
+                <CODENAME>주 사 료 </CODENAME>
+                <EDICODE>645300761</EDICODE>
+                <KORSUGA>8806453007618</KORSUGA>
+                <PATNAME>강경애</PATNAME>
+                <KORNAME>보트로파제주사(헤모코아귤라제)_(2KU/2mL)</KORNAME>
+                <USEDAY>1</USEDAY>
+                <USEQTY>2</USEQTY>
+                <PRICE>1413</PRICE>
+                <SUMPRICE>2826</SUMPRICE>
+                <INSAMT>141</INSAMT>
+                <INREAMT>2685</INREAMT>
+                <INSALL>0</INSALL>
+                <UNCAMT>0</UNCAMT>
+                <TOSUMPRICE>0</TOSUMPRICE>
+                <TOINSAMT>0</TOINSAMT>
+                <TOINREAMT>0</TOINREAMT>
+                <TOINSALL>0</TOINSALL>
+                <TOUNCAMT>0</TOUNCAMT>
+                <USEUNIT>ML</USEUNIT>
+                <FROMDATE>2018-08-02</FROMDATE>
+                <TODATE>2018-08-02</TODATE>
+                <MEDDEPT>         이비인후과 / 이비인후과</MEDDEPT>
+                <SORT>1</SORT>
+            </Table>
+            <Table diffgr:id="Table32" msdata:rowOrder="31">
+                <INSTYPE>급여</INSTYPE>
+                <ACCUCD>05</ACCUCD>
+                <CODENAME>주 사 료 </CODENAME>
+                <EDICODE>649502741</EDICODE>
+                <KORSUGA>8806495027414</KORSUGA>
+                <PATNAME>강경애</PATNAME>
+                <KORNAME>유니제돈 주 1g/vial</KORNAME>
+                <USEDAY>2</USEDAY>
+                <USEQTY>3</USEQTY>
+                <PRICE>4053</PRICE>
+                <SUMPRICE>12159</SUMPRICE>
+                <INSAMT>608</INSAMT>
+                <INREAMT>11551</INREAMT>
+                <INSALL>0</INSALL>
+                <UNCAMT>0</UNCAMT>
+                <TOSUMPRICE>0</TOSUMPRICE>
+                <TOINSAMT>0</TOINSAMT>
+                <TOINREAMT>0</TOINREAMT>
+                <TOINSALL>0</TOINSALL>
+                <TOUNCAMT>0</TOUNCAMT>
+                <USEUNIT>g</USEUNIT>
+                <FROMDATE>2018-08-02</FROMDATE>
+                <TODATE>2018-08-02</TODATE>
+                <MEDDEPT>         이비인후과 / 이비인후과</MEDDEPT>
+                <SORT>1</SORT>
+            </Table>
+            <Table diffgr:id="Table33" msdata:rowOrder="32">
+                <INSTYPE>급여</INSTYPE>
+                <ACCUCD>05</ACCUCD>
+                <CODENAME>주 사 료 </CODENAME>
+                <EDICODE>649800971</EDICODE>
+                <KORSUGA>8806498009714</KORSUGA>
+                <PATNAME>강경애</PATNAME>
+                <KORNAME>명문모비눌주사1밀리리터(글리코피롤레이트)_(0.2mg/1</KORNAME>
+                <USEDAY>2</USEDAY>
+                <USEQTY>3</USEQTY>
+                <PRICE>668</PRICE>
+                <SUMPRICE>2004</SUMPRICE>
+                <INSAMT>100</INSAMT>
+                <INREAMT>1904</INREAMT>
+                <INSALL>0</INSALL>
+                <UNCAMT>0</UNCAMT>
+                <TOSUMPRICE>0</TOSUMPRICE>
+                <TOINSAMT>0</TOINSAMT>
+                <TOINREAMT>0</TOINREAMT>
+                <TOINSALL>0</TOINSALL>
+                <TOUNCAMT>0</TOUNCAMT>
+                <USEUNIT>ML</USEUNIT>
+                <FROMDATE>2018-08-02</FROMDATE>
+                <TODATE>2018-08-02</TODATE>
+                <MEDDEPT>         이비인후과 / 이비인후과</MEDDEPT>
+                <SORT>1</SORT>
+            </Table>
+            <Table diffgr:id="Table34" msdata:rowOrder="33">
+                <INSTYPE>급여</INSTYPE>
+                <ACCUCD>05</ACCUCD>
+                <CODENAME>주 사 료 </CODENAME>
+                <EDICODE>649803671</EDICODE>
+                <KORSUGA>8806498036710</KORSUGA>
+                <PATNAME>강경애</PATNAME>
+                <KORNAME>피리놀주 5MG/1ML/AMP</KORNAME>
+                <USEDAY>1</USEDAY>
+                <USEQTY>2</USEQTY>
+                <PRICE>651</PRICE>
+                <SUMPRICE>1302</SUMPRICE>
+                <INSAMT>65</INSAMT>
+                <INREAMT>1237</INREAMT>
+                <INSALL>0</INSALL>
+                <UNCAMT>0</UNCAMT>
+                <TOSUMPRICE>0</TOSUMPRICE>
+                <TOINSAMT>0</TOINSAMT>
+                <TOINREAMT>0</TOINREAMT>
+                <TOINSALL>0</TOINSALL>
+                <TOUNCAMT>0</TOUNCAMT>
+                <USEUNIT>mg</USEUNIT>
+                <FROMDATE>2018-08-02</FROMDATE>
+                <TODATE>2018-08-02</TODATE>
+                <MEDDEPT>         이비인후과 / 이비인후과</MEDDEPT>
+                <SORT>1</SORT>
+            </Table>
+            <Table diffgr:id="Table35" msdata:rowOrder="34">
+                <INSTYPE>급여</INSTYPE>
+                <ACCUCD>05</ACCUCD>
+                <CODENAME>주 사 료 </CODENAME>
+                <EDICODE>650901871</EDICODE>
+                <KORSUGA>8806509018711</KORSUGA>
+                <PATNAME>강경애</PATNAME>
+                <KORNAME>1% 프레조폴 엠시티주 15mL/amp</KORNAME>
+                <USEDAY>1</USEDAY>
+                <USEQTY>1</USEQTY>
+                <PRICE>3426</PRICE>
+                <SUMPRICE>3426</SUMPRICE>
+                <INSAMT>171</INSAMT>
+                <INREAMT>3255</INREAMT>
+                <INSALL>0</INSALL>
+                <UNCAMT>0</UNCAMT>
+                <TOSUMPRICE>0</TOSUMPRICE>
+                <TOINSAMT>0</TOINSAMT>
+                <TOINREAMT>0</TOINREAMT>
+                <TOINSALL>0</TOINSALL>
+                <TOUNCAMT>0</TOUNCAMT>
+                <USEUNIT>mL</USEUNIT>
+                <FROMDATE>2018-08-02</FROMDATE>
+                <TODATE>2018-08-02</TODATE>
+                <MEDDEPT>         이비인후과 / 이비인후과</MEDDEPT>
+                <SORT>1</SORT>
+            </Table>
+            <Table diffgr:id="Table36" msdata:rowOrder="35">
+                <INSTYPE>급여</INSTYPE>
+                <ACCUCD>05</ACCUCD>
+                <CODENAME>주 사 료 </CODENAME>
+                <EDICODE>651600271</EDICODE>
+                <KORSUGA>8806516002710</KORSUGA>
+                <PATNAME>강경애</PATNAME>
+                <KORNAME>뮤테란 주 600mg/6ml/amp</KORNAME>
+                <USEDAY>1</USEDAY>
+                <USEQTY>2</USEQTY>
+                <PRICE>595</PRICE>
+                <SUMPRICE>1190</SUMPRICE>
+                <INSAMT>60</INSAMT>
+                <INREAMT>1130</INREAMT>
+                <INSALL>0</INSALL>
+                <UNCAMT>0</UNCAMT>
+                <TOSUMPRICE>0</TOSUMPRICE>
+                <TOINSAMT>0</TOINSAMT>
+                <TOINREAMT>0</TOINREAMT>
+                <TOINSALL>0</TOINSALL>
+                <TOUNCAMT>0</TOUNCAMT>
+                <USEUNIT>mg</USEUNIT>
+                <FROMDATE>2018-08-02</FROMDATE>
+                <TODATE>2018-08-02</TODATE>
+                <MEDDEPT>         이비인후과 / 이비인후과</MEDDEPT>
+                <SORT>1</SORT>
+            </Table>
+            <Table diffgr:id="Table37" msdata:rowOrder="36">
+                <INSTYPE>급여</INSTYPE>
+                <ACCUCD>05</ACCUCD>
+                <CODENAME>주 사 료 </CODENAME>
+                <EDICODE>655501591</EDICODE>
+                <KORSUGA>8806555015917</KORSUGA>
+                <PATNAME>강경애</PATNAME>
+                <KORNAME>에스메론주(로쿠로늄브롬화물)_(50mg/5mL)</KORNAME>
+                <USEDAY>1</USEDAY>
+                <USEQTY>1</USEQTY>
+                <PRICE>3315</PRICE>
+                <SUMPRICE>3315</SUMPRICE>
+                <INSAMT>166</INSAMT>
+                <INREAMT>3149</INREAMT>
+                <INSALL>0</INSALL>
+                <UNCAMT>0</UNCAMT>
+                <TOSUMPRICE>0</TOSUMPRICE>
+                <TOINSAMT>0</TOINSAMT>
+                <TOINREAMT>0</TOINREAMT>
+                <TOINSALL>0</TOINSALL>
+                <TOUNCAMT>0</TOUNCAMT>
+                <USEUNIT>MG</USEUNIT>
+                <FROMDATE>2018-08-02</FROMDATE>
+                <TODATE>2018-08-02</TODATE>
+                <MEDDEPT>         이비인후과 / 이비인후과</MEDDEPT>
+                <SORT>1</SORT>
+            </Table>
+            <Table diffgr:id="Table38" msdata:rowOrder="37">
+                <INSTYPE>급여</INSTYPE>
+                <ACCUCD>05</ACCUCD>
+                <CODENAME>주 사 료 </CODENAME>
+                <EDICODE>657802273</EDICODE>
+                <KORSUGA>8806578022732</KORSUGA>
+                <PATNAME>강경애</PATNAME>
+                <KORNAME>하나구연산펜타닐주사_(0.157mg/2mL/앰플(P))</KORNAME>
+                <USEDAY>1</USEDAY>
+                <USEQTY>1</USEQTY>
+                <PRICE>2050</PRICE>
+                <SUMPRICE>2050</SUMPRICE>
+                <INSAMT>103</INSAMT>
+                <INREAMT>1947</INREAMT>
+                <INSALL>0</INSALL>
+                <UNCAMT>0</UNCAMT>
+                <TOSUMPRICE>0</TOSUMPRICE>
+                <TOINSAMT>0</TOINSAMT>
+                <TOINREAMT>0</TOINREAMT>
+                <TOINSALL>0</TOINSALL>
+                <TOUNCAMT>0</TOUNCAMT>
+                <USEUNIT>ML</USEUNIT>
+                <FROMDATE>2018-08-02</FROMDATE>
+                <TODATE>2018-08-02</TODATE>
+                <MEDDEPT>         이비인후과 / 이비인후과</MEDDEPT>
+                <SORT>1</SORT>
+            </Table>
+            <Table diffgr:id="Table39" msdata:rowOrder="38">
+                <INSTYPE>급여</INSTYPE>
+                <ACCUCD>05</ACCUCD>
+                <CODENAME>주 사 료 </CODENAME>
+                <EDICODE>670601151</EDICODE>
+                <KORSUGA>8806706011515</KORSUGA>
+                <PATNAME>강경애</PATNAME>
+                <KORNAME>생리식염주사액 20ml (수출명:KWANGMYUNGSODIUMCHLORI</KORNAME>
+                <USEDAY>1</USEDAY>
+                <USEQTY>1</USEQTY>
+                <PRICE>260</PRICE>
+                <SUMPRICE>260</SUMPRICE>
+                <INSAMT>13</INSAMT>
+                <INREAMT>247</INREAMT>
+                <INSALL>0</INSALL>
+                <UNCAMT>0</UNCAMT>
+                <TOSUMPRICE>0</TOSUMPRICE>
+                <TOINSAMT>0</TOINSAMT>
+                <TOINREAMT>0</TOINREAMT>
+                <TOINSALL>0</TOINSALL>
+                <TOUNCAMT>0</TOUNCAMT>
+                <USEUNIT>ML</USEUNIT>
+                <FROMDATE>2018-08-02</FROMDATE>
+                <TODATE>2018-08-02</TODATE>
+                <MEDDEPT>         이비인후과 / 이비인후과</MEDDEPT>
+                <SORT>1</SORT>
+            </Table>
+            <Table diffgr:id="Table40" msdata:rowOrder="39">
+                <INSTYPE>급여</INSTYPE>
+                <ACCUCD>05</ACCUCD>
+                <CODENAME>주 사 료 </CODENAME>
+                <EDICODE>670603464</EDICODE>
+                <KORSUGA>8806706034644</KORSUGA>
+                <PATNAME>강경애</PATNAME>
+                <KORNAME>휴온스리도카인염산염수화1% 200mg/20ml/vial</KORNAME>
+                <USEDAY>1</USEDAY>
+                <USEQTY>1</USEQTY>
+                <PRICE>420</PRICE>
+                <SUMPRICE>420</SUMPRICE>
+                <INSAMT>21</INSAMT>
+                <INREAMT>399</INREAMT>
+                <INSALL>0</INSALL>
+                <UNCAMT>0</UNCAMT>
+                <TOSUMPRICE>0</TOSUMPRICE>
+                <TOINSAMT>0</TOINSAMT>
+                <TOINREAMT>0</TOINREAMT>
+                <TOINSALL>0</TOINSALL>
+                <TOUNCAMT>0</TOUNCAMT>
+                <USEUNIT>mg</USEUNIT>
+                <FROMDATE>2018-08-02</FROMDATE>
+                <TODATE>2018-08-02</TODATE>
+                <MEDDEPT>         이비인후과 / 이비인후과</MEDDEPT>
+                <SORT>1</SORT>
+            </Table>
+            <Table diffgr:id="Table41" msdata:rowOrder="40">
+                <INSTYPE>급여</INSTYPE>
+                <ACCUCD>05</ACCUCD>
+                <CODENAME>주 사 료 </CODENAME>
+                <EDICODE>677200031</EDICODE>
+                <KORSUGA>8806772000314</KORSUGA>
+                <PATNAME>강경애</PATNAME>
+                <KORNAME>나제아주사액0.3밀리그람(라모세트론염산염)_(0.3mg/2</KORNAME>
+                <USEDAY>1</USEDAY>
+                <USEQTY>1</USEQTY>
+                <PRICE>14634</PRICE>
+                <SUMPRICE>14634</SUMPRICE>
+                <INSAMT>732</INSAMT>
+                <INREAMT>13902</INREAMT>
+                <INSALL>0</INSALL>
+                <UNCAMT>0</UNCAMT>
+                <TOSUMPRICE>0</TOSUMPRICE>
+                <TOINSAMT>0</TOINSAMT>
+                <TOINREAMT>0</TOINREAMT>
+                <TOINSALL>0</TOINSALL>
+                <TOUNCAMT>0</TOUNCAMT>
+                <USEUNIT>MG</USEUNIT>
+                <FROMDATE>2018-08-02</FROMDATE>
+                <TODATE>2018-08-02</TODATE>
+                <MEDDEPT>         이비인후과 / 이비인후과</MEDDEPT>
+                <SORT>1</SORT>
+            </Table>
+            <Table diffgr:id="Table42" msdata:rowOrder="41">
+                <INSTYPE>급여</INSTYPE>
+                <ACCUCD>05</ACCUCD>
+                <CODENAME>주 사 료 </CODENAME>
+                <EDICODE>KK052</EDICODE>
+                <KORSUGA>D0502</KORSUGA>
+                <PATNAME>강경애</PATNAME>
+                <KORNAME>수액주사100-500ML(1병또는포장단위당)(마5나)</KORNAME>
+                <USEDAY>3</USEDAY>
+                <USEQTY>5</USEQTY>
+                <PRICE>2300</PRICE>
+                <SUMPRICE>14375</SUMPRICE>
+                <INSAMT>720</INSAMT>
+                <INREAMT>13655</INREAMT>
+                <INSALL>0</INSALL>
+                <UNCAMT>0</UNCAMT>
+                <TOSUMPRICE>0</TOSUMPRICE>
+                <TOINSAMT>0</TOINSAMT>
+                <TOINREAMT>0</TOINREAMT>
+                <TOINSALL>0</TOINSALL>
+                <TOUNCAMT>0</TOUNCAMT>
+                <FROMDATE>2018-08-02</FROMDATE>
+                <TODATE>2018-08-02</TODATE>
+                <MEDDEPT>         이비인후과 / 이비인후과</MEDDEPT>
+                <SORT>1</SORT>
+            </Table>
+            <Table diffgr:id="Table43" msdata:rowOrder="42">
+                <INSTYPE>급여</INSTYPE>
+                <ACCUCD>05</ACCUCD>
+                <CODENAME>주 사 료 </CODENAME>
+                <EDICODE>KK053</EDICODE>
+                <KORSUGA>D0503</KORSUGA>
+                <PATNAME>강경애</PATNAME>
+                <KORNAME>수액주사501-1000ML(1병당)(마5다)</KORNAME>
+                <USEDAY>3</USEDAY>
+                <USEQTY>3</USEQTY>
+                <PRICE>2860</PRICE>
+                <SUMPRICE>10725</SUMPRICE>
+                <INSAMT>537</INSAMT>
+                <INREAMT>10188</INREAMT>
+                <INSALL>0</INSALL>
+                <UNCAMT>0</UNCAMT>
+                <TOSUMPRICE>0</TOSUMPRICE>
+                <TOINSAMT>0</TOINSAMT>
+                <TOINREAMT>0</TOINREAMT>
+                <TOINSALL>0</TOINSALL>
+                <TOUNCAMT>0</TOUNCAMT>
+                <FROMDATE>2018-08-01</FROMDATE>
+                <TODATE>2018-08-02</TODATE>
+                <MEDDEPT>         이비인후과 / 이비인후과</MEDDEPT>
+                <SORT>1</SORT>
+            </Table>
+            <Table diffgr:id="Table44" msdata:rowOrder="43">
+                <INSTYPE>급여</INSTYPE>
+                <ACCUCD>05</ACCUCD>
+                <CODENAME>주 사 료 </CODENAME>
+                <EDICODE>KK054</EDICODE>
+                <KORSUGA>D0500</KORSUGA>
+                <PATNAME>강경애</PATNAME>
+                <KORNAME>수액제 주입로를 통한 주사(입원2회,외래1회/1일)</KORNAME>
+                <USEDAY>15</USEDAY>
+                <USEQTY>1</USEQTY>
+                <PRICE>1070</PRICE>
+                <SUMPRICE>1338</SUMPRICE>
+                <INSAMT>67</INSAMT>
+                <INREAMT>1271</INREAMT>
+                <INSALL>0</INSALL>
+                <UNCAMT>0</UNCAMT>
+                <TOSUMPRICE>0</TOSUMPRICE>
+                <TOINSAMT>0</TOINSAMT>
+                <TOINREAMT>0</TOINREAMT>
+                <TOINSALL>0</TOINSALL>
+                <TOUNCAMT>0</TOUNCAMT>
+                <FROMDATE>2018-08-02</FROMDATE>
+                <TODATE>2018-08-02</TODATE>
+                <MEDDEPT>         이비인후과 / 이비인후과</MEDDEPT>
+                <SORT>1</SORT>
+            </Table>
+            <Table diffgr:id="Table45" msdata:rowOrder="44">
+                <INSTYPE>급여</INSTYPE>
+                <ACCUCD>05</ACCUCD>
+                <CODENAME>소계</CODENAME>
+                <PATNAME>강경애</PATNAME>
+                <SUMPRICE>85859</SUMPRICE>
+                <INSAMT>4296</INSAMT>
+                <INREAMT>81563</INREAMT>
+                <INSALL>0</INSALL>
+                <UNCAMT>0</UNCAMT>
+                <TOSUMPRICE>0</TOSUMPRICE>
+                <TOINSAMT>0</TOINSAMT>
+                <TOINREAMT>0</TOINREAMT>
+                <TOINSALL>0</TOINSALL>
+                <TOUNCAMT>0</TOUNCAMT>
+                <FROMDATE>2018-08-01</FROMDATE>
+                <TODATE>2018-08-02</TODATE>
+                <MEDDEPT>         이비인후과 / 이비인후과</MEDDEPT>
+                <SORT>2</SORT>
+            </Table>
+            <Table diffgr:id="Table46" msdata:rowOrder="45">
+                <INSTYPE>비급여</INSTYPE>
+                <ACCUCD>05</ACCUCD>
+                <CODENAME>주 사 료 </CODENAME>
+                <EDICODE>659900341</EDICODE>
+                <KORSUGA>8806599003413</KORSUGA>
+                <PATNAME>강경애</PATNAME>
+                <KORNAME>아큐판주사액 20mg/2ml</KORNAME>
+                <USEDAY>1</USEDAY>
+                <USEQTY>3</USEQTY>
+                <PRICE>2230</PRICE>
+                <SUMPRICE>6690</SUMPRICE>
+                <INSAMT>0</INSAMT>
+                <INREAMT>0</INREAMT>
+                <INSALL>0</INSALL>
+                <UNCAMT>6690</UNCAMT>
+                <TOSUMPRICE>0</TOSUMPRICE>
+                <TOINSAMT>0</TOINSAMT>
+                <TOINREAMT>0</TOINREAMT>
+                <TOINSALL>0</TOINSALL>
+                <TOUNCAMT>0</TOUNCAMT>
+                <USEUNIT>MG</USEUNIT>
+                <FROMDATE>2018-08-02</FROMDATE>
+                <TODATE>2018-08-02</TODATE>
+                <MEDDEPT>         이비인후과 / 이비인후과</MEDDEPT>
+                <SORT>1</SORT>
+            </Table>
+            <Table diffgr:id="Table47" msdata:rowOrder="46">
+                <INSTYPE>비급여</INSTYPE>
+                <ACCUCD>05</ACCUCD>
+                <CODENAME>소계</CODENAME>
+                <PATNAME>강경애</PATNAME>
+                <SUMPRICE>6690</SUMPRICE>
+                <INSAMT>0</INSAMT>
+                <INREAMT>0</INREAMT>
+                <INSALL>0</INSALL>
+                <UNCAMT>6690</UNCAMT>
+                <TOSUMPRICE>0</TOSUMPRICE>
+                <TOINSAMT>0</TOINSAMT>
+                <TOINREAMT>0</TOINREAMT>
+                <TOINSALL>0</TOINSALL>
+                <TOUNCAMT>0</TOUNCAMT>
+                <FROMDATE>2018-08-02</FROMDATE>
+                <TODATE>2018-08-02</TODATE>
+                <MEDDEPT>         이비인후과 / 이비인후과</MEDDEPT>
+                <SORT>2</SORT>
+            </Table>
+            <Table diffgr:id="Table48" msdata:rowOrder="47">
+                <INSTYPE>급여</INSTYPE>
+                <ACCUCD>06</ACCUCD>
+                <CODENAME>처 치 료 </CODENAME>
+                <EDICODE>M0040</EDICODE>
+                <KORSUGA>H0231</KORSUGA>
+                <PATNAME>강경애</PATNAME>
+                <KORNAME>산소흡입(1일당)(자4)</KORNAME>
+                <USEDAY>1</USEDAY>
+                <USEQTY>1</USEQTY>
+                <PRICE>6490</PRICE>
+                <SUMPRICE>8113</SUMPRICE>
+                <INSAMT>406</INSAMT>
+                <INREAMT>7707</INREAMT>
+                <INSALL>0</INSALL>
+                <UNCAMT>0</UNCAMT>
+                <TOSUMPRICE>0</TOSUMPRICE>
+                <TOINSAMT>0</TOINSAMT>
+                <TOINREAMT>0</TOINREAMT>
+                <TOINSALL>0</TOINSALL>
+                <TOUNCAMT>0</TOUNCAMT>
+                <FROMDATE>2018-08-02</FROMDATE>
+                <TODATE>2018-08-02</TODATE>
+                <MEDDEPT>         이비인후과 / 이비인후과</MEDDEPT>
+                <SORT>1</SORT>
+            </Table>
+            <Table diffgr:id="Table49" msdata:rowOrder="48">
+                <INSTYPE>급여</INSTYPE>
+                <ACCUCD>06</ACCUCD>
+                <CODENAME>소계</CODENAME>
+                <PATNAME>강경애</PATNAME>
+                <SUMPRICE>8113</SUMPRICE>
+                <INSAMT>406</INSAMT>
+                <INREAMT>7707</INREAMT>
+                <INSALL>0</INSALL>
+                <UNCAMT>0</UNCAMT>
+                <TOSUMPRICE>0</TOSUMPRICE>
+                <TOINSAMT>0</TOINSAMT>
+                <TOINREAMT>0</TOINREAMT>
+                <TOINSALL>0</TOINSALL>
+                <TOUNCAMT>0</TOUNCAMT>
+                <FROMDATE>2018-08-02</FROMDATE>
+                <TODATE>2018-08-02</TODATE>
+                <MEDDEPT>         이비인후과 / 이비인후과</MEDDEPT>
+                <SORT>2</SORT>
+            </Table>
+            <Table diffgr:id="Table50" msdata:rowOrder="49">
+                <INSTYPE>급여</INSTYPE>
+                <ACCUCD>07</ACCUCD>
+                <CODENAME>수 술 료 </CODENAME>
+                <EDICODE>P4553</EDICODE>
+                <KORSUGA>H16991</KORSUGA>
+                <PATNAME>강경애</PATNAME>
+                <KORNAME>갑상선엽아전절제술,좌측(자455나1)</KORNAME>
+                <USEDAY>1</USEDAY>
+                <USEQTY>1</USEQTY>
+                <PRICE>380490</PRICE>
+                <SUMPRICE>475613</SUMPRICE>
+                <INSAMT>23781</INSAMT>
+                <INREAMT>451832</INREAMT>
+                <INSALL>0</INSALL>
+                <UNCAMT>0</UNCAMT>
+                <TOSUMPRICE>0</TOSUMPRICE>
+                <TOINSAMT>0</TOINSAMT>
+                <TOINREAMT>0</TOINREAMT>
+                <TOINSALL>0</TOINSALL>
+                <TOUNCAMT>0</TOUNCAMT>
+                <FROMDATE>2018-08-02</FROMDATE>
+                <TODATE>2018-08-02</TODATE>
+                <MEDDEPT>         이비인후과 / 이비인후과</MEDDEPT>
+                <SORT>1</SORT>
+            </Table>
+            <Table diffgr:id="Table51" msdata:rowOrder="50">
+                <INSTYPE>급여</INSTYPE>
+                <ACCUCD>07</ACCUCD>
+                <CODENAME>소계</CODENAME>
+                <PATNAME>강경애</PATNAME>
+                <SUMPRICE>475613</SUMPRICE>
+                <INSAMT>23781</INSAMT>
+                <INREAMT>451832</INREAMT>
+                <INSALL>0</INSALL>
+                <UNCAMT>0</UNCAMT>
+                <TOSUMPRICE>0</TOSUMPRICE>
+                <TOINSAMT>0</TOINSAMT>
+                <TOINREAMT>0</TOINREAMT>
+                <TOINSALL>0</TOINSALL>
+                <TOUNCAMT>0</TOUNCAMT>
+                <FROMDATE>2018-08-02</FROMDATE>
+                <TODATE>2018-08-02</TODATE>
+                <MEDDEPT>         이비인후과 / 이비인후과</MEDDEPT>
+                <SORT>2</SORT>
+            </Table>
+            <Table diffgr:id="Table52" msdata:rowOrder="51">
+                <INSTYPE>급여</INSTYPE>
+                <ACCUCD>08</ACCUCD>
+                <CODENAME>마 취 료 </CODENAME>
+                <EDICODE>657801061</EDICODE>
+                <KORSUGA>E8131</KORSUGA>
+                <PATNAME>강경애</PATNAME>
+                <KORNAME>세보레인흡입액(마취시간기본15분까지)</KORNAME>
+                <USEDAY>1</USEDAY>
+                <USEQTY>1</USEQTY>
+                <PRICE>14205</PRICE>
+                <SUMPRICE>14205</SUMPRICE>
+                <INSAMT>710</INSAMT>
+                <INREAMT>13495</INREAMT>
+                <INSALL>0</INSALL>
+                <UNCAMT>0</UNCAMT>
+                <TOSUMPRICE>0</TOSUMPRICE>
+                <TOINSAMT>0</TOINSAMT>
+                <TOINREAMT>0</TOINREAMT>
+                <TOINSALL>0</TOINSALL>
+                <TOUNCAMT>0</TOUNCAMT>
+                <FROMDATE>2018-08-02</FROMDATE>
+                <TODATE>2018-08-02</TODATE>
+                <MEDDEPT>         이비인후과 / 이비인후과</MEDDEPT>
+                <SORT>1</SORT>
+            </Table>
+            <Table diffgr:id="Table53" msdata:rowOrder="52">
+                <INSTYPE>급여</INSTYPE>
+                <ACCUCD>08</ACCUCD>
+                <CODENAME>마 취 료 </CODENAME>
+                <EDICODE>699900020</EDICODE>
+                <KORSUGA>E8110</KORSUGA>
+                <PATNAME>강경애</PATNAME>
+                <KORNAME>산소 (3L/분)</KORNAME>
+                <USEDAY>1</USEDAY>
+                <USEQTY>1</USEQTY>
+                <PRICE>285</PRICE>
+                <SUMPRICE>285</SUMPRICE>
+                <INSAMT>14</INSAMT>
+                <INREAMT>271</INREAMT>
+                <INSALL>0</INSALL>
+                <UNCAMT>0</UNCAMT>
+                <TOSUMPRICE>0</TOSUMPRICE>
+                <TOINSAMT>0</TOINSAMT>
+                <TOINREAMT>0</TOINREAMT>
+                <TOINSALL>0</TOINSALL>
+                <TOUNCAMT>0</TOUNCAMT>
+                <FROMDATE>2018-08-02</FROMDATE>
+                <TODATE>2018-08-02</TODATE>
+                <MEDDEPT>         이비인후과 / 이비인후과</MEDDEPT>
+                <SORT>1</SORT>
+            </Table>
+            <Table diffgr:id="Table54" msdata:rowOrder="53">
+                <INSTYPE>급여</INSTYPE>
+                <ACCUCD>08</ACCUCD>
+                <CODENAME>마 취 료 </CODENAME>
+                <EDICODE>699917050</EDICODE>
+                <KORSUGA>E8106</KORSUGA>
+                <PATNAME>강경애</PATNAME>
+                <KORNAME>아산화질소 (3L/분)</KORNAME>
+                <USEDAY>1</USEDAY>
+                <USEQTY>1</USEQTY>
+                <PRICE>3040</PRICE>
+                <SUMPRICE>3040</SUMPRICE>
+                <INSAMT>152</INSAMT>
+                <INREAMT>2888</INREAMT>
+                <INSALL>0</INSALL>
+                <UNCAMT>0</UNCAMT>
+                <TOSUMPRICE>0</TOSUMPRICE>
+                <TOINSAMT>0</TOINSAMT>
+                <TOINREAMT>0</TOINREAMT>
+                <TOINSALL>0</TOINSALL>
+                <TOUNCAMT>0</TOUNCAMT>
+                <FROMDATE>2018-08-02</FROMDATE>
+                <TODATE>2018-08-02</TODATE>
+                <MEDDEPT>         이비인후과 / 이비인후과</MEDDEPT>
+                <SORT>1</SORT>
+            </Table>
+            <Table diffgr:id="Table55" msdata:rowOrder="54">
+                <INSTYPE>급여</INSTYPE>
+                <ACCUCD>08</ACCUCD>
+                <CODENAME>마 취 료 </CODENAME>
+                <EDICODE>L1211</EDICODE>
+                <KORSUGA>E1102</KORSUGA>
+                <PATNAME>강경애</PATNAME>
+                <KORNAME>기관내삽관에의한폐쇄순환식전신마취(바2가1)</KORNAME>
+                <USEDAY>1</USEDAY>
+                <USEQTY>1</USEQTY>
+                <PRICE>137600</PRICE>
+                <SUMPRICE>172000</SUMPRICE>
+                <INSAMT>8600</INSAMT>
+                <INREAMT>163400</INREAMT>
+                <INSALL>0</INSALL>
+                <UNCAMT>0</UNCAMT>
+                <TOSUMPRICE>0</TOSUMPRICE>
+                <TOINSAMT>0</TOINSAMT>
+                <TOINREAMT>0</TOINREAMT>
+                <TOINSALL>0</TOINSALL>
+                <TOUNCAMT>0</TOUNCAMT>
+                <FROMDATE>2018-08-02</FROMDATE>
+                <TODATE>2018-08-02</TODATE>
+                <MEDDEPT>         이비인후과 / 이비인후과</MEDDEPT>
+                <SORT>1</SORT>
+            </Table>
+            <Table diffgr:id="Table56" msdata:rowOrder="55">
+                <INSTYPE>급여</INSTYPE>
+                <ACCUCD>08</ACCUCD>
+                <CODENAME>마 취 료 </CODENAME>
+                <EDICODE>L1310</EDICODE>
+                <KORSUGA>H0352</KORSUGA>
+                <PATNAME>강경애</PATNAME>
+                <KORNAME>마취중 말초산소포화도감시(바3가)</KORNAME>
+                <USEDAY>1</USEDAY>
+                <USEQTY>1</USEQTY>
+                <PRICE>2420</PRICE>
+                <SUMPRICE>3025</SUMPRICE>
+                <INSAMT>151</INSAMT>
+                <INREAMT>2874</INREAMT>
+                <INSALL>0</INSALL>
+                <UNCAMT>0</UNCAMT>
+                <TOSUMPRICE>0</TOSUMPRICE>
+                <TOINSAMT>0</TOINSAMT>
+                <TOINREAMT>0</TOINREAMT>
+                <TOINSALL>0</TOINSALL>
+                <TOUNCAMT>0</TOUNCAMT>
+                <FROMDATE>2018-08-02</FROMDATE>
+                <TODATE>2018-08-02</TODATE>
+                <MEDDEPT>         이비인후과 / 이비인후과</MEDDEPT>
+                <SORT>1</SORT>
+            </Table>
+            <Table diffgr:id="Table57" msdata:rowOrder="56">
+                <INSTYPE>급여</INSTYPE>
+                <ACCUCD>08</ACCUCD>
+                <CODENAME>마 취 료 </CODENAME>
+                <EDICODE>L9021001</EDICODE>
+                <KORSUGA>E8111</KORSUGA>
+                <PATNAME>강경애</PATNAME>
+                <KORNAME>소다라임(기본값) 450g/1.5HR-탄산가스흡수제</KORNAME>
+                <USEDAY>1</USEDAY>
+                <USEQTY>1</USEQTY>
+                <PRICE>6660</PRICE>
+                <SUMPRICE>6660</SUMPRICE>
+                <INSAMT>333</INSAMT>
+                <INREAMT>6327</INREAMT>
+                <INSALL>0</INSALL>
+                <UNCAMT>0</UNCAMT>
+                <TOSUMPRICE>0</TOSUMPRICE>
+                <TOINSAMT>0</TOINSAMT>
+                <TOINREAMT>0</TOINREAMT>
+                <TOINSALL>0</TOINSALL>
+                <TOUNCAMT>0</TOUNCAMT>
+                <FROMDATE>2018-08-02</FROMDATE>
+                <TODATE>2018-08-02</TODATE>
+                <MEDDEPT>         이비인후과 / 이비인후과</MEDDEPT>
+                <SORT>1</SORT>
+            </Table>
+            <Table diffgr:id="Table58" msdata:rowOrder="57">
+                <INSTYPE>급여</INSTYPE>
+                <ACCUCD>08</ACCUCD>
+                <CODENAME>소계</CODENAME>
+                <PATNAME>강경애</PATNAME>
+                <SUMPRICE>199215</SUMPRICE>
+                <INSAMT>9960</INSAMT>
+                <INREAMT>189255</INREAMT>
+                <INSALL>0</INSALL>
+                <UNCAMT>0</UNCAMT>
+                <TOSUMPRICE>0</TOSUMPRICE>
+                <TOINSAMT>0</TOINSAMT>
+                <TOINREAMT>0</TOINREAMT>
+                <TOINSALL>0</TOINSALL>
+                <TOUNCAMT>0</TOUNCAMT>
+                <FROMDATE>2018-08-02</FROMDATE>
+                <TODATE>2018-08-02</TODATE>
+                <MEDDEPT>         이비인후과 / 이비인후과</MEDDEPT>
+                <SORT>2</SORT>
+            </Table>
+            <Table diffgr:id="Table59" msdata:rowOrder="58">
+                <INSTYPE>급여</INSTYPE>
+                <ACCUCD>09</ACCUCD>
+                <CODENAME>일반검사 </CODENAME>
+                <EDICODE>C5605008</EDICODE>
+                <KORSUGA>L6436</KORSUGA>
+                <PATNAME>강경애</PATNAME>
+                <KORNAME>악성&amp;경계성악성종양(편측,1장기당)파라핀블록1-9개</KORNAME>
+                <USEDAY>1</USEDAY>
+                <USEQTY>1.04</USEQTY>
+                <PRICE>88590</PRICE>
+                <SUMPRICE>115175</SUMPRICE>
+                <INSAMT>5759</INSAMT>
+                <INREAMT>109416</INREAMT>
+                <INSALL>0</INSALL>
+                <UNCAMT>0</UNCAMT>
+                <TOSUMPRICE>0</TOSUMPRICE>
+                <TOINSAMT>0</TOINSAMT>
+                <TOINREAMT>0</TOINREAMT>
+                <TOINSALL>0</TOINSALL>
+                <TOUNCAMT>0</TOUNCAMT>
+                <FROMDATE>2018-08-02</FROMDATE>
+                <TODATE>2018-08-02</TODATE>
+                <MEDDEPT>         이비인후과 / 이비인후과</MEDDEPT>
+                <SORT>1</SORT>
+            </Table>
+            <Table diffgr:id="Table60" msdata:rowOrder="59">
+                <INSTYPE>급여</INSTYPE>
+                <ACCUCD>09</ACCUCD>
+                <CODENAME>일반검사 </CODENAME>
+                <EDICODE>E7581</EDICODE>
+                <KORSUGA>L015320</KORSUGA>
+                <PATNAME>강경애</PATNAME>
+                <KORNAME>후두경검사(나758)</KORNAME>
+                <USEDAY>2</USEDAY>
+                <USEQTY>2</USEQTY>
+                <PRICE>17260</PRICE>
+                <SUMPRICE>43150</SUMPRICE>
+                <INSAMT>2158</INSAMT>
+                <INREAMT>40992</INREAMT>
+                <INSALL>0</INSALL>
+                <UNCAMT>0</UNCAMT>
+                <TOSUMPRICE>0</TOSUMPRICE>
+                <TOINSAMT>0</TOINSAMT>
+                <TOINREAMT>0</TOINREAMT>
+                <TOINSALL>0</TOINSALL>
+                <TOUNCAMT>0</TOUNCAMT>
+                <FROMDATE>2018-08-01</FROMDATE>
+                <TODATE>2018-08-02</TODATE>
+                <MEDDEPT>         이비인후과 / 이비인후과</MEDDEPT>
+                <SORT>1</SORT>
+            </Table>
+            <Table diffgr:id="Table61" msdata:rowOrder="60">
+                <INSTYPE>급여</INSTYPE>
+                <ACCUCD>09</ACCUCD>
+                <CODENAME>일반검사 </CODENAME>
+                <EDICODE>F6040</EDICODE>
+                <KORSUGA>L9873</KORSUGA>
+                <PATNAME>강경애</PATNAME>
+                <KORNAME>호기말 이산화탄소분압감시(1일당)(나604)</KORNAME>
+                <USEDAY>1</USEDAY>
+                <USEQTY>1</USEQTY>
+                <PRICE>12270</PRICE>
+                <SUMPRICE>15338</SUMPRICE>
+                <INSAMT>767</INSAMT>
+                <INREAMT>14571</INREAMT>
+                <INSALL>0</INSALL>
+                <UNCAMT>0</UNCAMT>
+                <TOSUMPRICE>0</TOSUMPRICE>
+                <TOINSAMT>0</TOINSAMT>
+                <TOINREAMT>0</TOINREAMT>
+                <TOINSALL>0</TOINSALL>
+                <TOUNCAMT>0</TOUNCAMT>
+                <FROMDATE>2018-08-02</FROMDATE>
+                <TODATE>2018-08-02</TODATE>
+                <MEDDEPT>         이비인후과 / 이비인후과</MEDDEPT>
+                <SORT>1</SORT>
+            </Table>
+            <Table diffgr:id="Table62" msdata:rowOrder="61">
+                <INSTYPE>급여</INSTYPE>
+                <ACCUCD>09</ACCUCD>
+                <CODENAME>소계</CODENAME>
+                <PATNAME>강경애</PATNAME>
+                <SUMPRICE>173663</SUMPRICE>
+                <INSAMT>8684</INSAMT>
+                <INREAMT>164979</INREAMT>
+                <INSALL>0</INSALL>
+                <UNCAMT>0</UNCAMT>
+                <TOSUMPRICE>0</TOSUMPRICE>
+                <TOINSAMT>0</TOINSAMT>
+                <TOINREAMT>0</TOINREAMT>
+                <TOINSALL>0</TOINSALL>
+                <TOUNCAMT>0</TOUNCAMT>
+                <FROMDATE>2018-08-01</FROMDATE>
+                <TODATE>2018-08-02</TODATE>
+                <MEDDEPT>         이비인후과 / 이비인후과</MEDDEPT>
+                <SORT>2</SORT>
+            </Table>
+            <Table diffgr:id="Table63" msdata:rowOrder="62">
+                <INSTYPE>(선별)</INSTYPE>
+                <ACCUCD>12</ACCUCD>
+                <CODENAME>재 료 대 </CODENAME>
+                <EDICODE>K4101131</EDICODE>
+                <KORSUGA>2701522000018</KORSUGA>
+                <PATNAME>강경애</PATNAME>
+                <KORNAME>[선별50]Closed SuctionCatheter 성인용 SCA12 (마취 </KORNAME>
+                <USEDAY>1</USEDAY>
+                <USEQTY>1</USEQTY>
+                <PRICE>29760</PRICE>
+                <SUMPRICE>29760</SUMPRICE>
+                <INSAMT>14880</INSAMT>
+                <INREAMT>14880</INREAMT>
+                <INSALL>0</INSALL>
+                <UNCAMT>0</UNCAMT>
+                <TOSUMPRICE>0</TOSUMPRICE>
+                <TOINSAMT>0</TOINSAMT>
+                <TOINREAMT>0</TOINREAMT>
+                <TOINSALL>0</TOINSALL>
+                <TOUNCAMT>0</TOUNCAMT>
+                <FROMDATE>2018-08-02</FROMDATE>
+                <TODATE>2018-08-02</TODATE>
+                <MEDDEPT>         이비인후과 / 이비인후과</MEDDEPT>
+                <SORT>1</SORT>
+            </Table>
+            <Table diffgr:id="Table64" msdata:rowOrder="63">
+                <INSTYPE>(선별)</INSTYPE>
+                <ACCUCD>12</ACCUCD>
+                <CODENAME>재 료 대 </CODENAME>
+                <EDICODE>L9002003</EDICODE>
+                <KORSUGA>2701663100011</KORSUGA>
+                <PATNAME>강경애</PATNAME>
+                <KORNAME>[선별80]BIS XP Platform  히포메디칼</KORNAME>
+                <USEDAY>1</USEDAY>
+                <USEQTY>1</USEQTY>
+                <PRICE>40430</PRICE>
+                <SUMPRICE>40430</SUMPRICE>
+                <INSAMT>32344</INSAMT>
+                <INREAMT>8086</INREAMT>
+                <INSALL>0</INSALL>
+                <UNCAMT>0</UNCAMT>
+                <TOSUMPRICE>0</TOSUMPRICE>
+                <TOINSAMT>0</TOINSAMT>
+                <TOINREAMT>0</TOINREAMT>
+                <TOINSALL>0</TOINSALL>
+                <TOUNCAMT>0</TOUNCAMT>
+                <FROMDATE>2018-08-02</FROMDATE>
+                <TODATE>2018-08-02</TODATE>
+                <MEDDEPT>         이비인후과 / 이비인후과</MEDDEPT>
+                <SORT>1</SORT>
+            </Table>
+            <Table diffgr:id="Table65" msdata:rowOrder="64">
+                <INSTYPE>(선별)</INSTYPE>
+                <ACCUCD>12</ACCUCD>
+                <CODENAME>재 료 대 </CODENAME>
+                <EDICODE>M2043208</EDICODE>
+                <KORSUGA>2701151200018</KORSUGA>
+                <PATNAME>강경애</PATNAME>
+                <KORNAME>[선별80]HARMONIC FOCUS PLUS SHEARS HAR9F (OPEN형)</KORNAME>
+                <USEDAY>1</USEDAY>
+                <USEQTY>1</USEQTY>
+                <PRICE>590650</PRICE>
+                <SUMPRICE>590650</SUMPRICE>
+                <INSAMT>472520</INSAMT>
+                <INREAMT>118130</INREAMT>
+                <INSALL>0</INSALL>
+                <UNCAMT>0</UNCAMT>
+                <TOSUMPRICE>0</TOSUMPRICE>
+                <TOINSAMT>0</TOINSAMT>
+                <TOINREAMT>0</TOINREAMT>
+                <TOINSALL>0</TOINSALL>
+                <TOUNCAMT>0</TOUNCAMT>
+                <FROMDATE>2018-08-02</FROMDATE>
+                <TODATE>2018-08-02</TODATE>
+                <MEDDEPT>         이비인후과 / 이비인후과</MEDDEPT>
+                <SORT>1</SORT>
+            </Table>
+            <Table diffgr:id="Table66" msdata:rowOrder="65">
+                <INSTYPE>급여</INSTYPE>
+                <ACCUCD>12</ACCUCD>
+                <CODENAME>재 료 대 </CODENAME>
+                <EDICODE>699900020</EDICODE>
+                <KORSUGA>P1303</KORSUGA>
+                <PATNAME>강경애</PATNAME>
+                <KORNAME>산소 3L/분(1시간당)</KORNAME>
+                <USEDAY>1</USEDAY>
+                <USEQTY>1</USEQTY>
+                <PRICE>180</PRICE>
+                <SUMPRICE>180</SUMPRICE>
+                <INSAMT>9</INSAMT>
+                <INREAMT>171</INREAMT>
+                <INSALL>0</INSALL>
+                <UNCAMT>0</UNCAMT>
+                <TOSUMPRICE>0</TOSUMPRICE>
+                <TOINSAMT>0</TOINSAMT>
+                <TOINREAMT>0</TOINREAMT>
+                <TOINSALL>0</TOINSALL>
+                <TOUNCAMT>0</TOUNCAMT>
+                <FROMDATE>2018-08-02</FROMDATE>
+                <TODATE>2018-08-02</TODATE>
+                <MEDDEPT>         이비인후과 / 이비인후과</MEDDEPT>
+                <SORT>1</SORT>
+            </Table>
+            <Table diffgr:id="Table67" msdata:rowOrder="66">
+                <INSTYPE>급여</INSTYPE>
+                <ACCUCD>12</ACCUCD>
+                <CODENAME>재 료 대 </CODENAME>
+                <EDICODE>B0011001</EDICODE>
+                <KORSUGA>2701188900011</KORSUGA>
+                <PATNAME>강경애</PATNAME>
+                <KORNAME>Mersilk 1/0 R36   C021D 세원메디</KORNAME>
+                <USEDAY>1</USEDAY>
+                <USEQTY>1</USEQTY>
+                <PRICE>11200</PRICE>
+                <SUMPRICE>11200</SUMPRICE>
+                <INSAMT>560</INSAMT>
+                <INREAMT>10640</INREAMT>
+                <INSALL>0</INSALL>
+                <UNCAMT>0</UNCAMT>
+                <TOSUMPRICE>0</TOSUMPRICE>
+                <TOINSAMT>0</TOINSAMT>
+                <TOINREAMT>0</TOINREAMT>
+                <TOINSALL>0</TOINSALL>
+                <TOUNCAMT>0</TOUNCAMT>
+                <FROMDATE>2018-08-02</FROMDATE>
+                <TODATE>2018-08-02</TODATE>
+                <MEDDEPT>         이비인후과 / 이비인후과</MEDDEPT>
+                <SORT>1</SORT>
+            </Table>
+            <Table diffgr:id="Table68" msdata:rowOrder="67">
+                <INSTYPE>급여</INSTYPE>
+                <ACCUCD>12</ACCUCD>
+                <CODENAME>재 료 대 </CODENAME>
+                <EDICODE>B0011301</EDICODE>
+                <KORSUGA>2701191100019</KORSUGA>
+                <PATNAME>강경애</PATNAME>
+                <KORNAME>Mersilk 3/0 none  W202   세원메디</KORNAME>
+                <USEDAY>1</USEDAY>
+                <USEQTY>1</USEQTY>
+                <PRICE>3570</PRICE>
+                <SUMPRICE>3570</SUMPRICE>
+                <INSAMT>179</INSAMT>
+                <INREAMT>3391</INREAMT>
+                <INSALL>0</INSALL>
+                <UNCAMT>0</UNCAMT>
+                <TOSUMPRICE>0</TOSUMPRICE>
+                <TOINSAMT>0</TOINSAMT>
+                <TOINREAMT>0</TOINREAMT>
+                <TOINSALL>0</TOINSALL>
+                <TOUNCAMT>0</TOUNCAMT>
+                <FROMDATE>2018-08-02</FROMDATE>
+                <TODATE>2018-08-02</TODATE>
+                <MEDDEPT>         이비인후과 / 이비인후과</MEDDEPT>
+                <SORT>1</SORT>
+            </Table>
+            <Table diffgr:id="Table69" msdata:rowOrder="68">
+                <INSTYPE>급여</INSTYPE>
+                <ACCUCD>12</ACCUCD>
+                <CODENAME>재 료 대 </CODENAME>
+                <EDICODE>B0743001</EDICODE>
+                <KORSUGA>2701218600010</KORSUGA>
+                <PATNAME>강경애</PATNAME>
+                <KORNAME>Vicryl Plus 3/0 R22   VCP311H  세원메디</KORNAME>
+                <USEDAY>2</USEDAY>
+                <USEQTY>2</USEQTY>
+                <PRICE>4080</PRICE>
+                <SUMPRICE>8160</SUMPRICE>
+                <INSAMT>408</INSAMT>
+                <INREAMT>7752</INREAMT>
+                <INSALL>0</INSALL>
+                <UNCAMT>0</UNCAMT>
+                <TOSUMPRICE>0</TOSUMPRICE>
+                <TOINSAMT>0</TOINSAMT>
+                <TOINREAMT>0</TOINREAMT>
+                <TOINSALL>0</TOINSALL>
+                <TOUNCAMT>0</TOUNCAMT>
+                <FROMDATE>2018-08-02</FROMDATE>
+                <TODATE>2018-08-02</TODATE>
+                <MEDDEPT>         이비인후과 / 이비인후과</MEDDEPT>
+                <SORT>1</SORT>
+            </Table>
+            <Table diffgr:id="Table70" msdata:rowOrder="69">
+                <INSTYPE>급여</INSTYPE>
+                <ACCUCD>12</ACCUCD>
+                <CODENAME>재 료 대 </CODENAME>
+                <EDICODE>B0744001</EDICODE>
+                <KORSUGA>2701219300018</KORSUGA>
+                <PATNAME>강경애</PATNAME>
+                <KORNAME>Vicryl Plus 4/0 R17   VCP304H  세원메디</KORNAME>
+                <USEDAY>1</USEDAY>
+                <USEQTY>2</USEQTY>
+                <PRICE>4080</PRICE>
+                <SUMPRICE>8160</SUMPRICE>
+                <INSAMT>408</INSAMT>
+                <INREAMT>7752</INREAMT>
+                <INSALL>0</INSALL>
+                <UNCAMT>0</UNCAMT>
+                <TOSUMPRICE>0</TOSUMPRICE>
+                <TOINSAMT>0</TOINSAMT>
+                <TOINREAMT>0</TOINREAMT>
+                <TOINSALL>0</TOINSALL>
+                <TOUNCAMT>0</TOUNCAMT>
+                <FROMDATE>2018-08-02</FROMDATE>
+                <TODATE>2018-08-02</TODATE>
+                <MEDDEPT>         이비인후과 / 이비인후과</MEDDEPT>
+                <SORT>1</SORT>
+            </Table>
+            <Table diffgr:id="Table71" msdata:rowOrder="70">
+                <INSTYPE>급여</INSTYPE>
+                <ACCUCD>12</ACCUCD>
+                <CODENAME>재 료 대 </CODENAME>
+                <EDICODE>K0001006</EDICODE>
+                <KORSUGA>2701069800010</KORSUGA>
+                <PATNAME>강경애</PATNAME>
+                <KORNAME>Electrode Large 상진상사</KORNAME>
+                <USEDAY>1</USEDAY>
+                <USEQTY>5</USEQTY>
+                <PRICE>225</PRICE>
+                <SUMPRICE>1125</SUMPRICE>
+                <INSAMT>56</INSAMT>
+                <INREAMT>1069</INREAMT>
+                <INSALL>0</INSALL>
+                <UNCAMT>0</UNCAMT>
+                <TOSUMPRICE>0</TOSUMPRICE>
+                <TOINSAMT>0</TOINSAMT>
+                <TOINREAMT>0</TOINREAMT>
+                <TOINSALL>0</TOINSALL>
+                <TOUNCAMT>0</TOUNCAMT>
+                <FROMDATE>2018-08-02</FROMDATE>
+                <TODATE>2018-08-02</TODATE>
+                <MEDDEPT>         이비인후과 / 이비인후과</MEDDEPT>
+                <SORT>1</SORT>
+            </Table>
+            <Table diffgr:id="Table72" msdata:rowOrder="71">
+                <INSTYPE>급여</INSTYPE>
+                <ACCUCD>12</ACCUCD>
+                <CODENAME>재 료 대 </CODENAME>
+                <EDICODE>K4041131</EDICODE>
+                <KORSUGA>2701621000018</KORSUGA>
+                <PATNAME>강경애</PATNAME>
+                <KORNAME>Safety-Flex Reinforced Tracheal Tube(Cuffed T) 6.5</KORNAME>
+                <USEDAY>1</USEDAY>
+                <USEQTY>1</USEQTY>
+                <PRICE>13710</PRICE>
+                <SUMPRICE>13710</SUMPRICE>
+                <INSAMT>686</INSAMT>
+                <INREAMT>13024</INREAMT>
+                <INSALL>0</INSALL>
+                <UNCAMT>0</UNCAMT>
+                <TOSUMPRICE>0</TOSUMPRICE>
+                <TOINSAMT>0</TOINSAMT>
+                <TOINREAMT>0</TOINREAMT>
+                <TOINSALL>0</TOINSALL>
+                <TOUNCAMT>0</TOUNCAMT>
+                <FROMDATE>2018-08-02</FROMDATE>
+                <TODATE>2018-08-02</TODATE>
+                <MEDDEPT>         이비인후과 / 이비인후과</MEDDEPT>
+                <SORT>1</SORT>
+            </Table>
+            <Table diffgr:id="Table73" msdata:rowOrder="72">
+                <INSTYPE>급여</INSTYPE>
+                <ACCUCD>12</ACCUCD>
+                <CODENAME>재 료 대 </CODENAME>
+                <EDICODE>K4201009</EDICODE>
+                <KORSUGA>2701060100010</KORSUGA>
+                <PATNAME>강경애</PATNAME>
+                <KORNAME>Nebulizer Mask Large 명성메디칼</KORNAME>
+                <USEDAY>1</USEDAY>
+                <USEQTY>1</USEQTY>
+                <PRICE>1600</PRICE>
+                <SUMPRICE>1600</SUMPRICE>
+                <INSAMT>80</INSAMT>
+                <INREAMT>1520</INREAMT>
+                <INSALL>0</INSALL>
+                <UNCAMT>0</UNCAMT>
+                <TOSUMPRICE>0</TOSUMPRICE>
+                <TOINSAMT>0</TOINSAMT>
+                <TOINREAMT>0</TOINREAMT>
+                <TOINSALL>0</TOINSALL>
+                <TOUNCAMT>0</TOUNCAMT>
+                <FROMDATE>2018-08-02</FROMDATE>
+                <TODATE>2018-08-02</TODATE>
+                <MEDDEPT>         이비인후과 / 이비인후과</MEDDEPT>
+                <SORT>1</SORT>
+            </Table>
+            <Table diffgr:id="Table74" msdata:rowOrder="73">
+                <INSTYPE>급여</INSTYPE>
+                <ACCUCD>12</ACCUCD>
+                <CODENAME>재 료 대 </CODENAME>
+                <EDICODE>KK059</EDICODE>
+                <KORSUGA>2701057800015</KORSUGA>
+                <PATNAME>강경애</PATNAME>
+                <KORNAME>Angio Needle 18G  신동방의료</KORNAME>
+                <USEDAY>1</USEDAY>
+                <USEQTY>1</USEQTY>
+                <PRICE>400</PRICE>
+                <SUMPRICE>400</SUMPRICE>
+                <INSAMT>20</INSAMT>
+                <INREAMT>380</INREAMT>
+                <INSALL>0</INSALL>
+                <UNCAMT>0</UNCAMT>
+                <TOSUMPRICE>0</TOSUMPRICE>
+                <TOINSAMT>0</TOINSAMT>
+                <TOINREAMT>0</TOINREAMT>
+                <TOINSALL>0</TOINSALL>
+                <TOUNCAMT>0</TOUNCAMT>
+                <FROMDATE>2018-08-01</FROMDATE>
+                <TODATE>2018-08-01</TODATE>
+                <MEDDEPT>         이비인후과 / 이비인후과</MEDDEPT>
+                <SORT>1</SORT>
+            </Table>
+            <Table diffgr:id="Table75" msdata:rowOrder="74">
+                <INSTYPE>급여</INSTYPE>
+                <ACCUCD>12</ACCUCD>
+                <CODENAME>재 료 대 </CODENAME>
+                <EDICODE>KK059</EDICODE>
+                <KORSUGA>2701058100015</KORSUGA>
+                <PATNAME>강경애</PATNAME>
+                <KORNAME>Angio Needle 22G  신동방의료</KORNAME>
+                <USEDAY>1</USEDAY>
+                <USEQTY>1</USEQTY>
+                <PRICE>400</PRICE>
+                <SUMPRICE>400</SUMPRICE>
+                <INSAMT>20</INSAMT>
+                <INREAMT>380</INREAMT>
+                <INSALL>0</INSALL>
+                <UNCAMT>0</UNCAMT>
+                <TOSUMPRICE>0</TOSUMPRICE>
+                <TOINSAMT>0</TOINSAMT>
+                <TOINREAMT>0</TOINREAMT>
+                <TOINSALL>0</TOINSALL>
+                <TOUNCAMT>0</TOUNCAMT>
+                <FROMDATE>2018-08-02</FROMDATE>
+                <TODATE>2018-08-02</TODATE>
+                <MEDDEPT>         이비인후과 / 이비인후과</MEDDEPT>
+                <SORT>1</SORT>
+            </Table>
+            <Table diffgr:id="Table76" msdata:rowOrder="75">
+                <INSTYPE>급여</INSTYPE>
+                <ACCUCD>12</ACCUCD>
+                <CODENAME>재 료 대 </CODENAME>
+                <EDICODE>L9001002</EDICODE>
+                <KORSUGA>2701064100016</KORSUGA>
+                <PATNAME>강경애</PATNAME>
+                <KORNAME>Oxisensor Nellcor Large 메디랩 코리아</KORNAME>
+                <USEDAY>1</USEDAY>
+                <USEQTY>1</USEQTY>
+                <PRICE>7100</PRICE>
+                <SUMPRICE>7100</SUMPRICE>
+                <INSAMT>355</INSAMT>
+                <INREAMT>6745</INREAMT>
+                <INSALL>0</INSALL>
+                <UNCAMT>0</UNCAMT>
+                <TOSUMPRICE>0</TOSUMPRICE>
+                <TOINSAMT>0</TOINSAMT>
+                <TOINREAMT>0</TOINREAMT>
+                <TOINSALL>0</TOINSALL>
+                <TOUNCAMT>0</TOUNCAMT>
+                <FROMDATE>2018-08-02</FROMDATE>
+                <TODATE>2018-08-02</TODATE>
+                <MEDDEPT>         이비인후과 / 이비인후과</MEDDEPT>
+                <SORT>1</SORT>
+            </Table>
+            <Table diffgr:id="Table77" msdata:rowOrder="76">
+                <INSTYPE>급여</INSTYPE>
+                <ACCUCD>12</ACCUCD>
+                <CODENAME>재 료 대 </CODENAME>
+                <EDICODE>M1006061</EDICODE>
+                <KORSUGA>2701526000014</KORSUGA>
+                <PATNAME>강경애</PATNAME>
+                <KORNAME>Monofusion Manifold</KORNAME>
+                <USEDAY>1</USEDAY>
+                <USEQTY>1</USEQTY>
+                <PRICE>1990</PRICE>
+                <SUMPRICE>1990</SUMPRICE>
+                <INSAMT>100</INSAMT>
+                <INREAMT>1890</INREAMT>
+                <INSALL>0</INSALL>
+                <UNCAMT>0</UNCAMT>
+                <TOSUMPRICE>0</TOSUMPRICE>
+                <TOINSAMT>0</TOINSAMT>
+                <TOINREAMT>0</TOINREAMT>
+                <TOINSALL>0</TOINSALL>
+                <TOUNCAMT>0</TOUNCAMT>
+                <FROMDATE>2018-08-02</FROMDATE>
+                <TODATE>2018-08-02</TODATE>
+                <MEDDEPT>         이비인후과 / 이비인후과</MEDDEPT>
+                <SORT>1</SORT>
+            </Table>
+            <Table diffgr:id="Table78" msdata:rowOrder="77">
+                <INSTYPE>급여</INSTYPE>
+                <ACCUCD>12</ACCUCD>
+                <CODENAME>재 료 대 </CODENAME>
+                <EDICODE>M1006061</EDICODE>
+                <KORSUGA>2005020400012</KORSUGA>
+                <PATNAME>강경애</PATNAME>
+                <KORNAME>MONOFUSION 3WAY/SLIP (50cm)</KORNAME>
+                <USEDAY>1</USEDAY>
+                <USEQTY>1</USEQTY>
+                <PRICE>1990</PRICE>
+                <SUMPRICE>1990</SUMPRICE>
+                <INSAMT>100</INSAMT>
+                <INREAMT>1890</INREAMT>
+                <INSALL>0</INSALL>
+                <UNCAMT>0</UNCAMT>
+                <TOSUMPRICE>0</TOSUMPRICE>
+                <TOINSAMT>0</TOINSAMT>
+                <TOINREAMT>0</TOINREAMT>
+                <TOINSALL>0</TOINSALL>
+                <TOUNCAMT>0</TOUNCAMT>
+                <FROMDATE>2018-08-01</FROMDATE>
+                <TODATE>2018-08-01</TODATE>
+                <MEDDEPT>         이비인후과 / 이비인후과</MEDDEPT>
+                <SORT>1</SORT>
+            </Table>
+            <Table diffgr:id="Table79" msdata:rowOrder="78">
+                <INSTYPE>급여</INSTYPE>
+                <ACCUCD>12</ACCUCD>
+                <CODENAME>재 료 대 </CODENAME>
+                <EDICODE>M2123055</EDICODE>
+                <KORSUGA>2702861800017</KORSUGA>
+                <PATNAME>강경애</PATNAME>
+                <KORNAME>Bair Hugger Blanket (upper body)</KORNAME>
+                <USEDAY>1</USEDAY>
+                <USEQTY>1</USEQTY>
+                <PRICE>13920</PRICE>
+                <SUMPRICE>13920</SUMPRICE>
+                <INSAMT>696</INSAMT>
+                <INREAMT>13224</INREAMT>
+                <INSALL>0</INSALL>
+                <UNCAMT>0</UNCAMT>
+                <TOSUMPRICE>0</TOSUMPRICE>
+                <TOINSAMT>0</TOINSAMT>
+                <TOINREAMT>0</TOINREAMT>
+                <TOINSALL>0</TOINSALL>
+                <TOUNCAMT>0</TOUNCAMT>
+                <FROMDATE>2018-08-02</FROMDATE>
+                <TODATE>2018-08-02</TODATE>
+                <MEDDEPT>         이비인후과 / 이비인후과</MEDDEPT>
+                <SORT>1</SORT>
+            </Table>
+            <Table diffgr:id="Table80" msdata:rowOrder="79">
+                <INSTYPE>급여</INSTYPE>
+                <ACCUCD>12</ACCUCD>
+                <CODENAME>재 료 대 </CODENAME>
+                <EDICODE>N0101503</EDICODE>
+                <KORSUGA>2005003100014</KORSUGA>
+                <PATNAME>강경애</PATNAME>
+                <KORNAME>수술팩-마취 1hr 초과~3hr이하 성복D팩 (Laparotomy/K</KORNAME>
+                <USEDAY>1</USEDAY>
+                <USEQTY>1</USEQTY>
+                <PRICE>45390</PRICE>
+                <SUMPRICE>45390</SUMPRICE>
+                <INSAMT>2270</INSAMT>
+                <INREAMT>43120</INREAMT>
+                <INSALL>0</INSALL>
+                <UNCAMT>0</UNCAMT>
+                <TOSUMPRICE>0</TOSUMPRICE>
+                <TOINSAMT>0</TOINSAMT>
+                <TOINREAMT>0</TOINREAMT>
+                <TOINSALL>0</TOINSALL>
+                <TOUNCAMT>0</TOUNCAMT>
+                <FROMDATE>2018-08-02</FROMDATE>
+                <TODATE>2018-08-02</TODATE>
+                <MEDDEPT>         이비인후과 / 이비인후과</MEDDEPT>
+                <SORT>1</SORT>
+            </Table>
+            <Table diffgr:id="Table81" msdata:rowOrder="80">
+                <INSTYPE>급여</INSTYPE>
+                <ACCUCD>12</ACCUCD>
+                <CODENAME>소계</CODENAME>
+                <PATNAME>강경애</PATNAME>
+                <SUMPRICE>779735</SUMPRICE>
+                <INSAMT>525691</INSAMT>
+                <INREAMT>254044</INREAMT>
+                <INSALL>0</INSALL>
+                <UNCAMT>0</UNCAMT>
+                <TOSUMPRICE>0</TOSUMPRICE>
+                <TOINSAMT>0</TOINSAMT>
+                <TOINREAMT>0</TOINREAMT>
+                <TOINSALL>0</TOINSALL>
+                <TOUNCAMT>0</TOUNCAMT>
+                <FROMDATE>2018-08-01</FROMDATE>
+                <TODATE>2018-08-02</TODATE>
+                <MEDDEPT>         이비인후과 / 이비인후과</MEDDEPT>
+                <SORT>2</SORT>
+            </Table>
+            <Table diffgr:id="Table82" msdata:rowOrder="81">
+                <INSTYPE>비급여</INSTYPE>
+                <ACCUCD>12</ACCUCD>
+                <CODENAME>재 료 대 </CODENAME>
+                <EDICODE>BB3001LQ</EDICODE>
+                <KORSUGA>5036912000437</KORSUGA>
+                <PATNAME>강경애</PATNAME>
+                <KORNAME>LIQUIBAND OPTIMA 0.5G</KORNAME>
+                <USEDAY>1</USEDAY>
+                <USEQTY>1</USEQTY>
+                <PRICE>77000</PRICE>
+                <SUMPRICE>77000</SUMPRICE>
+                <INSAMT>0</INSAMT>
+                <INREAMT>0</INREAMT>
+                <INSALL>0</INSALL>
+                <UNCAMT>77000</UNCAMT>
+                <TOSUMPRICE>0</TOSUMPRICE>
+                <TOINSAMT>0</TOINSAMT>
+                <TOINREAMT>0</TOINREAMT>
+                <TOINSALL>0</TOINSALL>
+                <TOUNCAMT>0</TOUNCAMT>
+                <FROMDATE>2018-08-02</FROMDATE>
+                <TODATE>2018-08-02</TODATE>
+                <MEDDEPT>         이비인후과 / 이비인후과</MEDDEPT>
+                <SORT>1</SORT>
+            </Table>
+            <Table diffgr:id="Table83" msdata:rowOrder="82">
+                <INSTYPE>비급여</INSTYPE>
+                <ACCUCD>12</ACCUCD>
+                <CODENAME>재 료 대 </CODENAME>
+                <EDICODE>BL9011CX</EDICODE>
+                <KORSUGA>2701606700018</KORSUGA>
+                <PATNAME>강경애</PATNAME>
+                <KORNAME>Temperature Probe (E-TEMP)</KORNAME>
+                <USEDAY>1</USEDAY>
+                <USEQTY>1</USEQTY>
+                <PRICE>17000</PRICE>
+                <SUMPRICE>17000</SUMPRICE>
+                <INSAMT>0</INSAMT>
+                <INREAMT>0</INREAMT>
+                <INSALL>0</INSALL>
+                <UNCAMT>17000</UNCAMT>
+                <TOSUMPRICE>0</TOSUMPRICE>
+                <TOINSAMT>0</TOINSAMT>
+                <TOINREAMT>0</TOINREAMT>
+                <TOINSALL>0</TOINSALL>
+                <TOUNCAMT>0</TOUNCAMT>
+                <FROMDATE>2018-08-02</FROMDATE>
+                <TODATE>2018-08-02</TODATE>
+                <MEDDEPT>         이비인후과 / 이비인후과</MEDDEPT>
+                <SORT>1</SORT>
+            </Table>
+            <Table diffgr:id="Table84" msdata:rowOrder="83">
+                <INSTYPE>비급여</INSTYPE>
+                <ACCUCD>12</ACCUCD>
+                <CODENAME>재 료 대 </CODENAME>
+                <EDICODE>BM1302QG</EDICODE>
+                <KORSUGA>2705507700016</KORSUGA>
+                <PATNAME>강경애</PATNAME>
+                <KORNAME>Blunt Filter Syringe        벡톤디킨슨</KORNAME>
+                <USEDAY>1</USEDAY>
+                <USEQTY>5</USEQTY>
+                <PRICE>940</PRICE>
+                <SUMPRICE>4700</SUMPRICE>
+                <INSAMT>0</INSAMT>
+                <INREAMT>0</INREAMT>
+                <INSALL>0</INSALL>
+                <UNCAMT>4700</UNCAMT>
+                <TOSUMPRICE>0</TOSUMPRICE>
+                <TOINSAMT>0</TOINSAMT>
+                <TOINREAMT>0</TOINREAMT>
+                <TOINSALL>0</TOINSALL>
+                <TOUNCAMT>0</TOUNCAMT>
+                <FROMDATE>2018-08-02</FROMDATE>
+                <TODATE>2018-08-02</TODATE>
+                <MEDDEPT>         이비인후과 / 이비인후과</MEDDEPT>
+                <SORT>1</SORT>
+            </Table>
+            <Table diffgr:id="Table85" msdata:rowOrder="84">
+                <INSTYPE>비급여</INSTYPE>
+                <ACCUCD>12</ACCUCD>
+                <CODENAME>재 료 대 </CODENAME>
+                <EDICODE>BM1305VO</EDICODE>
+                <KORSUGA>8800020000149</KORSUGA>
+                <PATNAME>강경애</PATNAME>
+                <KORNAME>EX-CARE FILTER SET (150cm)</KORNAME>
+                <USEDAY>1</USEDAY>
+                <USEQTY>1</USEQTY>
+                <PRICE>13000</PRICE>
+                <SUMPRICE>13000</SUMPRICE>
+                <INSAMT>0</INSAMT>
+                <INREAMT>0</INREAMT>
+                <INSALL>0</INSALL>
+                <UNCAMT>13000</UNCAMT>
+                <TOSUMPRICE>0</TOSUMPRICE>
+                <TOINSAMT>0</TOINSAMT>
+                <TOINREAMT>0</TOINREAMT>
+                <TOINSALL>0</TOINSALL>
+                <TOUNCAMT>0</TOUNCAMT>
+                <FROMDATE>2018-08-02</FROMDATE>
+                <TODATE>2018-08-02</TODATE>
+                <MEDDEPT>         이비인후과 / 이비인후과</MEDDEPT>
+                <SORT>1</SORT>
+            </Table>
+            <Table diffgr:id="Table86" msdata:rowOrder="85">
+                <INSTYPE>비급여</INSTYPE>
+                <ACCUCD>12</ACCUCD>
+                <CODENAME>재 료 대 </CODENAME>
+                <EDICODE>BM5102BI</EDICODE>
+                <KORSUGA>8809380680145</KORSUGA>
+                <PATNAME>강경애</PATNAME>
+                <KORNAME>(직)소프트픽스(광선 치료용 안대) S</KORNAME>
+                <USEDAY>1</USEDAY>
+                <USEQTY>1</USEQTY>
+                <PRICE>5100</PRICE>
+                <SUMPRICE>5100</SUMPRICE>
+                <INSAMT>0</INSAMT>
+                <INREAMT>0</INREAMT>
+                <INSALL>0</INSALL>
+                <UNCAMT>5100</UNCAMT>
+                <TOSUMPRICE>0</TOSUMPRICE>
+                <TOINSAMT>0</TOINSAMT>
+                <TOINREAMT>0</TOINREAMT>
+                <TOINSALL>0</TOINSALL>
+                <TOUNCAMT>0</TOUNCAMT>
+                <FROMDATE>2018-08-02</FROMDATE>
+                <TODATE>2018-08-02</TODATE>
+                <MEDDEPT>         이비인후과 / 이비인후과</MEDDEPT>
+                <SORT>1</SORT>
+            </Table>
+            <Table diffgr:id="Table87" msdata:rowOrder="86">
+                <INSTYPE>비급여</INSTYPE>
+                <ACCUCD>12</ACCUCD>
+                <CODENAME>재 료 대 </CODENAME>
+                <EDICODE>BM5115AM</EDICODE>
+                <KORSUGA>8809300030197</KORSUGA>
+                <PATNAME>강경애</PATNAME>
+                <KORNAME>New Plus Roll(NPR-143) 7x10  143ea/pack   유로텍</KORNAME>
+                <USEDAY>1</USEDAY>
+                <USEQTY>1</USEQTY>
+                <PRICE>500</PRICE>
+                <SUMPRICE>500</SUMPRICE>
+                <INSAMT>0</INSAMT>
+                <INREAMT>0</INREAMT>
+                <INSALL>0</INSALL>
+                <UNCAMT>500</UNCAMT>
+                <TOSUMPRICE>0</TOSUMPRICE>
+                <TOINSAMT>0</TOINSAMT>
+                <TOINREAMT>0</TOINREAMT>
+                <TOINSALL>0</TOINSALL>
+                <TOUNCAMT>0</TOUNCAMT>
+                <FROMDATE>2018-08-01</FROMDATE>
+                <TODATE>2018-08-01</TODATE>
+                <MEDDEPT>         이비인후과 / 이비인후과</MEDDEPT>
+                <SORT>1</SORT>
+            </Table>
+            <Table diffgr:id="Table88" msdata:rowOrder="87">
+                <INSTYPE>비급여</INSTYPE>
+                <ACCUCD>12</ACCUCD>
+                <CODENAME>소계</CODENAME>
+                <PATNAME>강경애</PATNAME>
+                <SUMPRICE>117300</SUMPRICE>
+                <INSAMT>0</INSAMT>
+                <INREAMT>0</INREAMT>
+                <INSALL>0</INSALL>
+                <UNCAMT>117300</UNCAMT>
+                <TOSUMPRICE>0</TOSUMPRICE>
+                <TOINSAMT>0</TOINSAMT>
+                <TOINREAMT>0</TOINREAMT>
+                <TOINSALL>0</TOINSALL>
+                <TOUNCAMT>0</TOUNCAMT>
+                <FROMDATE>2018-08-01</FROMDATE>
+                <TODATE>2018-08-02</TODATE>
+                <MEDDEPT>         이비인후과 / 이비인후과</MEDDEPT>
+                <SORT>2</SORT>
+            </Table>
+            <Table diffgr:id="Table89" msdata:rowOrder="88">
+                <INSTYPE>비급여</INSTYPE>
+                <CODENAME>끝수처리 조정금액</CODENAME>
+                <PATNAME>강경애</PATNAME>
+                <SUMPRICE>374151</SUMPRICE>
+                <INSAMT>30992</INSAMT>
+                <INREAMT>313207</INREAMT>
+                <INSALL>0</INSALL>
+                <UNCAMT>0</UNCAMT>
+                <TOSUMPRICE>0</TOSUMPRICE>
+                <TOINSAMT>0</TOINSAMT>
+                <TOINREAMT>0</TOINREAMT>
+                <TOINSALL>0</TOINSALL>
+                <TOUNCAMT>0</TOUNCAMT>
+                <FROMDATE>2018-08-01</FROMDATE>
+                <TODATE>2018-08-05</TODATE>
+                <MEDDEPT>         이비인후과 / 이비인후과</MEDDEPT>
+                <SORT>3</SORT>
+            </Table>
+        </NewDataSet>
+    </diffgr:diffgram>
+</DataSet>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36">
+    <defs>
+        <clipPath id="7ilaws1wza">
+            <path data-name="사각형 2685" transform="translate(605 824)" style="stroke:#707070;fill:#fff" d="M0 0h36v36H0z"/>
+        </clipPath>
+    </defs>
+    <g data-name="그룹 4058" transform="translate(-605 -824)" style="clip-path:url(#7ilaws1wza)">
+        <g data-name="그룹 3854">
+            <g data-name="사각형 2540" transform="rotate(-115 581.4 229.836)" style="stroke-linejoin:round;stroke-linecap:round;stroke:#231f20;fill:#fff">
+                <rect width="10.849" height="16.832" rx="2" style="stroke:none"/>
+                <rect x=".5" y=".5" width="9.849" height="15.832" rx="1.5" style="fill:none"/>
+            </g>
+            <g data-name="사각형 2541" style="fill:#f7941e;stroke-linejoin:round;stroke-linecap:round;stroke:#231f20">
+                <path d="M0 0h2.643a2 2 0 0 1 2 2v12.832a2 2 0 0 1-2 2H0V0z" style="stroke:none" transform="rotate(-115 578.297 227.86)"/>
+                <path d="M.5.5h2.143a1.5 1.5 0 0 1 1.5 1.5v12.832a1.5 1.5 0 0 1-1.5 1.5H.5h0V.5h0z" style="fill:none" transform="rotate(-115 578.297 227.86)"/>
+            </g>
+        </g>
+        <g data-name="그룹 3852">
+            <g data-name="사각형 2646" transform="translate(612.22 846.556)" style="stroke:#231f20;fill:#fff">
+                <rect width="13.94" height="7.398" rx="3.699" style="stroke:none"/>
+                <rect x=".5" y=".5" width="12.94" height="6.398" rx="3.199" style="fill:none"/>
+            </g>
+            <path data-name="패스 37881" d="m0 1.61 7.309 4.22 8.655 1.02a2.041 2.041 0 0 0 0-4.082l-6.551-.581L5.626 0" transform="rotate(-30 1899.52 -721.52)" style="stroke:#231f20;fill:#fff"/>
+            <path data-name="패스 37879" d="M-8.462-6.829-2.1-1.26-3.844.67h-9.62v-2.289z" transform="translate(620.464 855.725)" style="fill:#7670b3;stroke-linejoin:round;stroke:#231f20"/>
+        </g>
+        <g data-name="그룹 3856">
+            <g data-name="그룹 3855">
+                <g data-name="그룹 3857">
+                    <g data-name="패스 37882" style="fill:#fff">
+                        <path d="M2.015-2.47c-2.457 0-4.223-.078-5.263-.232-.14-1.388-.188-2.972-.04-3.328 1.221-1.39 4.592-3.648 6.382-3.762.028-.002.058-.003.09-.003 1.571 0 6.673 1.903 8.883 2.784v4.262c-1.47.071-6.096.279-10.052.279z" style="stroke:none" transform="rotate(-25 2213.48 -982.977)"/>
+                        <path d="M3.183-9.295c-.021 0-.04 0-.057.002-.703.045-1.887.54-3.167 1.327-1.119.687-2.192 1.527-2.794 2.18-.075.387-.053 1.481.048 2.639.854.094 2.313.177 4.802.177 3.586 0 7.727-.171 9.552-.256V-6.67C8.765-7.778 4.478-9.295 3.183-9.295m0-1c2.11 0 9.384 2.946 9.384 2.946v5.076s-12.895.68-16.271 0c0 0-.395-3.405 0-4.04 1.285-1.498 4.83-3.855 6.767-3.978.038-.003.078-.004.12-.004z" style="fill:#231f20;stroke:none" transform="rotate(-25 2213.48 -982.977)"/>
+                    </g>
+                    <path data-name="패스 37883" d="M14.575 0h-4.4A1.55 1.55 0 0 0 8.5 1.374a1.266 1.266 0 0 0 .555 1.082" transform="rotate(-25 2205.719 -964.685)" style="stroke:#222;fill:none;stroke-linecap:round"/>
+                    <g data-name="사각형 2647" transform="rotate(-25 2187.017 -1003.138)" style="fill:#f1668d;stroke:#231f20">
+                        <rect width="8" height="9" rx="1" style="stroke:none"/>
+                        <rect x=".5" y=".5" width="7" height="8" rx=".5" style="fill:none"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

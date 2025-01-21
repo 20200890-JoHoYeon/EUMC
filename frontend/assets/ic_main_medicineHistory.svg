@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36">
+    <defs>
+        <clipPath id="s6eh3do5qa">
+            <path data-name="사각형 2739" transform="translate(311 824)" style="stroke:#707070;fill:#fff" d="M0 0h36v36H0z"/>
+        </clipPath>
+    </defs>
+    <g data-name="그룹 4077" transform="translate(-311 -824)" style="clip-path:url(#s6eh3do5qa)">
+        <g data-name="그룹 4074">
+            <g data-name="사각형 2738" transform="rotate(45 -826.03 812.985)" style="stroke:#222;fill:#fff">
+                <rect width="15.628" height="32.992" rx="7.814" style="stroke:none"/>
+                <rect x=".5" y=".5" width="14.628" height="31.992" rx="7.314" style="fill:none"/>
+            </g>
+            <g data-name="패스 37894" style="fill:#9ed1ce">
+                <path d="M7.814 16.864c-1.954 0-3.79-.76-5.172-2.142A7.266 7.266 0 0 1 .5 9.55V.5h14.628v9.05c0 4.033-3.281 7.314-7.314 7.314z" style="stroke:none" transform="rotate(45 -844.895 805.171)"/>
+                <path d="M14.628 1H1v8.55a6.77 6.77 0 0 0 1.996 4.819 6.77 6.77 0 0 0 4.818 1.995 6.822 6.822 0 0 0 6.814-6.814V1m1-1v9.55A7.814 7.814 0 0 1 0 9.55V0h15.628z" style="fill:#222;stroke:none" transform="rotate(45 -844.895 805.171)"/>
+            </g>
+            <path data-name="선 217" transform="translate(322.581 833.873)" style="stroke-linecap:round;fill:none;stroke:#222" d="M0 5.209 5.209 0"/>
+        </g>
+        <g data-name="그룹 4076" transform="translate(.98)">
+            <circle data-name="타원 144" cx="7.5" cy="7.5" r="7.5" transform="translate(330.02 844)" style="fill:#9ed1ce"/>
+            <g data-name="그룹 4075">
+                <g data-name="타원 145" transform="translate(333.02 847)" style="stroke-linecap:round;fill:none;stroke:#222">
+                    <circle cx="3.947" cy="3.947" style="stroke:none" r="3.947"/>
+                    <circle cx="3.947" cy="3.947" style="fill:none" r="3.447"/>
+                </g>
+                <path data-name="선 218" transform="translate(339.751 853.73)" style="stroke-linecap:round;fill:none;stroke:#222" d="M1.77 1.771 0 0"/>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string xmlns="http://tempuri.org/literalTypes"><?xml version='1.0' encoding='euc-kr'?>
+    <NewDataSet>
+        <Table00>
+            <ORD_DT><![CDATA[201902080000]]></ORD_DT>
+        </Table00>
+        <Table00>
+            <AMS_NO><![CDATA[10001]]></AMS_NO>
+        </Table00>
+        <Table00>
+            <OUT_SSN><![CDATA[8712311234567]]></OUT_SSN>
+        </Table00>
+    </NewDataSet>
+</string>

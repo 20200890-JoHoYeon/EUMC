@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string xmlns="http://tempuri.org/literalTypes"><?xml version='1.0' encoding='euc-kr'?>
+    <NewDataSet>
+        <Table0>
+            <IN_TRD_IHRT_NO><![CDATA[]]></IN_TRD_IHRT_NO>
+        </Table0>
+        <Table0>
+            <IO_DOSNO><![CDATA[0]]></IO_DOSNO>
+        </Table0>
+        <Table0>
+            <IO_RCPNO><![CDATA[20230329-00007-KIO99]]></IO_RCPNO>
+        </Table0>
+        <Table0>
+            <IO_DOSNO2><![CDATA[11010]]></IO_DOSNO2>
+        </Table0>
+        <Table0>
+            <IO_RCPSEQ2><![CDATA[2]]></IO_RCPSEQ2>
+        </Table0>
+        <Table0>
+            <IO_RCPSEQ><![CDATA[1]]></IO_RCPSEQ>
+        </Table0>
+        <Table0>
+            <IO_RCPNO2><![CDATA[20230329-G0007-KIO99]]></IO_RCPNO2>
+        </Table0>
+    </NewDataSet>
+</string>

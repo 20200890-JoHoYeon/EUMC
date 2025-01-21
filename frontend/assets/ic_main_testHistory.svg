@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36">
+    <defs>
+        <clipPath id="aquf01pv6a">
+            <path data-name="사각형 2737" transform="translate(703 824)" style="fill:#fff;stroke:#707070" d="M0 0h36v36H0z"/>
+        </clipPath>
+    </defs>
+    <g data-name="그룹 4073" transform="translate(-703 -824)" style="clip-path:url(#aquf01pv6a)">
+        <g data-name="그룹 4070" transform="translate(.198 -.257)">
+            <rect data-name="사각형 2727" width="21" height="29" rx="2" transform="translate(708.802 827.257)" style="stroke-linejoin:round;stroke:#222;stroke-linecap:round;fill:#fbfee7"/>
+            <rect data-name="사각형 2728" width="11" height="3" rx="1.5" transform="translate(713.802 826.257)" style="fill:#bfd730;stroke-linejoin:round;stroke:#222;stroke-linecap:round"/>
+            <rect data-name="사각형 2729" width="12.602" height="1" rx=".5" transform="translate(713.964 837.346)" style="fill:#222"/>
+            <rect data-name="사각형 2730" width="1" height="1" rx=".5" transform="translate(711.837 837.346)" style="fill:#222"/>
+            <rect data-name="사각형 2731" width="12.602" height="1" rx=".5" transform="translate(713.964 833.564)" style="fill:#222"/>
+            <rect data-name="사각형 2732" width="1" height="1" rx=".5" transform="translate(711.837 833.564)" style="fill:#222"/>
+            <rect data-name="사각형 2733" width="12.602" height="1" rx=".5" transform="translate(713.964 841.129)" style="fill:#222"/>
+            <rect data-name="사각형 2734" width="7.092" height="1" rx=".5" transform="translate(713.964 844.911)" style="fill:#222"/>
+            <rect data-name="사각형 2735" width="1" height="1" rx=".5" transform="translate(711.837 841.257)" style="fill:#222"/>
+            <rect data-name="사각형 2736" width="1" height="1" rx=".5" transform="translate(711.837 844.911)" style="fill:#222"/>
+        </g>
+        <g data-name="그룹 4072" transform="translate(390.98)">
+            <circle data-name="타원 142" cx="7.5" cy="7.5" r="7.5" transform="translate(330.02 844)" style="fill:#bfd730"/>
+            <g data-name="그룹 4071">
+                <g data-name="타원 143" transform="translate(333.019 847)" style="fill:none;stroke:#222;stroke-linecap:round">
+                    <circle cx="3.947" cy="3.947" style="stroke:none" r="3.947"/>
+                    <circle cx="3.947" cy="3.947" style="fill:none" r="3.447"/>
+                </g>
+                <path data-name="선 216" transform="translate(339.749 853.73)" style="fill:none;stroke:#222;stroke-linecap:round" d="M1.77 1.771 0 0"/>
+            </g>
+        </g>
+    </g>
+</svg>

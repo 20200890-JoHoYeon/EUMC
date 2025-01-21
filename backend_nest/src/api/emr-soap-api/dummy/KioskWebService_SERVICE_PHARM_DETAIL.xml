@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string xmlns="http://tempuri.org/literalTypes"><?xml version='1.0' encoding='euc-kr'?>
+    <NewDataSet>
+        <Table0>
+            <IORD_PSB_YN><![CDATA[N]]></IORD_PSB_YN>
+            <MED_MIFI_TP_CD><![CDATA[ ]]></MED_MIFI_TP_CD>
+            <PTNM><![CDATA[유 * 준]]></PTNM>
+            <PT_INFO><![CDATA[※ 연령과 체중에 따른 용량을 반드시 확인 후 조제바랍니다.]]></PT_INFO>
+            <SEX_TP_CD><![CDATA[M]]></SEX_TP_CD>
+            <AGE><![CDATA[14세]]></AGE>
+            <SSN><![CDATA[081001-3048221]]></SSN>
+            <AMS_NO><![CDATA[10001]]></AMS_NO>
+            <PT_HME_DEPT_CD><![CDATA[EY]]></PT_HME_DEPT_CD>
+            <PT_HME_DEPT_NM><![CDATA[안과]]></PT_HME_DEPT_NM>
+            <JUCDR_SID><![CDATA[9002206]]></JUCDR_SID>
+            <JUCDR_NM><![CDATA[김내과]]></JUCDR_NM>
+            <LSH_DTM><![CDATA[2019-07-03 09:49:56]]></LSH_DTM>
+            <PRTDTE><![CDATA[2019-07-03 09:49:54]]></PRTDTE>
+            <DISSDESC><![CDATA[]]></DISSDESC>
+            <AMPTH_TP_CD><![CDATA[1]]></AMPTH_TP_CD>
+            <DTL_AMPTH_CLS_CD><![CDATA[P.O]]></DTL_AMPTH_CLS_CD>
+            <GUBUN><![CDATA[1]]></GUBUN>
+            <ORD_CD><![CDATA[APPZ10]]></ORD_CD>
+            <KPEM_MDPR_NM><![CDATA[아리피코정 10mg]]></KPEM_MDPR_NM>
+            <PUTQTY><![CDATA[1]]></PUTQTY>
+            <MDPR_UNIT_CD><![CDATA[tab]]></MDPR_UNIT_CD>
+            <PHA_QTY><![CDATA[6]]></PHA_QTY>
+            <STCR_MDPR_UNIT_TP_CD><![CDATA[tab]]></STCR_MDPR_UNIT_TP_CD>
+            <ABBR><![CDATA[1일 1회 아침 식후30분에 복용]]></ABBR>
+            <DG_BDOP_SEQ><![CDATA[]]></DG_BDOP_SEQ>
+            <POWD_DG_YN><![CDATA[]]></POWD_DG_YN>
+            <RMK><![CDATA[]]></RMK>
+            <WHL_PRD_DYS><![CDATA[6일]]></WHL_PRD_DYS>
+            <PRPD_NOTM><![CDATA[1회]]></PRPD_NOTM>
+            <BSC_DYS><![CDATA[1]]></BSC_DYS>
+            <ORD_PRD_CYC_CD><![CDATA[일]]></ORD_PRD_CYC_CD>
+            <DRST_AMS_IQRY_YN><![CDATA[]]></DRST_AMS_IQRY_YN>
+            <OLD_MED_NO><![CDATA[]]></OLD_MED_NO>
+            <PATTYPE><![CDATA[1국민건강보험공단**V252]]></PATTYPE>
+            <OORD_AVL_PRD><![CDATA[14]]></OORD_AVL_PRD>
+            <ALL_AMS_NO><![CDATA[[원내] ------ [원외] 10001]]></ALL_AMS_NO>
+            <LONG_RSN><![CDATA[]]></LONG_RSN>
+            <RPY_STS_CD><![CDATA[Y]]></RPY_STS_CD>
+            <KD_CD><![CDATA[642706260]]></KD_CD>
+            <LCNS_NO><![CDATA[의사면허]]></LCNS_NO>
+            <WKPERS_NM><![CDATA[김내과]]></WKPERS_NM>
+            <LCNS_NO1><![CDATA[12345]]></LCNS_NO1>
+            <FSR_STF_NO><![CDATA[TIM01]]></FSR_STF_NO>
+            <PTNO><![CDATA[11875538]]></PTNO>
+            <ORD_DT><![CDATA[20190703]]></ORD_DT>
+            <AMS_NO><![CDATA[10001]]></AMS_NO>
+            <BARCODEINFO>
+                <![CDATA[MSH¿2.0¿246¿이화여대부속목동병원¿20230302121141♨FAC¿11100915¿이화여대부속목동병원¿서울특별시 양천구 안양천로 1071 이화여대목동병원¿1666-5000¿¿♨PRD¿김내과¿의사¿12345♨PID¿유*준¿0810013048221♨ORC¿2019070310001¿¿12¿V252¿14¿¿♨DG1¿H52.1¿♨IN1¿1¿0¿¿13022826101¿99999¿국민건강보험¿¿기타¿¿¿¿¿♨]]></BARCODEINFO>
+            <RXDINFO><![CDATA[RXD¿1¿1¿1¿642706260¿아리피코정 10mg¿1¿1¿6¿qd pc¿1일 1회 아침 식후30분에 복용♨]]></RXDINFO>
+            <PT_ADDR><![CDATA[]]></PT_ADDR>
+            <RESON_CMNT><![CDATA[ └ Aripico 10mg tab (Aripiprazole) ]]></RESON_CMNT>
+            <AMD_DSG><![CDATA[1]]></AMD_DSG>
+            <SGNT_PATH_NM><![CDATA[]]></SGNT_PATH_NM>
+            <BARCODE_DEPT_CD><![CDATA[12]]></BARCODE_DEPT_CD>
+            <SGL_LCNS_NO><![CDATA[12345]]></SGL_LCNS_NO>
+            <USG_CD><![CDATA[p101]]></USG_CD>
+        </Table0>
+    </NewDataSet>
+</string>
